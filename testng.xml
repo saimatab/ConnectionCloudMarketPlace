@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeTestSuite">
+<listeners>
+<listener class-name="Package1.listeners"/>
+<listener class-name="resources.ExtentReporterNG"/>
+</listeners>
+  <test name="ValidateSmokeTests">
+  <packages>
+  <package name="smokeTest"></package>
+  </packages>
+  <!--  <groups>
+  <run>
+  <include name = "Smoke" />
+  </run>
+  </groups>
+
+    <classes>
+      <class name="Package1.ValidateHomePageTitle"/>
+      <class name="Package1.HomePageElements"/>
+      </classes>
+      </test>
+                  
+      <test name="SearchBoxValidationTest">
+      
+      <classes>
+      <class name="Package1.SearchBoxValidationTest"/>
+    </classes>
+      -->
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

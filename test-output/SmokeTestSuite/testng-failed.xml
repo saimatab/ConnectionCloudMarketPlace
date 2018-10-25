@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SmokeTestSuite]">
+  <listeners>
+    <listener class-name="Package1.listeners1"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="ValidateSmokeTests(failed)">
+    <classes>
+      <class name="smokeTestFirefox.ValidateSmokeTest">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="ValidateAllReportsLinks"/>
+        </methods>
+      </class> <!-- smokeTestFirefox.ValidateSmokeTest -->
+    </classes>
+  </test> <!-- ValidateSmokeTests(failed) -->
+</suite> <!-- Failed suite [SmokeTestSuite] -->
