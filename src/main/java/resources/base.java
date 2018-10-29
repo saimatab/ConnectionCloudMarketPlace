@@ -49,7 +49,7 @@ import pageObjects.LoginPage;
 		}
 		else if(browserName.equals("firefox"))
 		{
-			System.setProperty("webdriver.firefox.driver", "C:\\driver\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "C:\\driver\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 		else if(browserName.equals("ie"))
@@ -71,9 +71,11 @@ import pageObjects.LoginPage;
 				
 		LoginPage lp = new LoginPage(driver);
 		
-		if(driver.getCurrentUrl().contains("http://ccpqa-customerportal.arpatech.com/shop/dashboard"))
+		if(driver.getTitle().contains("Shop - CCP"))
 		{
-			Assert.assertEquals(driver.getCurrentUrl(), "http://ccpqa-customerportal.arpatech.com/auth/login","The Application is already Login");
+			
+		Assert.assertEquals(driver.getTitle(), "CCP Login","The User is already Login into the application");
+		Log.error("User is already Login to the application");
 		}
 		
 		boolean Email_present;
