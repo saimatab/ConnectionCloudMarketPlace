@@ -97,3 +97,304 @@
 11:52:14.070 [main] INFO  resources.base - Email Text Box is present on the Signup Page
 11:52:14.142 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
 11:52:14.162 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page
+13:48:33.472 [main] INFO  resources.base - The title of the home page is captured
+13:48:33.474 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+13:48:37.013 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+13:48:37.013 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+13:48:46.107 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+13:48:46.107 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+13:48:46.126 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
+13:48:46.146 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
+13:48:46.173 [main] INFO  resources.base - Calendar link is present on the Manage Page
+13:48:46.211 [main] INFO  resources.base - Subscription link is present on the Manage Page
+13:48:49.140 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+13:48:49.168 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
+13:48:49.200 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
+13:48:49.217 [main] INFO  resources.base - Report Link is present on the Insight Page
+13:49:00.092 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+13:49:00.092 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+13:49:00.119 [main] INFO  resources.base - Notification Settings button is present on the Notifications page
+13:49:00.140 [main] INFO  resources.base - Notification heading is present on the Notifications page
+13:49:00.146 [main] INFO  resources.base - All Notification tab is present on the Notifications page
+13:49:00.165 [main] INFO  resources.base - Flagged tab is present on the Notifications page
+13:49:03.277 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+13:49:03.287 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
+13:49:05.426 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+13:49:08.509 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
+13:49:08.938 [main] INFO  resources.base - User has clicked on the Forget Password Link from the Login Page
+13:49:14.027 [main] INFO  resources.base - Email textbox is present on the Forget password page
+13:49:18.037 [main] INFO  resources.base - User has clicked on the submit button on the forget password Page
+13:49:18.066 [main] INFO  resources.base - Once the User click on Submit button then the validation message is appearing
+13:49:30.227 [main] INFO  resources.base - User Clicked on Create Account Link from the Login Page
+13:49:30.244 [main] INFO  resources.base - Signup Page is opended and its title is being captured
+13:49:30.295 [main] INFO  resources.base - Email Text Box is present on the Signup Page
+13:49:30.393 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
+13:49:30.419 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page
+15:53:05.912 [main] INFO  resources.base - The title of the home page is captured
+15:53:05.920 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+15:53:09.316 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+15:53:09.316 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+15:53:18.803 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+15:53:18.803 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+15:53:18.818 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
+15:53:18.860 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
+15:53:18.907 [main] INFO  resources.base - Calendar link is present on the Manage Page
+15:53:18.920 [main] INFO  resources.base - Subscription link is present on the Manage Page
+15:53:22.235 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+15:53:22.293 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
+15:53:22.353 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
+15:53:22.366 [main] INFO  resources.base - Report Link is present on the Insight Page
+15:53:33.124 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+15:53:33.124 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+15:53:33.211 [main] INFO  resources.base - Notification Settings button is present on the Notifications page
+15:53:33.228 [main] INFO  resources.base - Notification heading is present on the Notifications page
+15:53:33.240 [main] INFO  resources.base - All Notification tab is present on the Notifications page
+15:53:33.278 [main] INFO  resources.base - Flagged tab is present on the Notifications page
+15:53:36.574 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+15:53:36.611 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
+15:53:38.788 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+15:53:41.885 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
+15:53:42.346 [main] INFO  resources.base - User has clicked on the Forget Password Link from the Login Page
+15:53:47.454 [main] INFO  resources.base - Email textbox is present on the Forget password page
+15:53:51.218 [main] INFO  resources.base - User has clicked on the submit button on the forget password Page
+15:53:51.258 [main] INFO  resources.base - Once the User click on Submit button then the validation message is appearing
+15:54:06.726 [main] INFO  resources.base - User Clicked on Create Account Link from the Login Page
+15:54:06.735 [main] INFO  resources.base - Signup Page is opended and its title is being captured
+15:54:06.814 [main] INFO  resources.base - Email Text Box is present on the Signup Page
+15:54:06.927 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
+15:54:06.947 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page
+15:54:59.728 [main] INFO  resources.base - The title of the home page is captured
+15:54:59.729 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+15:55:03.016 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+15:55:03.016 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+15:55:07.182 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+15:55:07.182 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+15:55:07.495 [main] ERROR resources.base - User not able to find the account menu on the Home Page
+15:55:07.495 [main] ERROR resources.base - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 94ac6b11bfe81bfcf3262c38751e91ce
+*** Element info: {Using=xpath, value=(//span[@class='account-title' and text()='My Account '])[1]}
+15:55:07.507 [main] ERROR resources.base - User not able to find the Forget Password Link on the Login Page
+15:55:07.507 [main] ERROR resources.base - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 94ac6b11bfe81bfcf3262c38751e91ce
+*** Element info: {Using=xpath, value=//a[@id='forgetUrl']}
+15:57:01.343 [main] INFO  resources.base - The title of the home page is captured
+15:57:01.343 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+15:57:04.606 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+15:57:04.606 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+15:57:14.580 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+15:57:14.580 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+15:57:14.600 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
+15:57:14.631 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
+15:57:14.662 [main] INFO  resources.base - Calendar link is present on the Manage Page
+15:57:14.684 [main] INFO  resources.base - Subscription link is present on the Manage Page
+15:57:17.651 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+15:57:24.107 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+15:57:24.107 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+15:57:44.185 [main] ERROR resources.base - Notification Settings button is not present on the Notifications page
+15:57:44.185 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='btn' and text()='Notification Settings']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: bf0ca31f6175cf8d63f1131a1ccf069b
+*** Element info: {Using=xpath, value=//a[@class='btn' and text()='Notification Settings']}
+15:57:47.721 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+15:57:47.739 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
+15:57:49.836 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+15:57:49.900 [main] ERROR resources.base - User not able to click on the Logout Page from the Account Menu
+15:57:49.901 [main] ERROR resources.base - element not visible
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: bf0ca31f6175cf8d63f1131a1ccf069b
+15:58:09.979 [main] ERROR resources.base - User not able to find the Forget Password Link on the Login Page
+15:58:09.979 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='forgetUrl']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: bf0ca31f6175cf8d63f1131a1ccf069b
+*** Element info: {Using=xpath, value=//a[@id='forgetUrl']}
+15:58:31.774 [main] ERROR resources.base - User not able to find Create Account Link on the Login Page , hence not able to click it
+15:58:31.774 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Create Account']"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: bf0ca31f6175cf8d63f1131a1ccf069b
+*** Element info: {Using=xpath, value=//a[text()='Create Account']}
+15:59:36.647 [main] INFO  resources.base - The title of the home page is captured
+15:59:36.647 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+15:59:39.969 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+15:59:39.969 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+15:59:49.460 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+15:59:49.460 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+15:59:49.519 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
+15:59:49.557 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
+15:59:49.603 [main] INFO  resources.base - Calendar link is present on the Manage Page
+15:59:49.652 [main] INFO  resources.base - Subscription link is present on the Manage Page
+15:59:52.806 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+15:59:52.863 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
+15:59:52.932 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
+15:59:52.977 [main] INFO  resources.base - Report Link is present on the Insight Page
+16:00:05.634 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+16:00:05.634 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+16:00:05.690 [main] INFO  resources.base - Notification Settings button is present on the Notifications page
+16:00:05.716 [main] INFO  resources.base - Notification heading is present on the Notifications page
+16:00:05.753 [main] INFO  resources.base - All Notification tab is present on the Notifications page
+16:00:05.782 [main] INFO  resources.base - Flagged tab is present on the Notifications page
+16:00:09.151 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+16:00:09.211 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
+16:00:11.352 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+16:00:14.274 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
+16:00:22.596 [main] ERROR resources.base - User not able to find the Forget Password Link on the Login Page
+16:00:22.596 [main] ERROR resources.base - chrome not reachable
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 9675a57c1f19d2766a32fa34c583e7c6
+*** Element info: {Using=xpath, value=//a[@id='forgetUrl']}
+16:08:13.873 [main] ERROR resources.base - User is already Login to the application
+16:08:13.920 [main] INFO  resources.base - The title of the home page is captured
+16:08:13.920 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+16:08:17.225 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+16:08:17.225 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+16:08:34.275 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+16:08:34.275 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+16:08:34.556 [main] ERROR resources.base - User not able to find the account menu on the Home Page
+16:08:34.556 [main] ERROR resources.base - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: df233eaf6928c3c4958531288b8b8369
+*** Element info: {Using=xpath, value=(//span[@class='account-title' and text()='My Account '])[1]}
+16:08:34.574 [main] ERROR resources.base - User not able to find the Forget Password Link on the Login Page
+16:08:34.574 [main] ERROR resources.base - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: df233eaf6928c3c4958531288b8b8369
+*** Element info: {Using=xpath, value=//a[@id='forgetUrl']}
+16:10:57.493 [main] INFO  resources.base - The title of the home page is captured
+16:10:57.493 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+16:11:00.935 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+16:11:00.935 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+16:11:10.892 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+16:11:10.892 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+16:11:10.955 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
+16:11:11.017 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
+16:11:11.085 [main] INFO  resources.base - Calendar link is present on the Manage Page
+16:11:11.117 [main] INFO  resources.base - Subscription link is present on the Manage Page
+16:11:14.148 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+16:11:14.207 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
+16:11:14.347 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
+16:11:14.392 [main] INFO  resources.base - Report Link is present on the Insight Page
+16:11:24.973 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+16:11:24.973 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+16:11:25.033 [main] INFO  resources.base - Notification Settings button is present on the Notifications page
+16:11:25.065 [main] INFO  resources.base - Notification heading is present on the Notifications page
+16:11:25.084 [main] INFO  resources.base - All Notification tab is present on the Notifications page
+16:11:25.186 [main] INFO  resources.base - Flagged tab is present on the Notifications page
+16:11:28.266 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+16:11:28.328 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
+16:11:30.487 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+16:11:33.386 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
+16:11:33.865 [main] INFO  resources.base - User has clicked on the Forget Password Link from the Login Page
+16:11:39.028 [main] INFO  resources.base - Email textbox is present on the Forget password page
+16:11:42.802 [main] INFO  resources.base - User has clicked on the submit button on the forget password Page
+16:11:42.860 [main] INFO  resources.base - Once the User click on Submit button then the validation message is appearing
+16:11:54.770 [main] INFO  resources.base - User Clicked on Create Account Link from the Login Page
+16:11:54.831 [main] INFO  resources.base - Signup Page is opended and its title is being captured
+16:11:54.894 [main] INFO  resources.base - Email Text Box is present on the Signup Page
+16:11:55.033 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
+16:11:55.055 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page
+22:03:07.427 [main] INFO  resources.base - The title of the home page is captured
+22:03:07.441 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+22:03:10.712 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+22:03:10.712 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+22:03:19.826 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+22:03:19.826 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+22:03:19.843 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
+22:03:19.875 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
+22:03:19.895 [main] INFO  resources.base - Calendar link is present on the Manage Page
+22:03:19.913 [main] INFO  resources.base - Subscription link is present on the Manage Page
+22:03:22.854 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+22:03:22.864 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
+22:03:22.894 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
+22:03:22.989 [main] INFO  resources.base - Report Link is present on the Insight Page
+22:03:33.833 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+22:03:33.833 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+22:03:33.875 [main] INFO  resources.base - Notification Settings button is present on the Notifications page
+22:03:33.895 [main] INFO  resources.base - Notification heading is present on the Notifications page
+22:03:33.915 [main] INFO  resources.base - All Notification tab is present on the Notifications page
+22:03:33.937 [main] INFO  resources.base - Flagged tab is present on the Notifications page
+22:03:37.325 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+22:03:37.335 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
+22:04:44.010 [main] INFO  resources.base - The title of the home page is captured
+22:04:44.011 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+22:04:47.288 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+22:04:47.288 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+22:04:56.774 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+22:04:56.774 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+22:04:56.793 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
+22:04:56.826 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
+22:04:56.844 [main] INFO  resources.base - Calendar link is present on the Manage Page
+22:04:56.864 [main] INFO  resources.base - Subscription link is present on the Manage Page
+22:05:00.191 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+22:05:00.207 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
+22:05:00.296 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
+22:05:00.327 [main] INFO  resources.base - Report Link is present on the Insight Page
+22:05:11.019 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+22:05:11.019 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+22:05:11.058 [main] INFO  resources.base - Notification Settings button is present on the Notifications page
+22:05:11.081 [main] INFO  resources.base - Notification heading is present on the Notifications page
+22:05:11.104 [main] INFO  resources.base - All Notification tab is present on the Notifications page
+22:05:11.123 [main] INFO  resources.base - Flagged tab is present on the Notifications page
+22:05:14.183 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+22:05:14.219 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage

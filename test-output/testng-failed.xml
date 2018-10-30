@@ -7,14 +7,10 @@
         <methods>
           <include name="ValidateManageTab"/>
           <include name="ValidateMarkITPlacePage"/>
-          <include name="ValidateRegPage"/>
-          <include name="ValidateForgetPswd"/>
           <include name="ValidateLogo"/>
           <include name="ValidateLogin"/>
-          <include name="closebrowser"/>
           <include name="ValidateInsightTab"/>
           <include name="ValidateNotificationPage"/>
-          <include name="ValidateLogout"/>
         </methods>
       </class> <!-- smokeTest.ValidateSmokeTest -->
     </classes>

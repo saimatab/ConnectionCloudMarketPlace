@@ -559,11 +559,11 @@ public class ValidateSmokeTest extends base {
 		}
 	}
 
-	@AfterTest
+	//@AfterTest
 
-	public void closebrowser()
+	//public void closebrowser()
 
-	{
-		driver.close();
-	}
+	//{
+		//driver.close();
+	//}
 }
