@@ -64,3 +64,36 @@
 17:30:44.182 [main] INFO  resources.base - Email Text Box is present on the Signup Page
 17:30:44.278 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
 17:30:44.297 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page
+11:51:04.864 [main] INFO  resources.base - The title of the home page is captured
+11:51:04.865 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+11:51:06.306 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+11:51:06.306 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+11:51:14.050 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+11:51:14.051 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+11:51:14.059 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
+11:51:14.084 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
+11:51:14.108 [main] INFO  resources.base - Calendar link is present on the Manage Page
+11:51:14.127 [main] INFO  resources.base - Subscription link is present on the Manage Page
+11:51:15.307 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+11:51:15.318 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
+11:51:15.360 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
+11:51:15.384 [main] INFO  resources.base - Report Link is present on the Insight Page
+11:51:54.498 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+11:51:54.498 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+11:51:54.541 [main] INFO  resources.base - Notification Settings button is present on the Notifications page
+11:51:54.559 [main] INFO  resources.base - Notification heading is present on the Notifications page
+11:51:54.592 [main] INFO  resources.base - All Notification tab is present on the Notifications page
+11:51:54.634 [main] INFO  resources.base - Flagged tab is present on the Notifications page
+11:51:55.734 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+11:51:55.741 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
+11:51:55.865 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+11:51:56.666 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
+11:51:57.117 [main] INFO  resources.base - User has clicked on the Forget Password Link from the Login Page
+11:52:02.186 [main] INFO  resources.base - Email textbox is present on the Forget password page
+11:52:03.114 [main] INFO  resources.base - User has clicked on the submit button on the forget password Page
+11:52:03.148 [main] INFO  resources.base - Once the User click on Submit button then the validation message is appearing
+11:52:14.025 [main] INFO  resources.base - User Clicked on Create Account Link from the Login Page
+11:52:14.036 [main] INFO  resources.base - Signup Page is opended and its title is being captured
+11:52:14.070 [main] INFO  resources.base - Email Text Box is present on the Signup Page
+11:52:14.142 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
+11:52:14.162 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page

@@ -69,6 +69,7 @@ public class ValidateSmokeTest extends base {
 		boolean MarketPlace_present;
 		try {
 			hm.getMarketPlace_Link().click();
+			Thread.sleep(2000);
 			Log.info("From the Home Page User has Clicked on MarkITPlace tab");
 			MarketPlace_present = true;
 
@@ -140,6 +141,7 @@ public class ValidateSmokeTest extends base {
 		boolean Manage_present;
 		try {
 			hm.getManage_Link().click();
+			Thread.sleep(2000);
 			Manage_present = true;
 			Log.info("User has Clicked on the Manage tab from the Home Dashboard");
 
@@ -201,16 +203,15 @@ public class ValidateSmokeTest extends base {
 	@Test(priority = 3, dependsOnMethods = { "ValidateLogin" })
 
 	public void ValidateInsightTab() throws InterruptedException {
-		// Header hd = new Header(driver);
+
 		HomePage hm = new HomePage(driver);
 
-		// WebDriverWait wt = new WebDriverWait(driver, 20);
-
-		// hm.getMarketPlace_Link().click();
+	
 
 		boolean insight_present;
 		try {
 			hm.getInsight_Link().click();
+			Thread.sleep(2000);
 			insight_present = true;
 			Log.info("User has clicked on the Insight tab from the Home Page");
 
@@ -266,6 +267,7 @@ public class ValidateSmokeTest extends base {
 		boolean Notification_present;
 		try {
 			hd.getNotification().click();
+			Thread.sleep(2000);
 			Notification_present = true;
 			Log.info("User has clicked on the notification link from the Home Page");
 
@@ -341,6 +343,7 @@ public class ValidateSmokeTest extends base {
 		boolean Logo_present;
 		try {
 			Np.getLogo().click();
+			Thread.sleep(2000);
 
 			Logo_present = true;
 			Log.info("User has clicked on the Logo from the Notification Page");
@@ -368,6 +371,7 @@ public class ValidateSmokeTest extends base {
 		boolean AccountMenu_present;
 		try {
 			hd.getAccountMenu().click();
+			Thread.sleep(2000);
 			AccountMenu_present = true;
 			Log.info("User has clicked on the Account menu from the Shop Page");
 
@@ -382,6 +386,7 @@ public class ValidateSmokeTest extends base {
 		boolean Logout_present;
 		try {
 			hd.getLogout().click();
+			Thread.sleep(2000);
 			Logout_present = true;
 			Log.info("User has clicked on the Logout Page from the Account Menu");
 
@@ -445,6 +450,7 @@ public class ValidateSmokeTest extends base {
 		// String New_tab=Keys.chord(Keys.CONTROL,Keys.ENTER);
 		try {
 			fp.getSbmt_Btn().click();
+			Thread.sleep(3000);
 
 			SbmtBtn_present = true;
 			Log.info("User has clicked on the submit button on the forget password Page");
@@ -483,6 +489,7 @@ public class ValidateSmokeTest extends base {
 		boolean CreateAcc_present;
 		try {
 			lp.getCreate_Account().click();
+			Thread.sleep(3000);
 			CreateAcc_present = true;
 			Log.info("User Clicked on Create Account Link from the Login Page");
 
