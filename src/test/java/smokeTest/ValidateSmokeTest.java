@@ -1,47 +1,34 @@
 package smokeTest;
-
-import static org.testng.Assert.assertEquals;
-
 import java.io.IOException;
-import java.util.Iterator;
-import java.util.Random;
-import java.util.Set;
-import java.util.concurrent.TimeUnit;
-
-import javax.swing.text.Element;
-
+import java.lang.reflect.Array;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 
-import pageObjects.Footer;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.Test;
+
+import pageObjects.AccountSetting;
+import pageObjects.Address;
+import pageObjects.Catalog;
+import pageObjects.ChangePassword;
+import pageObjects.Domains;
+import pageObjects.EditProfilePage;
 import pageObjects.ForgetPswdPage;
 import pageObjects.Header;
 import pageObjects.HomePage;
 import pageObjects.Insight;
 import pageObjects.LoginPage;
-
 import pageObjects.NotificationPage;
-
 import pageObjects.RegisterationPage;
-
+import pageObjects.Users;
 import pageObjects.Manage;
+import pageObjects.MyProfilePage;
 import resources.base;
-
 public class ValidateSmokeTest extends base {
 	public static Logger Log = LogManager.getLogger(base.class.getName());
 	public HomePage hp;
@@ -205,13 +192,10 @@ public class ValidateSmokeTest extends base {
 	public void ValidateInsightTab() throws InterruptedException {
 
 		HomePage hm = new HomePage(driver);
-
-	
-
 		boolean insight_present;
 		try {
 			hm.getInsight_Link().click();
-			Thread.sleep(2000);
+			Thread.sleep(3000);
 			insight_present = true;
 			Log.info("User has clicked on the Insight tab from the Home Page");
 
@@ -364,6 +348,536 @@ public class ValidateSmokeTest extends base {
 
 	@Test(priority = 6, dependsOnMethods = { "ValidateLogin" })
 
+	public void ValidateMyProfile() throws InterruptedException {
+
+		Header hd = new Header(driver);
+
+		boolean AccountMenu_present;
+		try {
+			hd.getAccountMenu().click();
+			Thread.sleep(2000);
+			AccountMenu_present = true;
+			Log.info("User has clicked on the Account menu from the Shop Page");
+
+		} catch (Exception e) {
+			AccountMenu_present = false;
+
+			Log.error("User not able to find the account menu on the Home Page");
+			Log.error(e.getMessage());
+		}
+		Assert.assertEquals(AccountMenu_present, true, "Account Menu is not Present in the home Dashboard");
+
+		boolean MyProfile_present;
+		try {
+			hd.getMyProfile().click();
+			Thread.sleep(5000);
+			MyProfile_present = true;
+			Log.info("User has clicked on the My Profile Page from the Account Menu");
+
+		} catch (Exception e) {
+			MyProfile_present = false;
+			Log.error("User not able to click on the My Profile Page from the Account Menu");
+			Log.error(e.getMessage());
+		}
+
+		Assert.assertEquals(MyProfile_present, true,
+				"My Profile is not Present in the home Dashboard under My Account Menu");
+
+		String MyProfile_Titleact = driver.getTitle().trim();
+		String MyProfile_Titlexp = "My Profile - CCP";
+		Assert.assertEquals(MyProfile_Titleact, MyProfile_Titlexp, "User is not being able to access MY Profile Page");
+
+		MyProfilePage pp = new MyProfilePage(driver);
+
+		boolean MyProfile_heading;
+		try {
+			pp.getHeading().isDisplayed();
+			MyProfile_heading = true;
+			Log.info("My Profile heading is present on My Profile Page");
+
+		} catch (Exception e) {
+			MyProfile_heading = false;
+			Log.error("My Profile heading is not present on My Profile Page");
+			Log.error(e.getMessage());
+		}
+
+		Assert.assertEquals(MyProfile_heading, true, "My Profile heading is not present on My Profile Page");
+
+	}
+
+	@Test(priority = 7, dependsOnMethods = { "ValidateLogin" })
+
+	public void ValidateEditProfile() throws InterruptedException {
+
+		MyProfilePage pp = new MyProfilePage(driver);
+		boolean EditProfile_present;
+		try {
+			pp.getEditProfile_btn().click();
+			Thread.sleep(5000);
+			EditProfile_present = true;
+			Log.info("User has clicked on the Edit Profile button on My Profile Page");
+
+		} catch (Exception e) {
+			EditProfile_present = false;
+			Log.error("User not able to click on the Edit Profile button on My Profile Page");
+			Log.error(e.getMessage());
+		}
+
+		Assert.assertEquals(EditProfile_present, true,
+				"User not able to click on the Edit Profile button on My Profile Page");
+
+		String EditProfile_Titleact = driver.getTitle().trim();
+		String EditProfile_Titleexp = "Edit Profile - CCP";
+		Assert.assertEquals(EditProfile_Titleact, EditProfile_Titleexp,
+				"User is not being able to access Edit Profile page");
+
+		EditProfilePage ep = new EditProfilePage(driver);
+		boolean heading_present;
+		try {
+			ep.getHeading().isDisplayed();
+			// Thread.sleep(5000);
+			heading_present = true;
+			Log.info("Edit profile heading is present on the Edit profile page");
+
+		} catch (Exception e) {
+			heading_present = false;
+			Log.error("Edit profile heading is not present on the Edit profile page");
+			Log.error(e.getMessage());
+		}
+
+		Assert.assertEquals(heading_present, true, "Edit profile heading is not present on the Edit profile page");
+
+	}
+
+	@Test(priority = 8, dependsOnMethods = { "ValidateLogin" })
+
+	public void ValidateChangePassword() throws InterruptedException {
+
+		Header hd = new Header(driver);
+
+		boolean AccountMenu_present;
+		try {
+			hd.getAccountMenu().click();
+			Thread.sleep(2000);
+			AccountMenu_present = true;
+			Log.info("User has clicked on the Account menu from the Shop Page");
+
+		} catch (Exception e) {
+			AccountMenu_present = false;
+
+			Log.error("User not able to find the account menu on the Home Page");
+			Log.error(e.getMessage());
+		}
+		Assert.assertEquals(AccountMenu_present, true, "Account Menu is not Present in the home Dashboard");
+
+		boolean ChangePswd_present;
+		try {
+			hd.getChangePassword().click();
+			Thread.sleep(5000);
+			ChangePswd_present = true;
+			Log.info("User has clicked on the Change Password Link from the Account Menu");
+
+		} catch (Exception e) {
+			ChangePswd_present = false;
+			Log.error("User not able to click on the Change Password Link from the Account Menu");
+			Log.error(e.getMessage());
+		}
+
+		Assert.assertEquals(ChangePswd_present, true,
+				"User not able to click on the Change Password Link from the Account Menu");
+
+		String ChangePswd_Titleact = driver.getTitle().trim();
+		String ChangePswd_Titlexp = "Change Password - CCP";
+		Assert.assertEquals(ChangePswd_Titleact, ChangePswd_Titlexp,
+				"User is not being able to reach Change Password Page");
+
+		ChangePassword cp = new ChangePassword(driver);
+
+		boolean CP_heading;
+		try {
+			cp.getHeading().isDisplayed();
+			CP_heading = true;
+			Log.info("Change password heading is present on Change Password Page");
+
+		} catch (Exception e) {
+			CP_heading = false;
+			Log.error("Change password heading is not present on Change Password Page");
+			Log.error(e.getMessage());
+		}
+
+		Assert.assertEquals(CP_heading, true, "Change password heading is not present on Change Password Page");
+
+	}
+
+	@Test(priority = 9, dependsOnMethods = { "ValidateLogin" })
+
+	public void ValidateAccountSettings() throws InterruptedException {
+
+		MyProfilePage mpp = new MyProfilePage(driver);
+
+		boolean AccountSettings_present;
+		try {
+			mpp.getAccountSettings().click();
+			Thread.sleep(2000);
+			AccountSettings_present = true;
+			Log.info("User has clicked on the Account Setting from the left navigation menu");
+
+		} catch (Exception e) {
+			AccountSettings_present = false;
+
+			Log.error("User not able to click on the Account Setting from the left navigation menu");
+			Log.error(e.getMessage());
+		}
+		Assert.assertEquals(AccountSettings_present, true,
+				"User not able to click on the Account Setting from the lef navigation menu");
+
+		String ActSetng_Titleact = driver.getTitle().trim();
+		String ActSetng_Titlexp = "Account Settings - CCP";
+		Assert.assertEquals(ActSetng_Titleact, ActSetng_Titlexp,
+				"User is not being able to reach Change Password Page");
+
+		AccountSetting as = new AccountSetting(driver);
+
+		boolean AS_heading;
+		try {
+			as.getHeading().isDisplayed();
+			AS_heading = true;
+			Log.info("Account Settings heading is present on Account Settings Page");
+
+		} catch (Exception e) {
+			AS_heading = false;
+			Log.error("Account Settings heading is not present on Account Settings Page");
+			Log.error(e.getMessage());
+		}
+
+		Assert.assertEquals(AS_heading, true, "Account Settings heading is not present on Account Settings Page");
+
+	}
+
+	@Test(priority = 10, dependsOnMethods = { "ValidateLogin" })
+
+	public void ValidateCatalogRestriction() throws InterruptedException {
+
+		MyProfilePage mpp = new MyProfilePage(driver);
+		boolean AccountSettings_present;
+		try {
+			mpp.getCatalog().click();
+			Thread.sleep(2000);
+			AccountSettings_present = true;
+			Log.info("User has clicked on the Catalog Restrictions link from the left navigation menu");
+
+		} catch (Exception e) {
+			AccountSettings_present = false;
+
+			Log.error("User not able to click on the Catalog Restrictions link from the left navigation menu");
+			Log.error(e.getMessage());
+		}
+		Assert.assertEquals(AccountSettings_present, true,
+				"User not able to click on the Catalog Restrictions link from the left navigation menu");
+
+		String Catalog_Titleact = driver.getTitle().trim();
+		String Catalog_Titlexp = "Catalog Restrictions - CCP";
+		Assert.assertEquals(Catalog_Titleact, Catalog_Titlexp,
+				"User not able to click on the Catalog Restrictions link from the left navigation menu");
+
+		Catalog Ca = new Catalog(driver);
+
+		boolean Ca_heading;
+		try {
+			Ca.getHeading().isDisplayed();
+			Ca_heading = true;
+			Log.info("Catalog Restrictions heading is present on Catalog Page");
+
+		} catch (Exception e) {
+			Ca_heading = false;
+			Log.error("Catalog Restrictions heading is not present on Catalog Page");
+			Log.error(e.getMessage());
+		}
+
+		Assert.assertEquals(Ca_heading, true, "Catalog Restrictions heading is not present on Catalog Page");
+
+	}
+
+	@Test(priority = 11, dependsOnMethods = { "ValidateLogin" })
+
+	public void ValidateDomainLink() throws InterruptedException {
+
+		MyProfilePage mpp = new MyProfilePage(driver);
+
+		boolean DomainLink_present;
+		try {
+			mpp.getDomains().click();
+			Thread.sleep(2000);
+			DomainLink_present = true;
+			Log.info("User has clicked on the Domain link from the left navigation menu");
+
+		} catch (Exception e) {
+			DomainLink_present = false;
+
+			Log.error("User not able to click on the Domain Link link from the left navigation menu");
+			Log.error(e.getMessage());
+		}
+		Assert.assertEquals(DomainLink_present, true,
+				"User not able to click on the Domain Link link from the left navigation menu");
+
+		String Domain_Titleact = driver.getTitle().trim();
+		String Domain_Titlexp = "Domains - CCP";
+		Assert.assertEquals(Domain_Titleact, Domain_Titlexp,
+				"User not able to click on the Domain link from the left navigation menu");
+
+		Domains Do = new Domains(driver);
+
+		boolean Do_heading;
+		try {
+			Do_heading = Do.getHeading().isDisplayed();
+			Log.info("Manage Domains heading is present on Domain Page");
+
+		} catch (Exception e) {
+			Do_heading = false;
+			Log.error("Manage Domains heading is not present on Domain Page");
+			Log.error(e.getMessage());
+		}
+
+		Assert.assertEquals(Do_heading, true, "Manage Domains heading is not present on Domain Page");
+
+	}
+
+	@Test(priority = 12, dependsOnMethods = { "ValidateLogin" })
+
+	public void ValidateSetNotifications() throws InterruptedException {
+
+		Header hd = new Header(driver);
+
+		boolean AccountMenu_present;
+		try {
+			hd.getAccountMenu().click();
+			Thread.sleep(2000);
+			AccountMenu_present = true;
+			Log.info("User has clicked on the Account menu from the Shop Page");
+
+		} catch (Exception e) {
+			AccountMenu_present = false;
+
+			Log.error("User not able to find the account menu on the Home Page");
+			Log.error(e.getMessage());
+		}
+		Assert.assertEquals(AccountMenu_present, true, "Account Menu is not Present in the home Dashboard");
+
+		boolean SetNotification_present;
+		try {
+			hd.getSetNotifications().click();
+			Thread.sleep(5000);
+			SetNotification_present = true;
+			Log.info("User has clicked on the Set Notification Link from the Account Menu");
+
+		} catch (Exception e) {
+			SetNotification_present = false;
+			Log.error("User not able to click on the Set Notification Link from the Account Menu");
+			Log.error(e.getMessage());
+		}
+
+		Assert.assertEquals(SetNotification_present, true,
+				"User not able to click on the Set Notification Link from the Account Menu");
+
+		String Notification_Titleact = driver.getTitle().trim();
+		String Notification_Titleexp = "Notifications - CCP";
+		Assert.assertEquals(Notification_Titleact, Notification_Titleexp,
+				"User not being able to reach Notification Page");
+	}
+
+	@Test(priority = 13, dependsOnMethods = { "ValidateLogin" })
+
+	public void ValidateAddressPage() throws InterruptedException {
+
+		Header hd = new Header(driver);
+
+		boolean AccountMenu_present;
+		try {
+			hd.getAccountMenu().click();
+			Thread.sleep(2000);
+			AccountMenu_present = true;
+			Log.info("User has clicked on the Account menu from the Shop Page");
+
+		} catch (Exception e) {
+			AccountMenu_present = false;
+
+			Log.error("User not able to find the account menu on the Home Page");
+			Log.error(e.getMessage());
+		}
+		Assert.assertEquals(AccountMenu_present, true, "Account Menu is not Present in the home Dashboard");
+
+		boolean Address_present;
+		try {
+			hd.getAddress().click();
+			Thread.sleep(5000);
+			Address_present = true;
+			Log.info("User has clicked on the Address of Use Link from the Account Menu");
+
+		} catch (Exception e) {
+			Address_present = false;
+			Log.error("User not able to click on the Address of Use Link from the Account Menu");
+			Log.error(e.getMessage());
+		}
+
+		Assert.assertEquals(Address_present, true, "User not able to reach Address of Use Page");
+
+		String Address_Titleact = driver.getTitle().trim();
+		String Address_Titlexp = "Address Of Use - CCP";
+		Assert.assertEquals(Address_Titleact, Address_Titlexp, "User not being able to reach Address of Use Page");
+
+		Address ad = new Address(driver);
+
+		boolean Address_heading;
+		try {
+			ad.getHeading().isDisplayed();
+			Thread.sleep(5000);
+			Address_heading = true;
+			Log.info("Address of Use heading is present on the Address Page");
+
+		} catch (Exception e) {
+			Address_heading = false;
+			Log.error("Address of Use heading is present on the Address Page");
+			Log.error(e.getMessage());
+		}
+		Assert.assertEquals(Address_heading, true, "Address of Use heading is present on the Address Page");
+	}
+
+	@Test(priority = 14, dependsOnMethods = { "ValidateLogin" })
+
+	public void ValidateUsersPage() throws InterruptedException {
+
+		Header hd = new Header(driver);
+
+		boolean AccountMenu_present;
+		try {
+			hd.getAccountMenu().click();
+			Thread.sleep(2000);
+			AccountMenu_present = true;
+			Log.info("User has clicked on the Account menu from the Shop Page");
+
+		} catch (Exception e) {
+			AccountMenu_present = false;
+
+			Log.error("User not able to find the account menu on the Home Page");
+			Log.error(e.getMessage());
+		}
+		Assert.assertEquals(AccountMenu_present, true, "Account Menu is not Present in the home Dashboard");
+
+		boolean Users_present;
+		try {
+			hd.getUsers().click();
+			Thread.sleep(5000);
+			Users_present = true;
+			Log.info("User has clicked on the users Link from the Account Menu");
+
+		} catch (Exception e) {
+			Users_present = false;
+			Log.error("User not able to click on the users link from the Account Menu");
+			Log.error(e.getMessage());
+		}
+
+		Assert.assertEquals(Users_present, true, "User not able to reach users Page");
+
+		String Users_Titleact = driver.getTitle().trim();
+		String Users_Titlexp = "Users - CCP";
+		Assert.assertEquals(Users_Titleact, Users_Titlexp, "User not being able to reach Address of Use Page");
+
+		Users us = new Users(driver);
+		int a = 0;
+
+		try {
+			us.gettabs();
+			Thread.sleep(5000);
+			a = us.gettabs().size();
+			Log.info("Tabs are appearing on the Users Page");
+
+		} catch (Exception e) {
+
+			Log.error("Tabs are not appearing on the Users Page");
+			Log.error(e.getMessage());
+		}
+		// Assert.assertEquals(us.gettabs().size(), 3, "Address of Use heading is
+		// present on the Address Page");
+		Assert.assertEquals(a, 3, "3 Tabs are not appearing on the Users Page");
+
+	}
+
+	@Test(priority = 15, dependsOnMethods = { "ValidateLogin" })
+
+	public void ValidateRequestTab() throws InterruptedException {
+
+		Users us = new Users(driver);
+
+		boolean Request_present;
+		try {
+			us.getRequestTab().click();
+			Thread.sleep(2000);
+			Request_present = true;
+			Log.info("User has clicked on the request tab on the users page");
+
+		} catch (Exception e) {
+			Request_present = false;
+
+			Log.error("User not able to click on request tab on the users page");
+			Log.error(e.getMessage());
+		}
+		Assert.assertEquals(Request_present, true, "User not able to click on request tab on the users page");
+
+		boolean RequestActive_present;
+		try {
+			RequestActive_present = us.getRequestActive().isEnabled();
+
+			Log.info("After clicking on request tab, the request tab becomes active");
+
+		} catch (Exception e) {
+			RequestActive_present = false;
+
+			Log.error("After clicking on request tab, the request tab has not become active");
+			Log.error(e.getMessage());
+		}
+		Assert.assertEquals(RequestActive_present, true,
+				"After clicking on request tab, the request tab has not become active");
+	}
+
+	@Test(priority = 16, dependsOnMethods = { "ValidateLogin" })
+
+	public void ValidateInviteTab() throws InterruptedException {
+
+		Users us = new Users(driver);
+
+		boolean Invite_present;
+		try {
+			us.getInvitesTab().click();
+			Thread.sleep(2000);
+			Invite_present = true;
+			Log.info("User has clicked on the Invites tab on the users page");
+
+		} catch (Exception e) {
+			Invite_present = false;
+
+			Log.error("User not able to click on Invites tab on the users page");
+			Log.error(e.getMessage());
+		}
+		Assert.assertEquals(Invite_present, true, "User not able to click on Invites tab on the users page");
+
+		boolean InviteActive_present;
+		try {
+			InviteActive_present = us.getInvitesActive().isEnabled();
+
+			Log.info("After clicking on Invites tab, the Invites tab becomes active");
+
+		} catch (Exception e) {
+			InviteActive_present = false;
+
+			Log.error("After clicking on Invites tab, the Invites tab has not become active");
+			Log.error(e.getMessage());
+		}
+		Assert.assertEquals(InviteActive_present, true,
+				"After clicking on Invites tab, the Invites tab has not become active");
+	}
+
+	@Test(priority = 17, dependsOnMethods = { "ValidateLogin" })
+
 	public void ValidateLogout() throws InterruptedException {
 
 		Header hd = new Header(driver);
@@ -403,7 +917,7 @@ public class ValidateSmokeTest extends base {
 		Assert.assertEquals(Shop_Titleact, Shop_Titlexp, "User is not being able to Signout from the application");
 	}
 
-	@Test(priority = 7, dependsOnMethods = { "ValidateLogin" })
+	@Test(priority = 18, dependsOnMethods = { "ValidateLogin" })
 
 	public void ValidateForgetPswd() throws InterruptedException {
 		LoginPage lp = new LoginPage(driver);
@@ -481,7 +995,7 @@ public class ValidateSmokeTest extends base {
 
 	}
 
-	@Test(priority = 8, dependsOnMethods = { "ValidateLogin" })
+	@Test(priority = 19, dependsOnMethods = { "ValidateLogin" })
 
 	public void ValidateRegPage() throws InterruptedException {
 		driver.get(url);
@@ -556,14 +1070,136 @@ public class ValidateSmokeTest extends base {
 							"Validation Message is not appearing on the registeration Page");
 				}
 			}
+
 		}
 	}
 
-	//@AfterTest
+	@Test(priority = 20,enabled=false)
 
-	//public void closebrowser()
+	public void ValidateLoginUser() throws InterruptedException {
+		driver.get(url);
+		LoginPage lp = new LoginPage(driver);
+		Thread.sleep(3000);
+		boolean Username_present;
+		try {
+			lp.getusername().sendKeys("user@grr.la");
 
-	//{
-		//driver.close();
-	//}
+			Username_present = true;
+			Log.info("User enters the username in the username field on the login page");
+
+		} catch (Exception e) {
+			Username_present = false;
+			Log.error("User not able to enter the username in the username field on the login page");
+			Log.error(e.getMessage());
+
+		}
+		Assert.assertEquals(Username_present, true,
+				"User not able to enter the username in the username field on the login page");
+
+		boolean pswd_present;
+		try {
+			lp.getpassword().sendKeys("Arpatech12");
+			pswd_present = true;
+			Log.info("User enters the password in the password field on the login page");
+
+		} catch (Exception e) {
+			pswd_present = false;
+			Log.error("User not able to enter the password in the password field on the login page");
+			Log.error(e.getMessage());
+
+		}
+		Assert.assertEquals(pswd_present, true,
+				"User not able to enter the password in the password field on the login page");
+		boolean Login_present;
+		try {
+			lp.getloginbtn().click();
+			Login_present = true;
+			Log.info("User clicks on the login button in the login page");
+
+		} catch (Exception e) {
+			Login_present = false;
+			Log.error("User not able to click on the login button in the login page");
+			Log.error(e.getMessage());
+
+		}
+		Assert.assertEquals(Login_present, true, "User not able to click on the login button in the login page");
+
+		Thread.sleep(5000);
+
+		String TitleHome = driver.getTitle();
+		Log.info("The title of the home page is captured");
+
+		Assert.assertEquals(TitleHome, "Shop - CCP", "User is not being able to Login to the application");
+		Log.info("The title of the Shop page is Verified Successfully");
+	}
+
+	@Test(priority = 21,enabled=false)
+
+	public void ValidateMyAccountList() throws InterruptedException {
+
+		Header hd = new Header(driver);
+
+		String[] Menu_txt = new String[4];
+		String Menu_txtexp[] = { "My Profile", "Change Password", "Set Notifications", "Logout" };
+
+		boolean AccountMenu_present;
+		try {
+			hd.getAccountMenu().click();
+			Thread.sleep(2000);
+			AccountMenu_present = true;
+			Log.info("User has clicked on the Account menu from the Shop Page");
+
+		} catch (Exception e) {
+			AccountMenu_present = false;
+
+			Log.error("User not able to find the account menu on the Home Page");
+			Log.error(e.getMessage());
+		}
+		Assert.assertEquals(AccountMenu_present, true, "Account Menu is not Present in the home Dashboard");
+
+		int c = 1;
+		for (int a = 0; a <= 3; a++) {
+
+			Menu_txt[a] = driver.findElement(By.xpath("//div[@class='account-menu']//li[" + c + "]")).getText();
+			a++;
+			c++;
+		}
+
+		for (int b = 0; b <= 3; b++) {
+			System.out.println(Menu_txt[b]);
+			b++;
+		}
+
+		// }
+		// MenuList_present = true;
+		// Log.info("User has clicked on Account menu and validating the options
+		// appearing underneath it");
+		// } catch (Exception e) {
+		// MenuList_present = false;
+		// Log.error("User not able to click on the My Account link on the dashboard");
+		// Log.error(e.getMessage());
+		// }
+
+		// Assert.assertEquals(MenuList_present, true,"User not able to pick list of
+		// values from My account list");
+
+		// for(int b = 0 ; b<4;b++)
+		// {
+		// Assert.assertEquals(Menu_txt[b].equals(Menu_txtexp[b]), true,"The Options
+		// appearing in the menu is different from the expected result");
+		// }
+
+	}
+
+
+
+
+ @AfterTest
+
+ public void closebrowser()
+
+ {
+ driver.close();
+ }
+
 }

@@ -17,49 +17,65 @@ public Header(WebDriver driver )
 
 }
 
-By Notification=By.xpath("//span[@class='notify-badge']");	
+By Menu = By.xpath("//div[@class='account-menu']");
+
+By Menu_List=By.xpath("//div[@class='account-menu']//li");
+
+By Notification=By.xpath("//div[@class='shopping-cart']");	
 
 By AccountMenu=By.xpath("(//span[@class='account-title' and text()='My Account '])[1]");
 
 By Logout=By.xpath("(//a[text()='Logout'])[1]");
-/*
-By Searchbox=By.xpath("//input[@id='x_main-search']");
 
-By CartIcon=By.xpath("//span[@class='notify-badge']");
-//By CartIcon=By.xpath("//*[@id='top-header']/section/div[3]/div[2]/a");
-By FavrtIcon=By.xpath("//a[@class='my-lists' and text()='Favorites']");
-//By TrackBtn=By.className("track ");
-//By TrackBtn=By.xpath("//a[@class='track active ']");
+By MyProfile=By.xpath("//div[@class='account-menu']//a[text()='My Profile']");
 
-By TrackBtn=By.linkText("TRACK");
+By ChangePassword=By.xpath("//div[@class='account-menu']//a[text()='Change Password']");
 
-//By TrackBtnFF=By.xpath("(//a[text()='Track'])[1]");
+By SetNotifications=By.xpath("//div[@class='account-menu']//a[text()='Set Notifications']");
 
-By TrackBtnFF=By.xpath("(//a[text()='Track'])[1]");
+By Address=By.xpath("//div[@class='account-menu']//a[text()='Address Of Use']");
 
-By OrderBtn=By.xpath("(//a[@class='top-link'])[3]");
+By Users=By.xpath("//div[@class='account-menu']//a[text()='Users']");
 
-By Calendar=By.xpath("(//a[@class='top-link'])[1]");
-//By PAnalysisBtn=By.xpath("(//a[@class='top-link'])[4]");
-By Reports=By.xpath("(//a[@class='top-link'])[2]");
 
-By PAnalysisBtn=By.xpath("//a[@class='top-link' and text()='Purchase Analysis']");
-By Logo=By.xpath("//img[@class='logo']");
-By StanCatalogLink=By.xpath("(//a[@class='top-link'])[1]");
-By AllProductLink=By.xpath("(//a[@class='top-link'])[2]");
-By Resources=By.xpath("(//a[@class='top-link'])[3]");
-By SpecialOffers=By.xpath("(//a[@class='top-link'])[4]");
-By BellIcon=By.xpath("//a[@class='icon-bell']");
-By InternationalIcon=By.linkText("International");
-By CommunityIcon=By.linkText("Community");
-By HelpIcon=By.linkText("Help");
-By LegacyLink=By.xpath("//html/body/nav[2]/div/div[2]/a[5]");
-By MyAccountLink=By.xpath("//span[@class='account-title']");
-By ShippingAddressLink=By.linkText("Shipping Addresses");
-By MyProfileLink=By.linkText("My Profile");
-By logoutLink=By.linkText("My Profile");
+public WebElement getMenu_List()
+{
+	return driver.findElement(Menu_List);
+}
 
-*/
+public WebElement getMenu()
+{
+	return driver.findElement(Menu);
+}
+
+
+public WebElement getUsers()
+{
+	return driver.findElement(Users);
+}
+
+public WebElement getAddress()
+{
+	return driver.findElement(Address);
+}
+
+
+public WebElement getSetNotifications()
+{
+	return driver.findElement(SetNotifications);
+}
+
+public WebElement getChangePassword()
+{
+	return driver.findElement(ChangePassword);
+}
+
+
+public WebElement getMyProfile()
+{
+	return driver.findElement(MyProfile);
+}
+
 public WebElement getLogout()
 {
 	return driver.findElement(Logout);

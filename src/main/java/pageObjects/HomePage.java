@@ -20,26 +20,11 @@ public WebDriver driver;
 	By Manage_Link=By.xpath("//a[@class='track  ' and text()='Manage']");
 	By Insight_Link=By.xpath("//a[@class='insights ' and text()='Insights']");
 	
-	
+		
 	By MarketPlace_Link=By.xpath("//a[text()='MarketPlace']");
 	
-	//By SearchboxFF=By.xpath("//input[@id='x_main-search' and @class='main-search']");
-	//By SearchboxFF=By.id("x_main-search");
 	
-	//By SearchboxFF=By.xpath("//form[@id='predictiveSearchBarForm']");
-	//By StandardCatalogBtn=By.linkText("Shop Standards Catalog");
-	//By ShopAllProductBtn=By.linkText("Shop All Products");
-	//By AllMyfavrtsLinks=By.linkText("See all my favorites");
-	//By RecentlyViewedLink=By.linkText("See all recently viewed");
-	//By FavrtsBckBtn=By.className("#slick-prev.slick-arrow");
-	//By FavrtsBckBtn=By.xpath("//button[@class='slick-prev slick-arrow']");
 	
-	//By FavrtsFrwrdBtn=By.className("#slick-next.slick-arrow");
-	//By FavrtsFrwrdBtn=By.xpath("//button[@class='slick-next slick-arrow']");
-	//By Passwordfield=By.name("password");
-	//By Loginbtn=By.xpath("//input[@value='Login']");
-	
-	//By FavoriteLink=By.xpath("//a[@class='my-lists']");
 	public WebElement getInsight_Link()
 	{
 		return driver.findElement(Insight_Link);
@@ -84,53 +69,15 @@ public WebDriver driver;
 		return driver.findElement(Infrastructure_Link);
 	}
 	
-	
-	
 	public WebElement getPlatform_Link()
 	{
 		return driver.findElement(Platform_Link);
 	}
 	
-
-	
-
 	public WebElement getService_Link()
 	{
 		return driver.findElement(Service_Link);
 	}
-	
-	
-	
-	/*
-	public WebElement getShopAllProductBtn()
-	{
-		return driver.findElement(ShopAllProductBtn);
-	}
-	
-	public WebElement getAllMyfavrtsLinks()
-	{
-		return driver.findElement(AllMyfavrtsLinks);
-	}
 
-	public WebElement getRecentlyViewedLink()
-	{
-		return driver.findElement(RecentlyViewedLink);
-		
-	}
-	
-	public WebElement getFavrtsFrwrdBtn()
-	{
-		return driver.findElement(FavrtsFrwrdBtn);
-		
-	}
-	
-	public WebElement getFavrtsBckBtn()
-	{
-		return driver.findElement(FavrtsBckBtn);
-		
-	*/
-	
-
-	
 
 }
