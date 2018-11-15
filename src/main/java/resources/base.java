@@ -55,15 +55,17 @@ public class base {
 		}
 
 		else if (browserName.equals("edge")) {
-			System.setProperty("webdriver.edge.driver", "C:\\\\driver\\MicrosoftWebDriver.exe");
+			System.setProperty("webdriver.edge.driver", "C:\\driver\\MicrosoftWebDriver.exe");
 			driver = new EdgeDriver();
 		}
 
 		driver.get(url);
 		driver.manage().window().maximize();
 		Thread.sleep(5000);
-		LoginPage lp = new LoginPage(driver);
 		
+	
+		String initialPageact=driver.getTitle();
+		String initialPageexp="CCP Login";
 		
 		if (driver.getTitle().contains("Shop - CCP")) {
 
@@ -73,16 +75,24 @@ public class base {
 			Thread.sleep(3000);
 		}
 		
-		if(AlreadyLogin==false){
-			
+		Assert.assertEquals(initialPageact, initialPageexp,"Login Page is not appearing");
+		LoginPage lp = new LoginPage(driver);
 		
-
+		
+		
+		
+		if(AlreadyLogin==false && initialPageact.contains(initialPageexp))
+		
+		{
+			
 		boolean Email_present;
-		try {
+		try 
+		{
 			lp.getusername().sendKeys(prop.getProperty("username"));
 			Email_present = true;
 
-		} catch (Exception e) {
+		} catch (Exception e) 
+		{
 			Email_present = false;
 		}
 
@@ -115,6 +125,13 @@ public class base {
 
 		Assert.assertEquals(Login_present, true, "Login button is not appearing in the login page");
 		}
+		/*
+		if(!driver.getTitle().contains("Shop - CCP") || !driver.getTitle().contains(initialPageexp))
+		{
+			driver.gett
+		}
+		
+		*/
 		/*
 		 * lp.getusername().sendKeys(prop.getProperty("username"));
 		 * lp.getpassword().sendKeys(prop.getProperty("pswd"));

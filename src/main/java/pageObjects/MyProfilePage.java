@@ -19,9 +19,10 @@ public class MyProfilePage {
 	
 	By EditProfile_btn=By.xpath("//a[@class='btn edit']");
 	By Heading = By.xpath("//h1[text()='My Profile']");
-	By AccountSettings=By.xpath("//a[text()='Account Settings']");
-	By Catalog=By.xpath("//a[text()='Catalog Restrictions']");
-	By Domains=By.xpath("//a[text()='Domains']");
+	By AccountSettings=By.xpath("(//a[text()='Account Settings'])[1]");
+	By Catalog=By.xpath("(//a[text()='Catalog Restrictions'])[3]");
+	By Domains=By.xpath("(//a[text()='Manage Domains'])[3]");
+	
 	//By Notification_heading=By.xpath("//h1[text()='Notifications']");
 	//By All_Notification=By.xpath("//span[text()='All Notifications']");
 	//By Flagged=By.xpath("//span[text()='Flagged']");

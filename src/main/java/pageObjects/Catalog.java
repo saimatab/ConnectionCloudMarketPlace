@@ -15,7 +15,7 @@ public class Catalog {
 		this.driver = driver;
 	}
 
-	By Heading = By.xpath("//span[text()='Catalog']");
+	By Heading = By.xpath("//span[text()='Catalog Restrictions']");
 
 	public WebElement getHeading() {
 		return driver.findElement(Heading);

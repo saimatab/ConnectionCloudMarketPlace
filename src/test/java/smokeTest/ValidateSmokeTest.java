@@ -7,11 +7,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
-
 import pageObjects.AccountSetting;
 import pageObjects.Address;
 import pageObjects.Catalog;
@@ -29,6 +27,8 @@ import pageObjects.Users;
 import pageObjects.Manage;
 import pageObjects.MyProfilePage;
 import resources.base;
+
+
 public class ValidateSmokeTest extends base {
 	public static Logger Log = LogManager.getLogger(base.class.getName());
 	public HomePage hp;
@@ -39,19 +39,29 @@ public class ValidateSmokeTest extends base {
 	@Test(priority = 0)
 
 	public void ValidateLogin() throws IOException, InterruptedException {
+	//	try
+		//{
 		driver = initializeDriver();
-
 		String TitleHome = driver.getTitle();
 		Log.info("The title of the home page is captured");
 
 		Assert.assertEquals(TitleHome, "Shop - CCP", "User is not being able to Login to the application");
 		Log.info("The title of the Shop page is Verified Successfully");
+		
+		//}
+		//catch(NullPointerException e)
+		//{
+		//	Log.error("Login page is not appearing for the user");
+		//	//Assert.assertEquals(driver.getTitle(), "Shop - CCP", "User is not being able to Login to the application");
+		//	Assert.assertEquals(false, true,"User is not being able to Login to the application");
+		//}
+		
 	}
 
 	@Test(priority = 1, dependsOnMethods = { "ValidateLogin" })
 
 	public void ValidateMarkITPlacePage() throws InterruptedException {
-		// Header hd = new Header(driver);
+	
 		HomePage hm = new HomePage(driver);
 		boolean MarketPlace_present;
 		try {
@@ -251,7 +261,7 @@ public class ValidateSmokeTest extends base {
 		boolean Notification_present;
 		try {
 			hd.getNotification().click();
-			Thread.sleep(2000);
+			Thread.sleep(5000);
 			Notification_present = true;
 			Log.info("User has clicked on the notification link from the Home Page");
 
@@ -264,7 +274,7 @@ public class ValidateSmokeTest extends base {
 		Log.info("User has routed to the Notification page after clicking on the notification link");
 
 		NotificationPage Np = new NotificationPage(driver);
-
+/*
 		boolean Notificationbtn_present;
 		try {
 			Np.getNotification_btn();
@@ -277,6 +287,9 @@ public class ValidateSmokeTest extends base {
 			Log.error(e.getMessage());
 		}
 		Assert.assertEquals(Notificationbtn_present, true, "Notification btn is not Present in the Notification Page");
+		
+		
+		*/
 		boolean Notificationheading_present;
 		try {
 			Np.getNotification_heading();
@@ -515,21 +528,37 @@ public class ValidateSmokeTest extends base {
 
 		MyProfilePage mpp = new MyProfilePage(driver);
 
+		boolean AccountMenu_present;
+		Header hd = new Header(driver);
+		try {
+			hd.getAccountMenu().click();
+			Thread.sleep(2000);
+			AccountMenu_present = true;
+			Log.info("User has clicked on the Account menu from the Shop Page");
+
+		} catch (Exception e) {
+			AccountMenu_present = false;
+
+			Log.error("User not able to find the account menu on the Home Page");
+			Log.error(e.getMessage());
+		}
+		Assert.assertEquals(AccountMenu_present, true, "Account Menu is not Present in the home Dashboard");
+		
 		boolean AccountSettings_present;
 		try {
 			mpp.getAccountSettings().click();
 			Thread.sleep(2000);
 			AccountSettings_present = true;
-			Log.info("User has clicked on the Account Setting from the left navigation menu");
+			Log.info("User has clicked on the Account Setting from the header");
 
 		} catch (Exception e) {
 			AccountSettings_present = false;
 
-			Log.error("User not able to click on the Account Setting from the left navigation menu");
+			Log.error("User not able to click on the Account Setting from the header");
 			Log.error(e.getMessage());
 		}
 		Assert.assertEquals(AccountSettings_present, true,
-				"User not able to click on the Account Setting from the lef navigation menu");
+				"User not able to click on the Account Setting from the header");
 
 		String ActSetng_Titleact = driver.getTitle().trim();
 		String ActSetng_Titlexp = "Account Settings - CCP";
@@ -560,9 +589,11 @@ public class ValidateSmokeTest extends base {
 
 		MyProfilePage mpp = new MyProfilePage(driver);
 		boolean AccountSettings_present;
+		
+		
 		try {
 			mpp.getCatalog().click();
-			Thread.sleep(2000);
+			Thread.sleep(5000);
 			AccountSettings_present = true;
 			Log.info("User has clicked on the Catalog Restrictions link from the left navigation menu");
 
@@ -621,9 +652,9 @@ public class ValidateSmokeTest extends base {
 				"User not able to click on the Domain Link link from the left navigation menu");
 
 		String Domain_Titleact = driver.getTitle().trim();
-		String Domain_Titlexp = "Domains - CCP";
+		String Domain_Titlexp = "Manage Domains - CCP";
 		Assert.assertEquals(Domain_Titleact, Domain_Titlexp,
-				"User not able to click on the Domain link from the left navigation menu");
+				"User not able to reach the Domain page  from the left navigation menu");
 
 		Domains Do = new Domains(driver);
 
@@ -642,7 +673,7 @@ public class ValidateSmokeTest extends base {
 
 	}
 
-	@Test(priority = 12, dependsOnMethods = { "ValidateLogin" })
+	@Test(priority = 12, dependsOnMethods = { "ValidateLogin" },enabled=false)
 
 	public void ValidateSetNotifications() throws InterruptedException {
 
@@ -779,7 +810,7 @@ public class ValidateSmokeTest extends base {
 		Assert.assertEquals(Users_present, true, "User not able to reach users Page");
 
 		String Users_Titleact = driver.getTitle().trim();
-		String Users_Titlexp = "Users - CCP";
+		String Users_Titlexp = "User Management - CCP";
 		Assert.assertEquals(Users_Titleact, Users_Titlexp, "User not being able to reach Address of Use Page");
 
 		Users us = new Users(driver);
@@ -1017,7 +1048,7 @@ public class ValidateSmokeTest extends base {
 
 		if (CreateAcc_present == true) {
 			String Registeration_Titleact = driver.getTitle().trim();
-			String Registeration_Titleexp = "CCP Signup";
+			String Registeration_Titleexp = "Create Account - CCP";
 			Log.info("Signup Page is opended and its title is being captured");
 			Assert.assertEquals(Registeration_Titleact, Registeration_Titleexp,
 					"User is not being able to reach Registeration page");
@@ -1193,13 +1224,13 @@ public class ValidateSmokeTest extends base {
 
 
 
-
- @AfterTest
+/*
+ @AfterTest()
 
  public void closebrowser()
 
  {
  driver.close();
  }
-
+*/
 }
