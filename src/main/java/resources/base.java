@@ -67,7 +67,7 @@ public class base {
 		String initialPageact=driver.getTitle();
 		String initialPageexp="CCP Login";
 		
-		if (driver.getTitle().contains("Shop - CCP")) {
+		if (driver.getTitle().contains("Marketplace - CCP")) {
 
 			//Assert.assertEquals(driver.getTitle(), "CCP Login", "The User is already Login into the application");
 			Log.error("User is already Login to the application");

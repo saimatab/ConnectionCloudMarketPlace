@@ -8,16 +8,22 @@
           <include name="ValidateAccountSettings"/>
           <include name="ValidateDomainLink"/>
           <include name="ValidateChangePassword"/>
+          <include name="ValidateMarkITPlacePage"/>
           <include name="ValidateMyProfile"/>
           <include name="ValidateRegPage"/>
           <include name="ValidateForgetPswd"/>
+          <include name="ValidateLogo"/>
+          <include name="closebrowser"/>
           <include name="ValidateCatalogRestriction"/>
           <include name="ValidateAddressPage"/>
           <include name="ValidateInviteTab"/>
           <include name="ValidateRequestTab"/>
           <include name="ValidateEditProfile"/>
           <include name="ValidateUsersPage"/>
+          <include name="ValidateManageTab"/>
           <include name="ValidateLogin"/>
+          <include name="ValidateInsightTab"/>
+          <include name="ValidateNotificationPage"/>
           <include name="ValidateLogout"/>
         </methods>
       </class> <!-- smokeTest.ValidateSmokeTest -->

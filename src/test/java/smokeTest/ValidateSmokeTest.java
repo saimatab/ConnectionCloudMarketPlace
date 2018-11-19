@@ -45,7 +45,7 @@ public class ValidateSmokeTest extends base {
 		String TitleHome = driver.getTitle();
 		Log.info("The title of the home page is captured");
 
-		Assert.assertEquals(TitleHome, "Shop - CCP", "User is not being able to Login to the application");
+		Assert.assertEquals(TitleHome, "Marketplace - CCP", "User is not being able to Login to the application");
 		Log.info("The title of the Shop page is Verified Successfully");
 		
 		//}
@@ -354,7 +354,7 @@ public class ValidateSmokeTest extends base {
 		Assert.assertEquals(Logo_present, true, "Logo is not Present in the home Dashboard");
 
 		String Shop_Titleact = driver.getTitle().trim();
-		String Shop_Titlexp = "Shop - CCP";
+		String Shop_Titlexp = "Marketplace - CCP";
 		Assert.assertEquals(Shop_Titleact, Shop_Titlexp, "Clicking on Logo is not redirecting to the Shop Page");
 		Log.info("After clicking on logo, user has roue to the Homepage");
 	}
@@ -1224,7 +1224,7 @@ public class ValidateSmokeTest extends base {
 
 
 
-/*
+
  @AfterTest()
 
  public void closebrowser()
@@ -1232,5 +1232,5 @@ public class ValidateSmokeTest extends base {
  {
  driver.close();
  }
-*/
+
 }

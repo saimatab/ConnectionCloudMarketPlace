@@ -23,17 +23,30 @@ By Menu_List=By.xpath("//div[@class='account-menu']//li");
 
 By Notification=By.xpath("//div[@class='shopping-cart']");	
 
-By AccountMenu=By.xpath("(//span[@class='account-title' and text()='My Account '])[1]");
+//By AccountMenu=By.xpath("(//span[@class='account-title' and text()='My Account '])[1]");
+
+By AccountMenu=By.xpath("(//span[@class='account-title'])[1]");
 
 By Logout=By.xpath("(//a[text()='Logout'])[1]");
 
-By MyProfile=By.xpath("//div[@class='account-menu']//a[text()='My Profile']");
+//By MyProfile=By.xpath("//div[@class='account-menu']//a[text()='My Profile']");
 
-By ChangePassword=By.xpath("//div[@class='account-menu']//a[text()='Change Password']");
+By MyProfile=By.xpath("(//a[text()='My Profile'])[1]");
 
-By SetNotifications=By.xpath("//div[@class='account-menu']//a[text()='Set Notifications']");
+//By ChangePassword=By.xpath("//div[@class='account-menu']//a[text()='Change Password']");
 
-By Address=By.xpath("//div[@class='account-menu']//a[text()='Address Of Use']");
+By ChangePassword=By.xpath("(//a[text()='Change Password'])[1]");
+
+//By SetNotifications=By.xpath("//div[@class='account-menu']//a[text()='Set Notifications']");
+
+By SetNotifications=By.xpath("(//a[text()='Set Notifications'])[1]");
+
+//By Address=By.xpath("//div[@class='account-menu']//a[text()='Address Of Use']");
+
+
+By Address=By.xpath("(//a[text()='Address of Use'])[1]");
+
+//By Users=By.xpath("//div[@class='account-menu']//a[text()='Users']");
 
 By Users=By.xpath("(//a[text()='User Management'])[1]");
 

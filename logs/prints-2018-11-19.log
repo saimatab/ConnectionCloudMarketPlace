@@ -338,5 +338,90 @@ Session ID: 7797bb2c-5aa1-4a65-9825-255d60997876
 13:37:03.479 [main] INFO  resources.base - Email Text Box is present on the Signup Page
 13:37:03.592 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
 13:37:03.614 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page
-10:29:16.660 [main] INFO  resources.base - The title of the home page is captured
-10:32:07.552 [main] INFO  resources.base - The title of the home page is captured
+10:03:35.872 [main] INFO  resources.base - The title of the home page is captured
+10:11:23.621 [main] INFO  resources.base - The title of the home page is captured
+10:11:23.647 [main] INFO  resources.base - The title of the home is Verified Successfully
+10:11:26.907 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+10:11:26.907 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+10:11:35.603 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+10:11:35.603 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+10:11:35.619 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
+10:11:35.644 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
+10:11:35.712 [main] INFO  resources.base - Calendar link is present on the Manage Page
+10:11:35.744 [main] INFO  resources.base - Subscription link is present on the Manage Page
+10:11:39.707 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+10:11:39.777 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
+10:11:39.825 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
+10:11:39.866 [main] INFO  resources.base - Report Link is present on the Insight Page
+10:12:00.301 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+10:12:00.301 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+10:12:00.306 [main] INFO  resources.base - Notification heading is present on the Notifications page
+10:12:00.342 [main] INFO  resources.base - All Notification tab is present on the Notifications page
+10:12:00.363 [main] INFO  resources.base - Flagged tab is present on the Notifications page
+10:12:03.779 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+10:12:06.008 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+10:12:26.105 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
+10:12:26.232 [main] INFO  resources.base - My Profile heading is present on My Profile Page
+10:12:47.695 [main] INFO  resources.base - User has clicked on the Edit Profile button on My Profile Page
+10:12:47.818 [main] INFO  resources.base - Edit profile heading is present on the Edit profile page
+10:12:49.957 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+10:13:10.867 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
+10:13:10.970 [main] INFO  resources.base - Change password heading is present on Change Password Page
+10:13:13.126 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+10:13:33.401 [main] ERROR resources.base - User not able to click on the Account Setting from the header
+10:13:33.401 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"(//a[text()='Account Settings'])[1]"}
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 0a6d689a96c2dba0a7193b20fb822ef9
+*** Element info: {Using=xpath, value=(//a[text()='Account Settings'])[1]}
+10:13:44.704 [main] INFO  resources.base - User has clicked on the Catalog Restrictions link from the left navigation menu
+10:13:44.879 [main] INFO  resources.base - Catalog Restrictions heading is present on Catalog Page
+10:13:59.065 [main] INFO  resources.base - User has clicked on the Domain link from the left navigation menu
+10:13:59.145 [main] INFO  resources.base - Manage Domains heading is present on Domain Page
+10:14:01.305 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+10:14:21.427 [main] ERROR resources.base - User not able to click on the Address of Use Link from the Account Menu
+10:14:21.427 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='account-menu']//a[text()='Address Of Use']"}
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 0a6d689a96c2dba0a7193b20fb822ef9
+*** Element info: {Using=xpath, value=//div[@class='account-menu']//a[text()='Address Of Use']}
+10:14:23.544 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+10:14:39.560 [main] INFO  resources.base - User has clicked on the users Link from the Account Menu
+10:14:44.775 [main] INFO  resources.base - Tabs are appearing on the Users Page
+10:14:46.937 [main] INFO  resources.base - User has clicked on the request tab on the users page
+10:14:46.972 [main] INFO  resources.base - After clicking on request tab, the request tab becomes active
+10:14:49.064 [main] INFO  resources.base - User has clicked on the Invites tab on the users page
+10:14:53.227 [main] ERROR resources.base - After clicking on Invites tab, the Invites tab has not become active
+10:14:53.227 [main] ERROR resources.base - chrome not reachable
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 0a6d689a96c2dba0a7193b20fb822ef9
+*** Element info: {Using=xpath, value=//a[@href='#invites' and @class = 'active show']}
+10:14:57.390 [main] ERROR resources.base - User not able to find the account menu on the Home Page
+10:14:57.390 [main] ERROR resources.base - chrome not reachable
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 0a6d689a96c2dba0a7193b20fb822ef9
+*** Element info: {Using=xpath, value=(//span[@class='account-title' and text()='My Account '])[1]}
