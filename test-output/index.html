@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\bilaw\AppData\Local\Temp\testng-eclipse--528335183\testng-customsuite.xml</span>
+                    <span>C:\Users\bilaw\AppData\Local\Temp\testng-eclipse-1217331874\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">19 methods, 2 failed,   17 passed</span>
+                    <span class="method-stats">18 methods, 1 failed,   17 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -100,11 +100,6 @@
                       <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
                     </span>
                     <div class="method-list-content failed suite-Default_suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="smokeTest.ValidateSmokeTest" hash-for-method="ValidateAccountSettings">ValidateAccountSettings</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="smokeTest.ValidateSmokeTest" hash-for-method="ValidateAddressPage">ValidateAddressPage</a> <!-- method navigator-link -->
@@ -224,57 +219,16 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="ValidateAccountSettings">
-                  </a> <!-- ValidateAccountSettings -->
-                  <span class="method-name">ValidateAccountSettings</span>
-                  <div class="stack-trace">java.lang.AssertionError: User not able to click on the Account Setting from the header expected [true] but found [false]
+                  <a name="ValidateAddressPage">
+                  </a> <!-- ValidateAddressPage -->
+                  <span class="method-name">ValidateAddressPage</span>
+                  <div class="stack-trace">java.lang.AssertionError: Address of Use heading is present on the Address Page expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:96)
 	at org.testng.Assert.failNotEquals(Assert.java:776)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
 	at org.testng.Assert.assertEquals(Assert.java:118)
 	at org.testng.Assert.assertEquals(Assert.java:568)
-	at smokeTest.ValidateSmokeTest.ValidateAccountSettings(ValidateSmokeTest.java:560)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
-	at org.testng.TestNG.runSuites(TestNG.java:1028)
-	at org.testng.TestNG.run(TestNG.java:996)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="ValidateAddressPage">
-                  </a> <!-- ValidateAddressPage -->
-                  <span class="method-name">ValidateAddressPage</span>
-                  <div class="stack-trace">java.lang.AssertionError: User not being able to reach Address of Use Page expected [Address Of Use - CCP] but found [Address of Use - CCP]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:453)
-	at smokeTest.ValidateSmokeTest.ValidateAddressPage(ValidateSmokeTest.java:757)
+	at smokeTest.ValidateSmokeTest.ValidateAddressPage(ValidateSmokeTest.java:773)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -436,7 +390,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\bilaw\AppData\Local\Temp\testng-eclipse--528335183\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\bilaw\AppData\Local\Temp\testng-eclipse-1217331874\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -485,88 +439,84 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(19);
+data.addRows(18);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'ValidateLogin')
 data.setCell(0, 2, 'smokeTest.ValidateSmokeTest')
-data.setCell(0, 3, 49458);
+data.setCell(0, 3, 44962);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'ValidateAccountSettings')
+data.setCell(1, 1, 'ValidateAddressPage')
 data.setCell(1, 2, 'smokeTest.ValidateSmokeTest')
-data.setCell(1, 3, 22282);
+data.setCell(1, 3, 37783);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'ValidateMyProfile')
+data.setCell(2, 1, 'ValidateUsersPage')
 data.setCell(2, 2, 'smokeTest.ValidateSmokeTest')
-data.setCell(2, 3, 21738);
+data.setCell(2, 3, 23670);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'ValidateChangePassword')
+data.setCell(3, 1, 'ValidateNotificationPage')
 data.setCell(3, 2, 'smokeTest.ValidateSmokeTest')
-data.setCell(3, 3, 19913);
+data.setCell(3, 3, 21009);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'ValidateForgetPswd')
+data.setCell(4, 1, 'ValidateMyProfile')
 data.setCell(4, 2, 'smokeTest.ValidateSmokeTest')
-data.setCell(4, 3, 19131);
+data.setCell(4, 3, 19584);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'ValidateNotificationPage')
+data.setCell(5, 1, 'ValidateChangePassword')
 data.setCell(5, 2, 'smokeTest.ValidateSmokeTest')
-data.setCell(5, 3, 18678);
+data.setCell(5, 3, 18161);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'ValidateAddressPage')
+data.setCell(6, 1, 'ValidateEditProfile')
 data.setCell(6, 2, 'smokeTest.ValidateSmokeTest')
-data.setCell(6, 3, 16801);
+data.setCell(6, 3, 17043);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'ValidateLogout')
+data.setCell(7, 1, 'ValidateDomainLink')
 data.setCell(7, 2, 'smokeTest.ValidateSmokeTest')
-data.setCell(7, 3, 15102);
+data.setCell(7, 3, 12633);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'ValidateEditProfile')
+data.setCell(8, 1, 'ValidateCatalogRestriction')
 data.setCell(8, 2, 'smokeTest.ValidateSmokeTest')
-data.setCell(8, 3, 14661);
+data.setCell(8, 3, 12009);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'ValidateRegPage')
 data.setCell(9, 2, 'smokeTest.ValidateSmokeTest')
-data.setCell(9, 3, 14172);
+data.setCell(9, 3, 11999);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'ValidateDomainLink')
+data.setCell(10, 1, 'ValidateForgetPswd')
 data.setCell(10, 2, 'smokeTest.ValidateSmokeTest')
-data.setCell(10, 3, 13584);
+data.setCell(10, 3, 9564);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'ValidateCatalogRestriction')
+data.setCell(11, 1, 'ValidateManageTab')
 data.setCell(11, 2, 'smokeTest.ValidateSmokeTest')
-data.setCell(11, 3, 13103);
+data.setCell(11, 3, 7027);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'ValidateManageTab')
+data.setCell(12, 1, 'ValidateLogout')
 data.setCell(12, 2, 'smokeTest.ValidateSmokeTest')
-data.setCell(12, 3, 11375);
+data.setCell(12, 3, 5042);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'ValidateInviteTab')
+data.setCell(13, 1, 'ValidateInsightTab')
 data.setCell(13, 2, 'smokeTest.ValidateSmokeTest')
-data.setCell(13, 3, 7229);
+data.setCell(13, 3, 3979);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'ValidateRequestTab')
+data.setCell(14, 1, 'ValidateLogo')
 data.setCell(14, 2, 'smokeTest.ValidateSmokeTest')
-data.setCell(14, 3, 7228);
+data.setCell(14, 3, 3361);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'ValidateMarkITPlacePage')
 data.setCell(15, 2, 'smokeTest.ValidateSmokeTest')
-data.setCell(15, 3, 4587);
+data.setCell(15, 3, 3230);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'ValidateInsightTab')
+data.setCell(16, 1, 'ValidateInviteTab')
 data.setCell(16, 2, 'smokeTest.ValidateSmokeTest')
-data.setCell(16, 3, 4018);
+data.setCell(16, 3, 2251);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'ValidateLogo')
+data.setCell(17, 1, 'ValidateRequestTab')
 data.setCell(17, 2, 'smokeTest.ValidateSmokeTest')
-data.setCell(17, 3, 3225);
-data.setCell(18, 0, 18)
-data.setCell(18, 1, 'ValidateUsersPage')
-data.setCell(18, 2, 'smokeTest.ValidateSmokeTest')
-data.setCell(18, 3, -615140);
+data.setCell(17, 3, 2246);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: -338855 ms</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -581,12 +531,14 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">3 ignored methods</span>
+            <span class="header-content">4 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">smokeTest.ValidateSmokeTest</span>
               <div class="ignored-methods-div">
+                <span class="ignored-method-name">ValidateAccountSettings</span>
+                <br/>
                 <span class="ignored-method-name">ValidateSetNotifications</span>
                 <br/>
                 <span class="ignored-method-name">ValidateLoginUser</span>
@@ -605,89 +557,83 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">smokeTest.ValidateSmokeTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">ValidateRequestTab</span>
+                <span class="method-name">ValidateLogin</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">ValidateInviteTab</span>
-                <span class="method-start">7228 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">ValidateLogout</span>
-                <span class="method-start">14457 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">ValidateForgetPswd</span>
-                <span class="method-start">29577 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">ValidateRegPage</span>
-                <span class="method-start">48708 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">closebrowser</span>
-                <span class="method-start">62882 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="test-method">
-                <span class="method-name">ValidateLogin</span>
-                <span class="method-start">401639 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
                 <span class="method-name">ValidateMarkITPlacePage</span>
-                <span class="method-start">451097 ms</span>
+                <span class="method-start">44962 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidateManageTab</span>
-                <span class="method-start">455703 ms</span>
+                <span class="method-start">48209 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidateInsightTab</span>
-                <span class="method-start">467078 ms</span>
+                <span class="method-start">55256 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidateNotificationPage</span>
-                <span class="method-start">471116 ms</span>
+                <span class="method-start">59235 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidateLogo</span>
-                <span class="method-start">489797 ms</span>
+                <span class="method-start">80244 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidateMyProfile</span>
-                <span class="method-start">493022 ms</span>
+                <span class="method-start">83605 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidateEditProfile</span>
-                <span class="method-start">514760 ms</span>
+                <span class="method-start">103189 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidateChangePassword</span>
-                <span class="method-start">529439 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">ValidateAccountSettings</span>
-                <span class="method-start">549370 ms</span>
+                <span class="method-start">120234 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidateCatalogRestriction</span>
-                <span class="method-start">571652 ms</span>
+                <span class="method-start">138414 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidateDomainLink</span>
-                <span class="method-start">584755 ms</span>
+                <span class="method-start">150423 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">ValidateAddressPage</span>
-                <span class="method-start">598339 ms</span>
+                <span class="method-start">163056 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">ValidateUsersPage</span>
-                <span class="method-start">615140 ms</span>
+                <span class="method-start">200839 ms</span>
               </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateRequestTab</span>
+                <span class="method-start">224509 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateInviteTab</span>
+                <span class="method-start">226755 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateLogout</span>
+                <span class="method-start">229006 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateForgetPswd</span>
+                <span class="method-start">234065 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateRegPage</span>
+                <span class="method-start">243629 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closebrowser</span>
+                <span class="method-start">255630 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

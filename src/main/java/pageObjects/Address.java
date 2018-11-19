@@ -15,7 +15,7 @@ public class Address {
 		this.driver = driver;
 	}
 
-	By Heading = By.xpath("//span[text()='Address Of Use']");
+	By Heading = By.xpath("//span[text()='Address of Use']");
 
 	public WebElement getHeading() {
 		return driver.findElement(Heading);

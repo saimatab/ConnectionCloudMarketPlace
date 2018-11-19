@@ -5,7 +5,6 @@
     <classes>
       <class name="smokeTest.ValidateSmokeTest">
         <methods>
-          <include name="ValidateAccountSettings"/>
           <include name="ValidateLogin"/>
           <include name="closebrowser"/>
           <include name="ValidateAddressPage"/>
