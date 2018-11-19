@@ -1,244 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="18" failed="1" ignored="3" total="22" passed="0">
+<testng-results skipped="0" failed="2" ignored="3" total="22" passed="17">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47582" started-at="2018-11-19T05:31:22Z" finished-at="2018-11-19T05:32:10Z">
+  <suite name="Default suite" duration-ms="-452" started-at="2018-11-19T05:28:51Z" finished-at="2018-11-19T05:28:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47582" started-at="2018-11-19T05:31:22Z" finished-at="2018-11-19T05:32:10Z">
+    <test name="Default test" duration-ms="-338565" started-at="2018-11-19T05:34:30Z" finished-at="2018-11-19T05:28:51Z">
       <class name="smokeTest.ValidateSmokeTest">
-        <test-method status="FAIL" signature="ValidateLogin()[pri:0, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateLogin" duration-ms="44990" started-at="2018-11-19T10:31:22Z" finished-at="2018-11-19T10:32:07Z">
+        <test-method status="PASS" signature="ValidateRequestTab()[pri:15, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateRequestTab" duration-ms="7228" started-at="2018-11-19T10:27:48Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateRequestTab -->
+        <test-method status="PASS" signature="ValidateInviteTab()[pri:16, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateInviteTab" duration-ms="7229" started-at="2018-11-19T10:27:55Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:28:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateInviteTab -->
+        <test-method status="PASS" signature="ValidateLogout()[pri:17, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateLogout" duration-ms="15102" started-at="2018-11-19T10:28:02Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:28:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLogout -->
+        <test-method status="PASS" signature="ValidateForgetPswd()[pri:18, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateForgetPswd" duration-ms="19131" started-at="2018-11-19T10:28:18Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateForgetPswd -->
+        <test-method status="PASS" signature="ValidateRegPage()[pri:19, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateRegPage" duration-ms="14172" started-at="2018-11-19T10:28:37Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:28:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateRegPage -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="closebrowser" is-config="true" duration-ms="148" started-at="2018-11-19T10:28:51Z" finished-at="2018-11-19T10:28:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="ValidateLogin()[pri:0, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateLogin" duration-ms="49458" started-at="2018-11-19T10:34:30Z" finished-at="2018-11-19T10:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLogin -->
+        <test-method status="PASS" signature="ValidateMarkITPlacePage()[pri:1, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateMarkITPlacePage" duration-ms="4587" started-at="2018-11-19T10:35:19Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:35:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMarkITPlacePage -->
+        <test-method status="PASS" signature="ValidateManageTab()[pri:2, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateManageTab" duration-ms="11375" started-at="2018-11-19T10:35:24Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:35:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateManageTab -->
+        <test-method status="PASS" signature="ValidateInsightTab()[pri:3, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateInsightTab" duration-ms="4018" started-at="2018-11-19T10:35:35Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:35:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateInsightTab -->
+        <test-method status="PASS" signature="ValidateNotificationPage()[pri:4, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateNotificationPage" duration-ms="18678" started-at="2018-11-19T10:35:39Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:35:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateNotificationPage -->
+        <test-method status="PASS" signature="ValidateLogo()[pri:5, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateLogo" duration-ms="3225" started-at="2018-11-19T10:35:58Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:36:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLogo -->
+        <test-method status="PASS" signature="ValidateMyProfile()[pri:6, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateMyProfile" duration-ms="21738" started-at="2018-11-19T10:36:01Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:36:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMyProfile -->
+        <test-method status="PASS" signature="ValidateEditProfile()[pri:7, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateEditProfile" duration-ms="14661" started-at="2018-11-19T10:36:23Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:36:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateEditProfile -->
+        <test-method status="PASS" signature="ValidateChangePassword()[pri:8, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateChangePassword" duration-ms="19913" started-at="2018-11-19T10:36:37Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:36:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateChangePassword -->
+        <test-method status="FAIL" signature="ValidateAccountSettings()[pri:9, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateAccountSettings" duration-ms="22282" started-at="2018-11-19T10:36:57Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:37:20Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[User is not being able to Login to the application expected [Shop - CCP] but found [Marketplace - CCP]]]>
+              <![CDATA[User not able to click on the Account Setting from the header expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: User is not being able to Login to the application expected [Shop - CCP] but found [Marketplace - CCP]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at smokeTest.ValidateSmokeTest.ValidateLogin(ValidateSmokeTest.java:48)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+              <![CDATA[java.lang.AssertionError: User not able to click on the Account Setting from the header expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:568)at smokeTest.ValidateSmokeTest.ValidateAccountSettings(ValidateSmokeTest.java:560)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateLogin -->
-        <test-method status="SKIP" signature="ValidateMarkITPlacePage()[pri:1, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateMarkITPlacePage" duration-ms="0" started-at="2018-11-19T10:32:07Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:32:07Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method ValidateSmokeTest.ValidateMarkITPlacePage()[pri:1, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method ValidateSmokeTest.ValidateMarkITPlacePage()[pri:1, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methodsat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:878)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateMarkITPlacePage -->
-        <test-method status="SKIP" signature="ValidateLogo()[pri:5, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateLogo" duration-ms="0" started-at="2018-11-19T10:32:07Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:32:07Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method ValidateSmokeTest.ValidateLogo()[pri:5, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method ValidateSmokeTest.ValidateLogo()[pri:5, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methodsat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:878)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateLogo -->
-        <test-method status="SKIP" signature="ValidateInsightTab()[pri:3, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateInsightTab" duration-ms="0" started-at="2018-11-19T10:32:07Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:32:07Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method ValidateSmokeTest.ValidateInsightTab()[pri:3, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method ValidateSmokeTest.ValidateInsightTab()[pri:3, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methodsat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:878)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateInsightTab -->
-        <test-method status="SKIP" signature="ValidateMyProfile()[pri:6, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateMyProfile" duration-ms="0" started-at="2018-11-19T10:32:07Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:32:07Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method ValidateSmokeTest.ValidateMyProfile()[pri:6, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method ValidateSmokeTest.ValidateMyProfile()[pri:6, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methodsat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:878)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateMyProfile -->
-        <test-method status="SKIP" signature="ValidateManageTab()[pri:2, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateManageTab" duration-ms="0" started-at="2018-11-19T10:32:07Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:32:07Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method ValidateSmokeTest.ValidateManageTab()[pri:2, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method ValidateSmokeTest.ValidateManageTab()[pri:2, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methodsat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:878)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateManageTab -->
-        <test-method status="SKIP" signature="ValidateNotificationPage()[pri:4, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateNotificationPage" duration-ms="0" started-at="2018-11-19T10:32:07Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:32:07Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method ValidateSmokeTest.ValidateNotificationPage()[pri:4, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method ValidateSmokeTest.ValidateNotificationPage()[pri:4, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methodsat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:878)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateNotificationPage -->
-        <test-method status="SKIP" signature="ValidateAccountSettings()[pri:9, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateAccountSettings" duration-ms="0" started-at="2018-11-19T10:32:07Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:32:07Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method ValidateSmokeTest.ValidateAccountSettings()[pri:9, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method ValidateSmokeTest.ValidateAccountSettings()[pri:9, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methodsat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:878)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- ValidateAccountSettings -->
-        <test-method status="SKIP" signature="ValidateEditProfile()[pri:7, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateEditProfile" duration-ms="0" started-at="2018-11-19T10:32:07Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:32:07Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method ValidateSmokeTest.ValidateEditProfile()[pri:7, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method ValidateSmokeTest.ValidateEditProfile()[pri:7, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methodsat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:878)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateEditProfile -->
-        <test-method status="SKIP" signature="ValidateChangePassword()[pri:8, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateChangePassword" duration-ms="0" started-at="2018-11-19T10:32:07Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:32:07Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method ValidateSmokeTest.ValidateChangePassword()[pri:8, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method ValidateSmokeTest.ValidateChangePassword()[pri:8, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methodsat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:878)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateChangePassword -->
-        <test-method status="SKIP" signature="ValidateDomainLink()[pri:11, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateDomainLink" duration-ms="0" started-at="2018-11-19T10:32:07Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:32:07Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method ValidateSmokeTest.ValidateDomainLink()[pri:11, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method ValidateSmokeTest.ValidateDomainLink()[pri:11, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methodsat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:878)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateDomainLink -->
-        <test-method status="SKIP" signature="ValidateUsersPage()[pri:14, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateUsersPage" duration-ms="0" started-at="2018-11-19T10:32:07Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:32:07Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method ValidateSmokeTest.ValidateUsersPage()[pri:14, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method ValidateSmokeTest.ValidateUsersPage()[pri:14, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methodsat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:878)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateUsersPage -->
-        <test-method status="SKIP" signature="ValidateAddressPage()[pri:13, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateAddressPage" duration-ms="0" started-at="2018-11-19T10:32:07Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:32:07Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method ValidateSmokeTest.ValidateAddressPage()[pri:13, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method ValidateSmokeTest.ValidateAddressPage()[pri:13, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methodsat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:878)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateAddressPage -->
-        <test-method status="SKIP" signature="ValidateCatalogRestriction()[pri:10, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateCatalogRestriction" duration-ms="0" started-at="2018-11-19T10:32:07Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:32:07Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method ValidateSmokeTest.ValidateCatalogRestriction()[pri:10, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method ValidateSmokeTest.ValidateCatalogRestriction()[pri:10, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methodsat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:878)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        <test-method status="PASS" signature="ValidateCatalogRestriction()[pri:10, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateCatalogRestriction" duration-ms="13103" started-at="2018-11-19T10:37:20Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:37:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateCatalogRestriction -->
-        <test-method status="SKIP" signature="ValidateRegPage()[pri:19, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateRegPage" duration-ms="0" started-at="2018-11-19T10:32:07Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:32:07Z">
-          <exception class="java.lang.Throwable">
+        <test-method status="PASS" signature="ValidateDomainLink()[pri:11, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateDomainLink" duration-ms="13584" started-at="2018-11-19T10:37:33Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:37:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateDomainLink -->
+        <test-method status="FAIL" signature="ValidateAddressPage()[pri:13, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateAddressPage" duration-ms="16801" started-at="2018-11-19T10:37:46Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:38:03Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Method ValidateSmokeTest.ValidateRegPage()[pri:19, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methods]]>
+              <![CDATA[User not being able to reach Address of Use Page expected [Address Of Use - CCP] but found [Address of Use - CCP]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method ValidateSmokeTest.ValidateRegPage()[pri:19, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methodsat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:878)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+              <![CDATA[java.lang.AssertionError: User not being able to reach Address of Use Page expected [Address Of Use - CCP] but found [Address of Use - CCP]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at smokeTest.ValidateSmokeTest.ValidateAddressPage(ValidateSmokeTest.java:757)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateRegPage -->
-        <test-method status="SKIP" signature="ValidateForgetPswd()[pri:18, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateForgetPswd" duration-ms="0" started-at="2018-11-19T10:32:07Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:32:07Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method ValidateSmokeTest.ValidateForgetPswd()[pri:18, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method ValidateSmokeTest.ValidateForgetPswd()[pri:18, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methodsat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:878)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        </test-method> <!-- ValidateAddressPage -->
+        <test-method status="PASS" signature="ValidateUsersPage()[pri:14, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateUsersPage" duration-ms="-615140" started-at="2018-11-19T10:38:03Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:27:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateForgetPswd -->
-        <test-method status="SKIP" signature="ValidateRequestTab()[pri:15, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateRequestTab" duration-ms="0" started-at="2018-11-19T10:32:07Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:32:07Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method ValidateSmokeTest.ValidateRequestTab()[pri:15, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method ValidateSmokeTest.ValidateRequestTab()[pri:15, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methodsat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:878)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateRequestTab -->
-        <test-method status="SKIP" signature="ValidateInviteTab()[pri:16, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateInviteTab" duration-ms="0" started-at="2018-11-19T10:32:07Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:32:07Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method ValidateSmokeTest.ValidateInviteTab()[pri:16, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method ValidateSmokeTest.ValidateInviteTab()[pri:16, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methodsat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:878)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateInviteTab -->
-        <test-method status="SKIP" signature="ValidateLogout()[pri:17, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="ValidateLogout" duration-ms="0" started-at="2018-11-19T10:32:07Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-11-19T10:32:07Z">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method ValidateSmokeTest.ValidateLogout()[pri:17, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methods]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method ValidateSmokeTest.ValidateLogout()[pri:17, instance:smokeTest.ValidateSmokeTest@65466a6a] depends on not successfully finished methodsat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:878)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateLogout -->
-        <test-method status="PASS" signature="closebrowser()[pri:0, instance:smokeTest.ValidateSmokeTest@65466a6a]" name="closebrowser" is-config="true" duration-ms="2420" started-at="2018-11-19T10:32:07Z" finished-at="2018-11-19T10:32:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closebrowser -->
+        </test-method> <!-- ValidateUsersPage -->
       </class> <!-- smokeTest.ValidateSmokeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
