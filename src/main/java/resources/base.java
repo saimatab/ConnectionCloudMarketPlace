@@ -26,6 +26,9 @@ public class base {
 	public static Logger Log = LogManager.getLogger(base.class.getName());
 	public static WebDriver driver;
 	public static String url;
+	public static String url1;
+	public static String username1;
+	public static String password1;
 	public static Properties prop;
 	public static FileInputStream fis;
 	public LoginPage lp;
@@ -38,6 +41,9 @@ public class base {
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
 		url = prop.getProperty("url");
+		url1=prop.getProperty("url1");
+		username1=prop.getProperty("username1");
+		password1=prop.getProperty("password1");
 
 		System.out.println("Browser selected is " + browserName);
 

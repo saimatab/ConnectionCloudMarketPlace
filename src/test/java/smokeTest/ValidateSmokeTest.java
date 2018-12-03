@@ -58,7 +58,7 @@ public class ValidateSmokeTest extends base {
 		
 	}
 
-	@Test(priority = 1, dependsOnMethods = { "ValidateLogin" })
+	@Test(priority = 1, dependsOnMethods = { "ValidateLogin" },enabled=false)
 
 	public void ValidateMarkITPlacePage() throws InterruptedException {
 	
@@ -129,7 +129,7 @@ public class ValidateSmokeTest extends base {
 
 	}
 
-	@Test(priority = 2, dependsOnMethods = { "ValidateLogin" })
+	@Test(priority = 2, dependsOnMethods = { "ValidateLogin" },enabled=false)
 
 	public void ValidateManageTab() throws InterruptedException {
 		// Header hd = new Header(driver);
@@ -197,7 +197,7 @@ public class ValidateSmokeTest extends base {
 		Assert.assertEquals(Subscription_present, true, "Subscription Link is not present on the Manage Page");
 	}
 
-	@Test(priority = 3, dependsOnMethods = { "ValidateLogin" })
+	@Test(priority = 3, dependsOnMethods = { "ValidateLogin" },enabled=false)
 
 	public void ValidateInsightTab() throws InterruptedException {
 
@@ -252,7 +252,7 @@ public class ValidateSmokeTest extends base {
 		Assert.assertEquals(Report_present, true, "Report Link is not present on the Dashboard Page");
 	}
 
-	@Test(priority = 4, dependsOnMethods = { "ValidateLogin" })
+	@Test(priority = 4, dependsOnMethods = { "ValidateLogin" },enabled=false)
 
 	public void ValidateNotificationPage() throws InterruptedException {
 
@@ -331,7 +331,7 @@ public class ValidateSmokeTest extends base {
 		Assert.assertEquals(Falgged_present, true, "Flagged tab is not Present in the Notification Page");
 	}
 
-	@Test(priority = 5, dependsOnMethods = { "ValidateLogin" })
+	@Test(priority = 5, dependsOnMethods = { "ValidateLogin" },enabled=false)
 
 	public void ValidateLogo() throws InterruptedException {
 
@@ -359,7 +359,7 @@ public class ValidateSmokeTest extends base {
 		Log.info("After clicking on logo, user has roue to the Homepage");
 	}
 
-	@Test(priority = 6, dependsOnMethods = { "ValidateLogin" })
+	@Test(priority = 6, dependsOnMethods = { "ValidateLogin" },enabled=false)
 
 	public void ValidateMyProfile() throws InterruptedException {
 
@@ -418,7 +418,7 @@ public class ValidateSmokeTest extends base {
 
 	}
 
-	@Test(priority = 7, dependsOnMethods = { "ValidateLogin" })
+	@Test(priority = 7, dependsOnMethods = { "ValidateLogin" },enabled=false)
 
 	public void ValidateEditProfile() throws InterruptedException {
 
@@ -462,7 +462,7 @@ public class ValidateSmokeTest extends base {
 
 	}
 
-	@Test(priority = 8, dependsOnMethods = { "ValidateLogin" })
+	@Test(priority = 8, dependsOnMethods = { "ValidateLogin" },enabled=false)
 
 	public void ValidateChangePassword() throws InterruptedException {
 
@@ -522,7 +522,7 @@ public class ValidateSmokeTest extends base {
 
 	}
 
-	@Test(priority = 9, dependsOnMethods = { "ValidateLogin" },enabled=false)
+	@Test(priority = 901, dependsOnMethods = { "ValidateLogin" },enabled=false)
 
 	public void ValidateAccountSettings() throws InterruptedException {
 
@@ -583,7 +583,7 @@ public class ValidateSmokeTest extends base {
 
 	}
 
-	@Test(priority = 10, dependsOnMethods = { "ValidateLogin" })
+	@Test(priority = 10, dependsOnMethods = { "ValidateLogin" },enabled=false)
 
 	public void ValidateCatalogRestriction() throws InterruptedException {
 
@@ -629,7 +629,7 @@ public class ValidateSmokeTest extends base {
 
 	}
 
-	@Test(priority = 11, dependsOnMethods = { "ValidateLogin" })
+	@Test(priority = 11, dependsOnMethods = { "ValidateLogin" },enabled=false)
 
 	public void ValidateDomainLink() throws InterruptedException {
 
@@ -716,7 +716,7 @@ public class ValidateSmokeTest extends base {
 				"User not being able to reach Notification Page");
 	}
 
-	@Test(priority = 13, dependsOnMethods = { "ValidateLogin" })
+	@Test(priority = 13, dependsOnMethods = { "ValidateLogin" },enabled=false)
 
 	public void ValidateAddressPage() throws InterruptedException {
 
@@ -773,7 +773,7 @@ public class ValidateSmokeTest extends base {
 		Assert.assertEquals(Address_heading, true, "Address of Use heading is present on the Address Page");
 	}
 
-	@Test(priority = 14, dependsOnMethods = { "ValidateLogin" })
+	@Test(priority = 14, dependsOnMethods = { "ValidateLogin" },enabled=false)
 
 	public void ValidateUsersPage() throws InterruptedException {
 
@@ -833,7 +833,7 @@ public class ValidateSmokeTest extends base {
 
 	}
 
-	@Test(priority = 15, dependsOnMethods = { "ValidateLogin" })
+	@Test(priority = 15, dependsOnMethods = { "ValidateLogin" },enabled=false)
 
 	public void ValidateRequestTab() throws InterruptedException {
 
@@ -870,7 +870,7 @@ public class ValidateSmokeTest extends base {
 				"After clicking on request tab, the request tab has not become active");
 	}
 
-	@Test(priority = 16, dependsOnMethods = { "ValidateLogin" })
+	@Test(priority = 16, dependsOnMethods = { "ValidateLogin" },enabled=false)
 
 	public void ValidateInviteTab() throws InterruptedException {
 
@@ -907,7 +907,7 @@ public class ValidateSmokeTest extends base {
 				"After clicking on Invites tab, the Invites tab has not become active");
 	}
 
-	@Test(priority = 17, dependsOnMethods = { "ValidateLogin" })
+	@Test(priority = 17, dependsOnMethods = { "ValidateLogin" },enabled=false)
 
 	public void ValidateLogout() throws InterruptedException {
 
@@ -948,7 +948,7 @@ public class ValidateSmokeTest extends base {
 		Assert.assertEquals(Shop_Titleact, Shop_Titlexp, "User is not being able to Signout from the application");
 	}
 
-	@Test(priority = 18, dependsOnMethods = { "ValidateLogin" })
+	@Test(priority = 18, dependsOnMethods = { "ValidateLogin" },enabled=false)
 
 	public void ValidateForgetPswd() throws InterruptedException {
 		LoginPage lp = new LoginPage(driver);
@@ -1026,7 +1026,7 @@ public class ValidateSmokeTest extends base {
 
 	}
 
-	@Test(priority = 19, dependsOnMethods = { "ValidateLogin" })
+	@Test(priority = 19, dependsOnMethods = { "ValidateLogin" },enabled=false)
 
 	public void ValidateRegPage() throws InterruptedException {
 		driver.get(url);
@@ -1105,7 +1105,7 @@ public class ValidateSmokeTest extends base {
 		}
 	}
 
-	@Test(priority = 20,enabled=false)
+	@Test(priority = 201,enabled=false)
 
 	public void ValidateLoginUser() throws InterruptedException {
 		driver.get(url);
@@ -1164,7 +1164,7 @@ public class ValidateSmokeTest extends base {
 		Log.info("The title of the Shop page is Verified Successfully");
 	}
 
-	@Test(priority = 21,enabled=false)
+	@Test(priority = 202,enabled=false)
 
 	public void ValidateMyAccountList() throws InterruptedException {
 
@@ -1201,36 +1201,51 @@ public class ValidateSmokeTest extends base {
 			b++;
 		}
 
-		// }
-		// MenuList_present = true;
-		// Log.info("User has clicked on Account menu and validating the options
-		// appearing underneath it");
-		// } catch (Exception e) {
-		// MenuList_present = false;
-		// Log.error("User not able to click on the My Account link on the dashboard");
-		// Log.error(e.getMessage());
-		// }
-
-		// Assert.assertEquals(MenuList_present, true,"User not able to pick list of
-		// values from My account list");
-
-		// for(int b = 0 ; b<4;b++)
-		// {
-		// Assert.assertEquals(Menu_txt[b].equals(Menu_txtexp[b]), true,"The Options
-		// appearing in the menu is different from the expected result");
-		// }
-
 	}
 
+	@Test(priority = 22)
 
+	public void ValidateManagementLogin() throws InterruptedException 
+	{
+	
+		driver.get(url1);
+		LoginPage lp = new LoginPage(driver);
+		
+		Thread.sleep(5000);
+		
+		boolean Login_present;
+		try {
+			lp.getusername().sendKeys(username1);
+			lp.getpassword().sendKeys(password1);
+			lp.getloginbtn().click();
+			Login_present = true;
+			Log.info("User has provided credentials to the login screen of the management portal");
 
+		} catch (Exception e) {
+			Login_present = false;
+			Log.error("User not able to provide credentials to the login page of the management portal");
+			Log.error(e.getMessage());
 
- @AfterTest()
+		}
+		
+		Assert.assertEquals(Login_present, true, "User not able to provide credentials to the login page of the management portal");
+		//lp.getusername(prop.getProperty("username1"));
+	
+		
+		Thread.sleep(5000);
+		String Shop_Titleact = driver.getTitle().trim();
+		String Shop_Titlexp = "Shop - CCP";
+		Assert.assertEquals(Shop_Titleact, Shop_Titlexp, "Login Page is not appearing on management portal");
+	}
+	
+	
+	
+ //@AfterTest()
 
- public void closebrowser()
+ //public void closebrowser()
 
- {
- driver.close();
- }
+ //{
+ //driver.close();
+ //}
 
 }

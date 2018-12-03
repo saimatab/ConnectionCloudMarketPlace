@@ -140,3 +140,57 @@ Session ID: 9503fd81382f33b5bc672f6e143b54e7
 07:59:18.778 [main] INFO  resources.base - Email Text Box is present on the Signup Page
 07:59:18.875 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
 07:59:18.899 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page
+16:12:08.156 [main] INFO  resources.base - The title of the home page is captured
+16:12:08.157 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+16:12:11.533 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+16:12:11.533 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+16:12:16.439 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+16:12:16.439 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+16:12:16.456 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
+16:12:16.482 [main] INFO  resources.base - Billing & invoice link is present on the Manage Page
+16:12:16.557 [main] INFO  resources.base - Calendar link is present on the Manage Page
+16:12:16.562 [main] INFO  resources.base - Subscription link is present on the Manage Page
+16:12:20.351 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+16:12:20.362 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
+16:12:20.456 [main] INFO  resources.base - Dashboard Link is present on the Insight Page
+16:12:20.480 [main] INFO  resources.base - Report Link is present on the Insight Page
+16:12:31.318 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+16:12:31.318 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+16:12:31.361 [main] INFO  resources.base - Notification heading is present on the Notifications page
+16:12:31.364 [main] INFO  resources.base - All Notification tab is present on the Notifications page
+16:12:31.404 [main] INFO  resources.base - Flagged tab is present on the Notifications page
+16:12:34.750 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+16:12:34.760 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
+16:12:36.928 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+16:12:46.682 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
+16:12:46.793 [main] INFO  resources.base - My Profile heading is present on My Profile Page
+16:12:56.546 [main] INFO  resources.base - User has clicked on the Edit Profile button on My Profile Page
+16:12:56.598 [main] INFO  resources.base - Edit profile heading is present on the Edit profile page
+16:12:58.741 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+16:13:08.322 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
+16:13:08.439 [main] INFO  resources.base - Change password heading is present on Change Password Page
+16:13:17.339 [main] INFO  resources.base - User has clicked on the Catalog Restrictions link from the left navigation menu
+16:13:17.441 [main] INFO  resources.base - Catalog Restrictions heading is present on Catalog Page
+16:13:23.516 [main] INFO  resources.base - User has clicked on the Domain link from the left navigation menu
+16:13:23.640 [main] INFO  resources.base - Manage Domains heading is present on Domain Page
+16:13:25.764 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+16:13:35.466 [main] INFO  resources.base - User has clicked on the Address of Use Link from the Account Menu
+16:13:40.545 [main] INFO  resources.base - Address of Use heading is present on the Address Page
+16:13:42.708 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+16:13:52.500 [main] INFO  resources.base - User has clicked on the users Link from the Account Menu
+16:13:57.635 [main] INFO  resources.base - Tabs are appearing on the Users Page
+16:13:59.755 [main] INFO  resources.base - User has clicked on the request tab on the users page
+16:13:59.797 [main] INFO  resources.base - After clicking on request tab, the request tab becomes active
+16:14:01.922 [main] INFO  resources.base - User has clicked on the Invites tab on the users page
+16:14:01.971 [main] INFO  resources.base - After clicking on Invites tab, the Invites tab becomes active
+16:14:04.080 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+16:14:06.921 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
+16:14:07.403 [main] INFO  resources.base - User has clicked on the Forget Password Link from the Login Page
+16:14:12.453 [main] INFO  resources.base - Email textbox is present on the Forget password page
+16:14:21.423 [main] INFO  resources.base - User has clicked on the submit button on the forget password Page
+16:14:21.467 [main] INFO  resources.base - Once the User click on Submit button then the validation message is appearing
+16:14:31.782 [main] INFO  resources.base - User Clicked on Create Account Link from the Login Page
+16:14:31.794 [main] INFO  resources.base - Signup Page is opended and its title is being captured
+16:14:31.823 [main] INFO  resources.base - Email Text Box is present on the Signup Page
+16:14:36.949 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
+16:14:36.983 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page
