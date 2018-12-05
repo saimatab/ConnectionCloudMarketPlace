@@ -10,8 +10,7 @@ public class HomePage {
 	
 public WebDriver driver;
 	
-	//By Usernamefield=By.name("username");
-	//By Searchbox=By.xpath("//input[@id='x_main-search']");
+
 	By Application_Link=By.xpath("//a[@class='top-link' and text()='Application']");
 	By Infrastructure_Link=By.xpath("//a[@class='top-link' and text()='Infrastructure']");
 	By Platform_Link=By.xpath("//a[@class='top-link' and text()='Platform']");
@@ -19,10 +18,44 @@ public WebDriver driver;
 	By header=By.xpath("//div[@class='top-shadow-container']");
 	By Manage_Link=By.xpath("//a[@class='track  ' and text()='Manage']");
 	By Insight_Link=By.xpath("//a[@class='insights ' and text()='Insights']");
-	
-		
 	By MarketPlace_Link=By.xpath("//a[text()='MarketPlace']");
+	By CustomersTab=By.xpath("//a[@class='shop active']");
+	By CatalogTab=By.xpath("//a[@class='track']");
+	By FullfillmentTab=By.xpath("//a[@class='insights']");
+	By ReportsTab=By.xpath("//a[@class='reports']");
+	By UsersTab=By.xpath("//a[@class='users ']");
+	By Main_Search=By.xpath("//input[@id='main-search']");
 	
+	
+	public WebElement getMain_Search()
+	{
+		return driver.findElement(Main_Search);
+	}
+	
+	public WebElement getUsersTab()
+	{
+		return driver.findElement(UsersTab);
+	}
+	
+	public WebElement getReportsTab()
+	{
+		return driver.findElement(ReportsTab);
+	}
+	
+	public WebElement getFullfillmentTab()
+	{
+		return driver.findElement(FullfillmentTab);
+	}
+	
+	public WebElement getCatalogTab()
+	{
+		return driver.findElement(CatalogTab);
+	}
+	
+	public WebElement getCustomersTab()
+	{
+		return driver.findElement(CustomersTab);
+	}
 	
 	
 	public WebElement getInsight_Link()

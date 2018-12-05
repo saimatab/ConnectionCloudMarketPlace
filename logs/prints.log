@@ -194,3 +194,112 @@ Session ID: 9503fd81382f33b5bc672f6e143b54e7
 16:14:31.823 [main] INFO  resources.base - Email Text Box is present on the Signup Page
 16:14:36.949 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
 16:14:36.983 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page
+17:30:26.007 [main] INFO  resources.base - The title of the home page is captured
+17:30:26.007 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+17:31:05.661 [main] INFO  resources.base - User has provided credentials to the login screen of the management portal
+18:02:59.968 [main] INFO  resources.base - The title of the home page is captured
+18:02:59.968 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+18:04:17.944 [main] INFO  resources.base - User has provided credentials to the login screen of the management portal
+18:04:23.175 [main] INFO  resources.base - Customer tab is present on the home page
+18:04:23.267 [main] INFO  resources.base - Catalog tab is present on the home page
+18:04:23.348 [main] INFO  resources.base - Fulfillment tab is present on the home page
+18:04:23.418 [main] INFO  resources.base - Reports tab is present on the home page
+18:04:23.492 [main] INFO  resources.base - Users tab is present on the home page
+18:04:23.712 [main] INFO  resources.base - User clicking on Account Menu on the Home Page
+18:04:23.763 [main] INFO  resources.base - Logout appear while hovering on the account menu
+17:58:24.307 [main] INFO  resources.base - The title of the home page is captured
+17:58:24.307 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+17:59:41.476 [main] INFO  resources.base - User has provided credentials to the login screen of the management portal
+17:59:46.596 [main] INFO  resources.base - Customer tab is present on the home page
+17:59:46.692 [main] INFO  resources.base - Catalog tab is present on the home page
+17:59:46.795 [main] INFO  resources.base - Fulfillment tab is present on the home page
+17:59:46.871 [main] INFO  resources.base - Reports tab is present on the home page
+17:59:46.955 [main] INFO  resources.base - Users tab is present on the home page
+17:59:47.189 [main] INFO  resources.base - User clicking on Account Menu on the Home Page
+17:59:47.267 [main] INFO  resources.base - Logout appear while hovering on the account menu
+18:29:32.532 [main] INFO  resources.base - The title of the home page is captured
+18:29:32.532 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+18:30:31.684 [main] INFO  resources.base - User has provided credentials to the login screen of the management portal
+18:30:36.828 [main] INFO  resources.base - Customer tab is present on the home page
+18:30:36.925 [main] INFO  resources.base - Catalog tab is present on the home page
+18:30:37.021 [main] INFO  resources.base - Fulfillment tab is present on the home page
+18:30:37.134 [main] INFO  resources.base - Reports tab is present on the home page
+18:30:37.211 [main] INFO  resources.base - Users tab is present on the home page
+18:30:37.463 [main] INFO  resources.base - User clicking on Account Menu on the Home Page
+18:30:37.550 [main] INFO  resources.base - Logout appear while hovering on the account menu
+19:07:52.017 [main] INFO  resources.base - The title of the home page is captured
+19:07:52.028 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+19:09:26.293 [main] INFO  resources.base - User has provided credentials to the login screen of the management portal
+19:09:31.492 [main] INFO  resources.base - Customer tab is present on the home page
+19:09:31.601 [main] INFO  resources.base - Catalog tab is present on the home page
+19:09:31.688 [main] INFO  resources.base - Fulfillment tab is present on the home page
+19:09:31.786 [main] INFO  resources.base - Reports tab is present on the home page
+19:09:31.886 [main] INFO  resources.base - Users tab is present on the home page
+19:09:32.091 [main] INFO  resources.base - User clicking on Account Menu on the Home Page
+19:09:32.161 [main] INFO  resources.base - Logout appear while hovering on the account menu
+20:33:52.541 [main] INFO  resources.base - The title of the home page is captured
+20:33:52.654 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+20:34:32.657 [main] INFO  resources.base - User has provided credentials to the login screen of the management portal
+20:34:37.733 [main] INFO  resources.base - Customer tab is present on the home page
+20:34:37.786 [main] INFO  resources.base - Catalog tab is present on the home page
+20:34:37.853 [main] INFO  resources.base - Fulfillment tab is present on the home page
+20:34:37.983 [main] INFO  resources.base - Reports tab is present on the home page
+20:34:38.057 [main] INFO  resources.base - Users tab is present on the home page
+20:34:38.185 [main] INFO  resources.base - User clicking on Account Menu on the Home Page
+20:34:38.232 [main] INFO  resources.base - Logout appear while hovering on the account menu
+20:37:36.719 [main] INFO  resources.base - The title of the home page is captured
+20:37:36.719 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+20:38:11.649 [main] INFO  resources.base - User has provided credentials to the login screen of the management portal
+20:38:16.715 [main] INFO  resources.base - Customer tab is present on the home page
+20:38:16.784 [main] INFO  resources.base - Catalog tab is present on the home page
+20:38:16.879 [main] INFO  resources.base - Fulfillment tab is present on the home page
+20:38:16.936 [main] INFO  resources.base - Reports tab is present on the home page
+20:38:17.008 [main] INFO  resources.base - Users tab is present on the home page
+20:38:17.199 [main] INFO  resources.base - User clicking on Account Menu on the Home Page
+20:38:17.247 [main] INFO  resources.base - Logout appear while hovering on the account menu
+20:18:37.013 [main] INFO  resources.base - The title of the home page is captured
+20:18:37.013 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+20:19:27.906 [main] INFO  resources.base - User has provided credentials to the login screen of the management portal
+20:19:32.994 [main] INFO  resources.base - Customer tab is present on the home page
+20:19:33.083 [main] INFO  resources.base - Catalog tab is present on the home page
+20:19:33.175 [main] INFO  resources.base - Fulfillment tab is present on the home page
+20:19:33.258 [main] INFO  resources.base - Reports tab is present on the home page
+20:19:33.350 [main] INFO  resources.base - Users tab is present on the home page
+20:19:33.586 [main] INFO  resources.base - User clicking on Account Menu on the Home Page
+20:19:33.659 [main] INFO  resources.base - Logout appear while hovering on the account menu
+20:22:00.584 [main] INFO  resources.base - The title of the home page is captured
+20:22:00.584 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+20:22:39.896 [main] INFO  resources.base - User has provided credentials to the login screen of the management portal
+20:22:44.961 [main] INFO  resources.base - Customer tab is present on the home page
+20:22:45.010 [main] INFO  resources.base - Catalog tab is present on the home page
+20:22:45.077 [main] INFO  resources.base - Fulfillment tab is present on the home page
+20:22:45.147 [main] INFO  resources.base - Reports tab is present on the home page
+20:22:45.243 [main] INFO  resources.base - Users tab is present on the home page
+20:22:45.447 [main] INFO  resources.base - User clicking on Account Menu on the Home Page
+20:22:45.499 [main] INFO  resources.base - Logout appear while hovering on the account menu
+20:27:22.704 [main] INFO  resources.base - The title of the home page is captured
+20:27:22.704 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+20:29:18.308 [main] INFO  resources.base - User has provided credentials to the login screen of the management portal
+20:29:23.371 [main] INFO  resources.base - Customer tab is present on the home page
+20:29:23.404 [main] INFO  resources.base - Catalog tab is present on the home page
+20:29:23.487 [main] INFO  resources.base - Fulfillment tab is present on the home page
+20:29:23.574 [main] INFO  resources.base - Reports tab is present on the home page
+20:29:23.691 [main] INFO  resources.base - Users tab is present on the home page
+20:29:23.910 [main] INFO  resources.base - User clicking on Account Menu on the Home Page
+20:29:23.965 [main] INFO  resources.base - Logout appear while hovering on the account menu
+20:29:47.684 [main] INFO  resources.base - User clicks on the User tab on the home page
+20:29:47.738 [main] INFO  resources.base - The title of the home page is captured
+20:29:47.738 [main] INFO  resources.base - The title of the Users page is Verified Successfully
+21:04:00.625 [main] INFO  resources.base - The title of the home page is captured
+21:04:00.625 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+21:04:39.599 [main] INFO  resources.base - User has provided credentials to the login screen of the management portal
+21:04:44.665 [main] INFO  resources.base - Customer tab is present on the home page
+21:04:44.716 [main] INFO  resources.base - Catalog tab is present on the home page
+21:04:44.838 [main] INFO  resources.base - Fulfillment tab is present on the home page
+21:04:44.885 [main] INFO  resources.base - Reports tab is present on the home page
+21:04:44.929 [main] INFO  resources.base - Users tab is present on the home page
+21:04:45.046 [main] INFO  resources.base - User clicking on Account Menu on the Home Page
+21:04:45.093 [main] INFO  resources.base - Logout appear while hovering on the account menu
+21:05:10.468 [main] INFO  resources.base - User clicks on the User tab on the home page
+21:05:10.527 [main] INFO  resources.base - The title of the home page is captured
+21:05:10.527 [main] INFO  resources.base - The title of the Users page is Verified Successfully
