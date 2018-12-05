@@ -659,7 +659,7 @@ public class ValidateSmokeTest extends base {
 
 	}
 
-	@Test(priority = 12, dependsOnMethods = { "ValidateLogin" })
+	@Test(priority = 12, dependsOnMethods = { "ValidateLogin" },enabled=false)
 
 	public void ValidateSetNotifications() throws InterruptedException {
 
