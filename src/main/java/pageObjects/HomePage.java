@@ -25,7 +25,19 @@ public WebDriver driver;
 	By ReportsTab=By.xpath("//a[@class='reports']");
 	By UsersTab=By.xpath("//a[@class='users ']");
 	By Main_Search=By.xpath("//input[@id='main-search']");
+	By Consulting=By.xpath("//a[@class='top-link' and text()='Consulting']");
+	By Discover=By.xpath("//a[@class='top-link' and text()='Discover']");
 	
+	
+	public WebElement getDiscover()
+	{
+		return driver.findElement(Discover);
+	}
+	
+	public WebElement getConsulting()
+	{
+		return driver.findElement(Consulting);
+	}
 	
 	public WebElement getMain_Search()
 	{

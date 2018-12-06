@@ -116,18 +116,35 @@ public class ValidateSmokeTest extends base {
 		}
 		Assert.assertEquals(Platform_present, true, "Platform Link is not Present in the Dashboard");
 
-		boolean Service_present;
+		boolean Discover_present;
 		try {
-			hm.getService_Link();
-			Service_present = true;
+			hm.getDiscover();
+			Discover_present = true;
+			Log.error("Discover link is found on home page");
 
 		} catch (NoSuchElementException e) {
-			Service_present = false;
-			Log.error("User not able to find Service_present Link on the Shop Page");
+			Discover_present = false;
+			Log.error("User not able to find Discover Link on the Shop Page");
 			Log.error(e.getMessage());
 		}
-		Assert.assertEquals(Service_present, true, "Service Directory Link is not Present in the Dashboard");
+		Assert.assertEquals(Discover_present, true, "Service Directory Link is not Present in the Dashboard");
+		
+		boolean Consulting_present;
+		try {
+			hm.getConsulting();
+			Consulting_present = true;
+			Log.error("Consulting link is found on home page");
 
+		} catch (NoSuchElementException e) {
+			Consulting_present = false;
+			Log.error("User not able to find Consulting Link on the Shop Page");
+			Log.error(e.getMessage());
+		}
+		Assert.assertEquals(Consulting_present, true, "Consulting Link is not Present in the Dashboard");
+		
+		
+		
+		
 	}
 
 	@Test(priority = 2, dependsOnMethods = { "ValidateLogin" })
@@ -162,11 +179,11 @@ public class ValidateSmokeTest extends base {
 		try {
 			Mn.getBilling_Link();
 			Billing_present = true;
-			Log.info("Billing & invoice link is present on the Manage Page");
+			Log.info("Billing link is present on the Manage Page");
 
 		} catch (NoSuchElementException e) {
 			Billing_present = false;
-			Log.error("Billing & invoice link is not present on the Manage Page");
+			Log.error("Billing is not present on the Manage Page");
 			Log.error(e.getMessage());
 		}
 		Assert.assertEquals(Billing_present, true, "Billing & Invoice Link is not present on the Manage Page");
@@ -196,6 +213,23 @@ public class ValidateSmokeTest extends base {
 			Log.error(e.getMessage());
 		}
 		Assert.assertEquals(Subscription_present, true, "Subscription Link is not present on the Manage Page");
+	
+		boolean Usage_present;
+		try {
+			Mn.getUsage_Link();
+			Usage_present = true;
+			Log.info("Usage link is present on the Manage Page");
+
+		} catch (NoSuchElementException e) {
+			Usage_present = false;
+			Log.error("Usage link is not present on the Manage Page");
+			Log.error(e.getMessage());
+		}
+		Assert.assertEquals(Usage_present, true, "Usage Link is not present on the Manage Page");
+
+
+	
+	
 	}
 
 	@Test(priority = 3, dependsOnMethods = { "ValidateLogin" })
@@ -223,6 +257,7 @@ public class ValidateSmokeTest extends base {
 		Log.info(
 				"After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page");
 
+		/*
 		Insight In = new Insight(driver);
 
 		boolean Dashboard_present;
@@ -251,6 +286,7 @@ public class ValidateSmokeTest extends base {
 			Log.error(e.getMessage());
 		}
 		Assert.assertEquals(Report_present, true, "Report Link is not present on the Dashboard Page");
+	*/
 	}
 
 	@Test(priority = 4, dependsOnMethods = { "ValidateLogin" })

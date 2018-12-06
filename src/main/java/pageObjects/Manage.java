@@ -17,9 +17,12 @@ public class Manage {
 	}
 	
 	
-	By Billing_Link = By.xpath("//a[@class='top-link' and text()='Billing & Invoice']");
+	//By Billing_Link = By.xpath("//a[@class='top-link' and text()='Billing & Invoice']");
 	By Calendar= By.xpath("//a[@class='top-link' and text()='Calendar']");
 	By Subscription=By.xpath("//a[@class='top-link' and text()='Subscriptions']");
+	By Billing_Link = By.xpath("//a[@class='top-link' and text()='Billing']");
+	
+	By Usage_Link = By.xpath("//a[@class='top-link' and text()='Usage']");
 /*
 	
 	By ReportsBtn=By.linkText("Reports");
@@ -33,6 +36,12 @@ public class Manage {
 	By AllOrdersLink=By.linkText("See all orders");
 	By SeeAllQuotes=By.linkText("See all quotes");
 	*/
+	
+	public WebElement getUsage_Link()
+	{
+		return driver.findElement(Usage_Link);
+	}
+	
 	public WebElement getBilling_Link()
 	{
 		return driver.findElement(Billing_Link);
