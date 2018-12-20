@@ -17,39 +17,69 @@ public class Users {
 		this.driver = driver;
 	}
 
-	By tabs=By.xpath("//a[@data-toggle='tab']");
-	
+	By tabs = By.xpath("//a[@data-toggle='tab']");
+
 	By RequestTab = By.xpath("//a[text()='Requests ']");
-	
+
 	By InvitesTab = By.xpath("//a[text()='Invites ']");
+
+	By RequestActive = By.xpath("//a[@href='#RequestUsers' and @class = 'active show']");
+
+	By InvitesActive = By.xpath("//a[@href='#invites' and @class = 'active show']");
+
+	By Roles = By.xpath("(//a[text()='Roles'])[2]");
+
+	By CreateUser = By.xpath("(//a[text()='Create User'])[2]");
+
+	By Users = By.xpath("(//a[text()='Users'])[3]");
+
+	By DropDown = By.xpath("//select[@class='form-control ccp-txtbox pull-left col-lg-5 col-md-7 col-sm-8 col-xs-7']");
+
+	By Edit = By.xpath("(//button[@class='btn-edit'])[1]");
 	
-	By RequestActive=By.xpath("//a[@href='#RequestUsers' and @class = 'active show']");
+	//By DropDown = By.tagName("select");
 	
-	By InvitesActive=By.xpath("//a[@href='#invites' and @class = 'active show']");
+	public WebElement getEdit() {
+		return driver.findElement(Edit);
+	}
 	
-	//By Heading = By.xpath("//span[text()='Address Of Use']");
+	public WebElement getDropDown() {
+		return driver.findElement(DropDown);
+	}
+	
+	
+	public WebElement getUsers() {
+		return driver.findElement(Users);
+	}
+
+	public WebElement getCreateUser() {
+		return driver.findElement(CreateUser);
+	}
+
+	public WebElement getRoles() {
+		return driver.findElement(Roles);
+	}
+
+	// By Heading = By.xpath("//span[text()='Address Of Use']");
 
 	public WebElement getInvitesActive() {
 		return driver.findElement(InvitesActive);
 	}
-	
+
 	public WebElement getRequestActive() {
 		return driver.findElement(RequestActive);
 	}
-	
+
 	public List<WebElement> gettabs() {
 		return driver.findElements(tabs);
 	}
-	
+
 	public WebElement getRequestTab() {
 		return driver.findElement(RequestTab);
 	}
-	
+
 	public WebElement getInvitesTab() {
 		return driver.findElement(InvitesTab);
 	}
-	
-	
 
-	
 }
