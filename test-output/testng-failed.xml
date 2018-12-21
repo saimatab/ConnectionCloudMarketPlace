@@ -5,6 +5,12 @@
     <classes>
       <class name="smokeTest.ValidateSmokeTest">
         <methods>
+          <include name="ValidateDomainLink"/>
+          <include name="ValidateManagementLogin"/>
+          <include name="ValidateChangePassword"/>
+          <include name="ValidateLogin"/>
+          <include name="ValidateCatalogRestriction"/>
+          <include name="ValidateAddressPage"/>
           <include name="ValidateMngmntAddRolesBtn"/>
         </methods>
       </class> <!-- smokeTest.ValidateSmokeTest -->

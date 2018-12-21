@@ -17,7 +17,7 @@ public class Role {
 		this.driver = driver;
 	}
 
-	By AddNewRole = By.xpath("//button[text()='Add New Role']");
+	By AddNewRole = By.xpath("//a[text()='Add New Role']");
 	
 	By CancelBtn=By.xpath("//button[text()='Cancel']");
 

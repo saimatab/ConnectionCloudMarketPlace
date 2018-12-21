@@ -1,101 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="4" total="27" passed="23">
+<testng-results skipped="0" failed="6" ignored="4" total="27" passed="17">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="222205" started-at="2018-12-20T14:01:58Z" finished-at="2018-12-20T14:05:40Z">
+  <suite name="Default suite" duration-ms="525271" started-at="2018-12-21T05:11:39Z" finished-at="2018-12-21T05:20:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="222205" started-at="2018-12-20T14:01:58Z" finished-at="2018-12-20T14:05:40Z">
+    <test name="Default test" duration-ms="525271" started-at="2018-12-21T05:11:39Z" finished-at="2018-12-21T05:20:24Z">
       <class name="smokeTest.ValidateSmokeTest">
-        <test-method status="PASS" signature="ValidateLogin()[pri:0, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateLogin" duration-ms="21629" started-at="2018-12-20T19:01:58Z" finished-at="2018-12-20T19:02:19Z">
+        <test-method status="PASS" signature="ValidateLogin()[pri:0, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateLogin" duration-ms="49047" started-at="2018-12-21T10:11:39Z" finished-at="2018-12-21T10:12:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateLogin -->
-        <test-method status="PASS" signature="ValidateMarkITPlacePage()[pri:1, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateMarkITPlacePage" duration-ms="3251" started-at="2018-12-20T19:02:19Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-20T19:02:23Z">
+        <test-method status="PASS" signature="ValidateMarkITPlacePage()[pri:1, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateMarkITPlacePage" duration-ms="3699" started-at="2018-12-21T10:12:28Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-21T10:12:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateMarkITPlacePage -->
-        <test-method status="PASS" signature="ValidateManageTab()[pri:2, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateManageTab" duration-ms="4681" started-at="2018-12-20T19:02:23Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-20T19:02:27Z">
+        <test-method status="PASS" signature="ValidateManageTab()[pri:2, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateManageTab" duration-ms="10468" started-at="2018-12-21T10:12:32Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-21T10:12:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateManageTab -->
-        <test-method status="PASS" signature="ValidateInsightTab()[pri:3, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateInsightTab" duration-ms="4331" started-at="2018-12-20T19:02:27Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-20T19:02:32Z">
+        <test-method status="PASS" signature="ValidateInsightTab()[pri:3, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateInsightTab" duration-ms="4407" started-at="2018-12-21T10:12:42Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-21T10:12:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateInsightTab -->
-        <test-method status="PASS" signature="ValidateNotificationPage()[pri:4, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateNotificationPage" duration-ms="9847" started-at="2018-12-20T19:02:32Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-20T19:02:42Z">
+        <test-method status="PASS" signature="ValidateNotificationPage()[pri:4, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateNotificationPage" duration-ms="17320" started-at="2018-12-21T10:12:47Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-21T10:13:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateNotificationPage -->
-        <test-method status="PASS" signature="ValidateLogo()[pri:5, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateLogo" duration-ms="3084" started-at="2018-12-20T19:02:42Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-20T19:02:45Z">
+        <test-method status="PASS" signature="ValidateLogo()[pri:5, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateLogo" duration-ms="3093" started-at="2018-12-21T10:13:04Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-21T10:13:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateLogo -->
-        <test-method status="PASS" signature="ValidateMyProfile()[pri:6, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateMyProfile" duration-ms="11510" started-at="2018-12-20T19:02:45Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-20T19:02:56Z">
+        <test-method status="PASS" signature="ValidateMyProfile()[pri:6, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateMyProfile" duration-ms="17755" started-at="2018-12-21T10:13:07Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-21T10:13:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateMyProfile -->
-        <test-method status="PASS" signature="ValidateEditProfile()[pri:7, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateEditProfile" duration-ms="10164" started-at="2018-12-20T19:02:56Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-20T19:03:06Z">
+        <test-method status="PASS" signature="ValidateEditProfile()[pri:7, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateEditProfile" duration-ms="14761" started-at="2018-12-21T10:13:25Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-21T10:13:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateEditProfile -->
-        <test-method status="PASS" signature="ValidateChangePassword()[pri:8, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateChangePassword" duration-ms="11659" started-at="2018-12-20T19:03:06Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-20T19:03:18Z">
+        <test-method status="FAIL" signature="ValidateChangePassword()[pri:8, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateChangePassword" duration-ms="39155" started-at="2018-12-21T10:13:40Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-21T10:14:19Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Change password heading is not present on Change Password Page expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Change password heading is not present on Change Password Page expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:568)at smokeTest.ValidateSmokeTest.ValidateChangePassword(ValidateSmokeTest.java:545)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateChangePassword -->
-        <test-method status="PASS" signature="ValidateCatalogRestriction()[pri:10, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateCatalogRestriction" duration-ms="9107" started-at="2018-12-20T19:03:18Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-20T19:03:27Z">
+        <test-method status="FAIL" signature="ValidateCatalogRestriction()[pri:10, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateCatalogRestriction" duration-ms="33648" started-at="2018-12-21T10:14:19Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-21T10:14:52Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Catalog Restrictions heading is not present on Catalog Page expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Catalog Restrictions heading is not present on Catalog Page expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:568)at smokeTest.ValidateSmokeTest.ValidateCatalogRestriction(ValidateSmokeTest.java:652)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateCatalogRestriction -->
-        <test-method status="PASS" signature="ValidateDomainLink()[pri:11, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateDomainLink" duration-ms="6926" started-at="2018-12-20T19:03:27Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-20T19:03:34Z">
+        <test-method status="FAIL" signature="ValidateDomainLink()[pri:11, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateDomainLink" duration-ms="35050" started-at="2018-12-21T10:14:52Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-21T10:15:28Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Manage Domains heading is not present on Domain Page expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Manage Domains heading is not present on Domain Page expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:568)at smokeTest.ValidateSmokeTest.ValidateDomainLink(ValidateSmokeTest.java:696)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateDomainLink -->
-        <test-method status="PASS" signature="ValidateAddressPage()[pri:13, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateAddressPage" duration-ms="17048" started-at="2018-12-20T19:03:34Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-20T19:03:51Z">
+        <test-method status="FAIL" signature="ValidateAddressPage()[pri:13, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateAddressPage" duration-ms="38250" started-at="2018-12-21T10:15:28Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-21T10:16:06Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Address of Use heading is not present on the Address Page expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Address of Use heading is not present on the Address Page expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:568)at smokeTest.ValidateSmokeTest.ValidateAddressPage(ValidateSmokeTest.java:797)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateAddressPage -->
-        <test-method status="PASS" signature="ValidateUsersPage()[pri:14, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateUsersPage" duration-ms="16737" started-at="2018-12-20T19:03:51Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-20T19:04:08Z">
+        <test-method status="PASS" signature="ValidateUsersPage()[pri:14, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateUsersPage" duration-ms="24492" started-at="2018-12-21T10:16:06Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-21T10:16:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateUsersPage -->
-        <test-method status="PASS" signature="ValidateRequestTab()[pri:15, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateRequestTab" duration-ms="2256" started-at="2018-12-20T19:04:08Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-20T19:04:10Z">
+        <test-method status="PASS" signature="ValidateRequestTab()[pri:15, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateRequestTab" duration-ms="2232" started-at="2018-12-21T10:16:30Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-21T10:16:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateRequestTab -->
-        <test-method status="PASS" signature="ValidateInviteTab()[pri:16, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateInviteTab" duration-ms="2184" started-at="2018-12-20T19:04:10Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-20T19:04:12Z">
+        <test-method status="PASS" signature="ValidateInviteTab()[pri:16, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateInviteTab" duration-ms="2178" started-at="2018-12-21T10:16:33Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-21T10:16:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateInviteTab -->
-        <test-method status="PASS" signature="ValidateLogout()[pri:17, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateLogout" duration-ms="5105" started-at="2018-12-20T19:04:12Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-20T19:04:17Z">
+        <test-method status="PASS" signature="ValidateLogout()[pri:17, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateLogout" duration-ms="5397" started-at="2018-12-21T10:16:35Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-21T10:16:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateLogout -->
-        <test-method status="PASS" signature="ValidateForgetPswd()[pri:18, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateForgetPswd" duration-ms="9736" started-at="2018-12-20T19:04:17Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-20T19:04:27Z">
+        <test-method status="PASS" signature="ValidateForgetPswd()[pri:18, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateForgetPswd" duration-ms="9477" started-at="2018-12-21T10:16:40Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-21T10:16:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateForgetPswd -->
-        <test-method status="PASS" signature="ValidateRegPage()[pri:19, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateRegPage" duration-ms="8351" started-at="2018-12-20T19:04:27Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-20T19:04:36Z">
+        <test-method status="PASS" signature="ValidateRegPage()[pri:19, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateRegPage" duration-ms="14495" started-at="2018-12-21T10:16:50Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2018-12-21T10:17:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateRegPage -->
-        <test-method status="PASS" signature="ValidateManagementLogin()[pri:22, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateManagementLogin" duration-ms="20164" started-at="2018-12-20T19:04:36Z" finished-at="2018-12-20T19:04:56Z">
+        <test-method status="FAIL" signature="ValidateManagementLogin()[pri:22, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateManagementLogin" duration-ms="64295" started-at="2018-12-21T10:17:04Z" finished-at="2018-12-21T10:18:08Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Catalog tab is not present on the home page expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Catalog tab is not present on the home page expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:568)at smokeTest.ValidateSmokeTest.ValidateManagementLogin(ValidateSmokeTest.java:1287)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateManagementLogin -->
-        <test-method status="PASS" signature="ValidateMngmntUsersTab()[pri:23, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateMngmntUsersTab" duration-ms="13824" started-at="2018-12-20T19:04:56Z" finished-at="2018-12-20T19:05:09Z">
+        <test-method status="PASS" signature="ValidateMngmntUsersTab()[pri:23, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateMngmntUsersTab" duration-ms="72106" started-at="2018-12-21T10:18:08Z" finished-at="2018-12-21T10:19:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateMngmntUsersTab -->
-        <test-method status="PASS" signature="ValidateMngmntRolesTab()[pri:24, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateMngmntRolesTab" duration-ms="9350" started-at="2018-12-20T19:05:09Z" finished-at="2018-12-20T19:05:19Z">
+        <test-method status="PASS" signature="ValidateMngmntRolesTab()[pri:24, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateMngmntRolesTab" duration-ms="21532" started-at="2018-12-21T10:19:20Z" finished-at="2018-12-21T10:19:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateMngmntRolesTab -->
-        <test-method status="PASS" signature="ValidateMngmntAddRolesBtn()[pri:25, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateMngmntAddRolesBtn" duration-ms="9456" started-at="2018-12-20T19:05:19Z" finished-at="2018-12-20T19:05:28Z">
+        <test-method status="FAIL" signature="ValidateMngmntAddRolesBtn()[pri:25, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateMngmntAddRolesBtn" duration-ms="20130" started-at="2018-12-21T10:19:42Z" finished-at="2018-12-21T10:20:02Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[User not able to click on the Add new Roles button on the Role's page expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: User not able to click on the Add new Roles button on the Role's page expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:568)at smokeTest.ValidateSmokeTest.ValidateMngmntAddRolesBtn(ValidateSmokeTest.java:1468)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateMngmntAddRolesBtn -->
-        <test-method status="PASS" signature="ValidateMngmntEditRolesBtn()[pri:26, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateMngmntEditRolesBtn" duration-ms="11670" started-at="2018-12-20T19:05:28Z" finished-at="2018-12-20T19:05:40Z">
+        <test-method status="PASS" signature="ValidateMngmntEditRolesBtn()[pri:26, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateMngmntEditRolesBtn" duration-ms="22151" started-at="2018-12-21T10:20:02Z" finished-at="2018-12-21T10:20:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateMngmntEditRolesBtn -->

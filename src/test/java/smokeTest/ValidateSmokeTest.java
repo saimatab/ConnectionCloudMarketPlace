@@ -785,16 +785,16 @@ public class ValidateSmokeTest extends base {
 		boolean Address_heading;
 		try {
 			ad.getHeading().isDisplayed();
-			Thread.sleep(5000);
+			Thread.sleep(7000);
 			Address_heading = true;
 			Log.info("Address of Use heading is present on the Address Page");
 
 		} catch (Exception e) {
 			Address_heading = false;
-			Log.error("Address of Use heading is present on the Address Page");
+			Log.error("Address of Use heading is not present on the Address Page");
 			Log.error(e.getMessage());
 		}
-		Assert.assertEquals(Address_heading, true, "Address of Use heading is present on the Address Page");
+		Assert.assertEquals(Address_heading, true, "Address of Use heading is not present on the Address Page");
 	}
 
 	@Test(priority = 14, dependsOnMethods = { "ValidateLogin" })
@@ -1426,7 +1426,7 @@ public class ValidateSmokeTest extends base {
 		String RolesTitle = null;
 		try {
 			us.getRoles().click();
-			Thread.sleep(5000);
+			Thread.sleep(7000);
 			//an.moveToElement(hp.getFullfillmentTab()).build() ;
 			
 			Log.info("User clicks on the Roles tab on the User's page");
@@ -1453,7 +1453,7 @@ public class ValidateSmokeTest extends base {
 		String Addbtn_title = null;
 		try {
 			ro.getAddRoleBtn().click();
-			Thread.sleep(5000);
+			Thread.sleep(7000);
 			//an.moveToElement(hp.getFullfillmentTab()).build() ;
 			
 			Log.info("User clicks on the Add new Roles Button on the Role's page");
@@ -1484,7 +1484,7 @@ public class ValidateSmokeTest extends base {
 		try {
 			us.getRoles().click();
 			Log.info("User clicks on the Roles tab to nevigate back to the Role's Page");
-			Thread.sleep(4000);
+			Thread.sleep(5000);
 			us.getEdit().click();
 			Log.info("User clicks on the Edit button on the Role's Page");
 			Thread.sleep(5000);

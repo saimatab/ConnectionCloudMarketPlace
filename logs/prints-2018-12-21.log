@@ -1,0 +1,447 @@
+17:45:20.752 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+17:45:38.806 [main] INFO  resources.base - User has clicked on the Address of Use Link from the Account Menu
+17:45:43.920 [main] INFO  resources.base - Address of Use heading is present on the Address Page
+17:45:46.102 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+17:46:02.558 [main] INFO  resources.base - User has clicked on the users Link from the Account Menu
+17:46:07.730 [main] INFO  resources.base - Tabs are appearing on the Users Page
+17:46:09.908 [main] INFO  resources.base - User has clicked on the request tab on the users page
+17:46:09.996 [main] INFO  resources.base - After clicking on request tab, the request tab becomes active
+17:46:12.175 [main] INFO  resources.base - User has clicked on the Invites tab on the users page
+17:46:12.244 [main] INFO  resources.base - After clicking on Invites tab, the Invites tab becomes active
+17:46:14.386 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+17:46:17.364 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
+17:46:18.148 [main] INFO  resources.base - User has clicked on the Forget Password Link from the Login Page
+17:46:23.230 [main] INFO  resources.base - Email textbox is present on the Forget password page
+17:46:27.046 [main] INFO  resources.base - User has clicked on the submit button on the forget password Page
+17:46:27.103 [main] INFO  resources.base - Once the User click on Submit button then the validation message is appearing
+17:46:40.088 [main] INFO  resources.base - User Clicked on Create Account Link from the Login Page
+17:46:40.128 [main] INFO  resources.base - Signup Page is opended and its title is being captured
+17:46:40.147 [main] INFO  resources.base - Email Text Box is present on the Signup Page
+17:46:40.291 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
+17:46:40.333 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page
+17:47:19.274 [main] INFO  resources.base - User has provided credentials to the login screen of the management portal
+17:47:24.340 [main] INFO  resources.base - Customer tab is present on the home page
+17:47:24.383 [main] INFO  resources.base - Catalog tab is present on the home page
+17:47:24.420 [main] INFO  resources.base - Fulfillment tab is present on the home page
+17:47:24.497 [main] INFO  resources.base - Reports tab is present on the home page
+17:47:24.581 [main] INFO  resources.base - Users tab is present on the home page
+17:47:24.679 [main] INFO  resources.base - User clicking on Account Menu on the Home Page
+17:47:24.724 [main] INFO  resources.base - Logout appear while hovering on the account menu
+17:47:50.948 [main] INFO  resources.base - User clicks on the User tab on the home page
+17:47:50.989 [main] INFO  resources.base - The title of the home page is captured
+17:47:50.989 [main] INFO  resources.base - The title of the Users page is Verified Successfully
+18:18:07.540 [main] INFO  resources.base - The title of the home page is captured
+18:18:07.560 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+18:18:11.549 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+18:18:11.549 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+18:18:11.720 [main] ERROR resources.base - Discover link is found on home page
+18:18:11.751 [main] ERROR resources.base - Consulting link is found on home page
+18:18:20.792 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+18:18:20.792 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+18:18:20.865 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
+18:18:20.911 [main] INFO  resources.base - Billing link is present on the Manage Page
+18:18:20.962 [main] INFO  resources.base - Calendar link is present on the Manage Page
+18:18:21.040 [main] INFO  resources.base - Subscription link is present on the Manage Page
+18:18:21.077 [main] INFO  resources.base - Usage link is present on the Manage Page
+18:18:24.954 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+18:18:25.011 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
+18:18:43.565 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+18:18:43.565 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+18:18:43.613 [main] INFO  resources.base - Notification heading is present on the Notifications page
+18:18:43.672 [main] INFO  resources.base - All Notification tab is present on the Notifications page
+18:18:43.691 [main] INFO  resources.base - Flagged tab is present on the Notifications page
+18:18:47.239 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+18:18:47.297 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
+18:18:49.438 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+18:19:05.926 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
+18:19:06.089 [main] INFO  resources.base - My Profile heading is present on My Profile Page
+18:19:21.278 [main] INFO  resources.base - User has clicked on the Edit Profile button on My Profile Page
+18:19:21.423 [main] INFO  resources.base - Edit profile heading is present on the Edit profile page
+18:19:23.614 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+18:19:41.141 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
+18:19:41.240 [main] INFO  resources.base - Change password heading is present on Change Password Page
+18:19:52.003 [main] INFO  resources.base - User has clicked on the Catalog Restrictions link from the left navigation menu
+18:19:52.102 [main] INFO  resources.base - Catalog Restrictions heading is present on Catalog Page
+18:20:05.029 [main] INFO  resources.base - User has clicked on the Domain link from the left navigation menu
+18:20:05.138 [main] INFO  resources.base - Manage Domains heading is present on Domain Page
+18:20:07.290 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+18:20:21.805 [main] INFO  resources.base - User has clicked on the Address of Use Link from the Account Menu
+18:20:26.915 [main] INFO  resources.base - Address of Use heading is present on the Address Page
+18:20:29.057 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+18:20:44.270 [main] INFO  resources.base - User has clicked on the users Link from the Account Menu
+18:20:49.498 [main] INFO  resources.base - Tabs are appearing on the Users Page
+18:20:51.674 [main] INFO  resources.base - User has clicked on the request tab on the users page
+18:20:51.781 [main] INFO  resources.base - After clicking on request tab, the request tab becomes active
+18:20:53.890 [main] INFO  resources.base - User has clicked on the Invites tab on the users page
+18:20:53.992 [main] INFO  resources.base - After clicking on Invites tab, the Invites tab becomes active
+18:20:56.153 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+18:20:59.097 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
+18:20:59.664 [main] INFO  resources.base - User has clicked on the Forget Password Link from the Login Page
+18:21:04.753 [main] INFO  resources.base - Email textbox is present on the Forget password page
+18:21:08.566 [main] INFO  resources.base - User has clicked on the submit button on the forget password Page
+18:21:08.648 [main] INFO  resources.base - Once the User click on Submit button then the validation message is appearing
+18:21:24.672 [main] INFO  resources.base - User Clicked on Create Account Link from the Login Page
+18:21:24.746 [main] INFO  resources.base - Signup Page is opended and its title is being captured
+18:21:24.785 [main] INFO  resources.base - Email Text Box is present on the Signup Page
+18:21:24.881 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
+18:21:24.903 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page
+18:22:03.521 [main] INFO  resources.base - User has provided credentials to the login screen of the management portal
+18:22:08.595 [main] INFO  resources.base - Customer tab is present on the home page
+18:22:08.631 [main] INFO  resources.base - Catalog tab is present on the home page
+18:22:08.678 [main] INFO  resources.base - Fulfillment tab is present on the home page
+18:22:08.751 [main] INFO  resources.base - Reports tab is present on the home page
+18:22:08.822 [main] INFO  resources.base - Users tab is present on the home page
+18:22:08.913 [main] INFO  resources.base - User clicking on Account Menu on the Home Page
+18:22:08.955 [main] INFO  resources.base - Logout appear while hovering on the account menu
+18:22:34.998 [main] INFO  resources.base - User clicks on the User tab on the home page
+18:22:35.053 [main] INFO  resources.base - The title of the home page is captured
+18:22:35.053 [main] INFO  resources.base - The title of the Users page is Verified Successfully
+18:55:10.998 [main] INFO  resources.base - The title of the home page is captured
+18:55:10.998 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+18:55:14.286 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+18:55:14.286 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+18:55:14.426 [main] ERROR resources.base - Discover link is found on home page
+18:55:14.460 [main] ERROR resources.base - Consulting link is found on home page
+18:55:24.243 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+18:55:24.243 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+18:55:24.290 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
+18:55:24.326 [main] INFO  resources.base - Billing link is present on the Manage Page
+18:55:24.346 [main] INFO  resources.base - Calendar link is present on the Manage Page
+18:55:24.363 [main] INFO  resources.base - Subscription link is present on the Manage Page
+18:55:24.403 [main] INFO  resources.base - Usage link is present on the Manage Page
+18:55:28.277 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+18:55:28.337 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
+18:55:50.736 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+18:55:50.736 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+18:55:50.816 [main] INFO  resources.base - Notification heading is present on the Notifications page
+18:55:50.854 [main] INFO  resources.base - All Notification tab is present on the Notifications page
+18:55:50.898 [main] INFO  resources.base - Flagged tab is present on the Notifications page
+18:55:54.149 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+18:55:54.214 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
+18:55:56.312 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+18:56:12.912 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
+18:56:13.026 [main] INFO  resources.base - My Profile heading is present on My Profile Page
+18:56:28.276 [main] INFO  resources.base - User has clicked on the Edit Profile button on My Profile Page
+18:56:28.406 [main] INFO  resources.base - Edit profile heading is present on the Edit profile page
+18:56:30.578 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+18:56:45.880 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
+18:56:46.006 [main] INFO  resources.base - Change password heading is present on Change Password Page
+18:56:56.381 [main] INFO  resources.base - User has clicked on the Catalog Restrictions link from the left navigation menu
+18:56:56.504 [main] INFO  resources.base - Catalog Restrictions heading is present on Catalog Page
+18:57:03.942 [main] INFO  resources.base - User has clicked on the Domain link from the left navigation menu
+18:57:04.061 [main] INFO  resources.base - Manage Domains heading is present on Domain Page
+18:57:06.280 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+18:57:16.528 [main] INFO  resources.base - User has clicked on the Address of Use Link from the Account Menu
+18:57:21.649 [main] INFO  resources.base - Address of Use heading is present on the Address Page
+18:57:23.816 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+18:57:34.630 [main] INFO  resources.base - User has clicked on the users Link from the Account Menu
+18:57:39.731 [main] INFO  resources.base - Tabs are appearing on the Users Page
+18:57:41.960 [main] INFO  resources.base - User has clicked on the request tab on the users page
+18:57:42.049 [main] INFO  resources.base - After clicking on request tab, the request tab becomes active
+18:57:44.195 [main] INFO  resources.base - User has clicked on the Invites tab on the users page
+18:57:44.269 [main] INFO  resources.base - After clicking on Invites tab, the Invites tab becomes active
+18:57:46.482 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+18:57:49.757 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
+18:57:50.321 [main] INFO  resources.base - User has clicked on the Forget Password Link from the Login Page
+18:57:55.436 [main] INFO  resources.base - Email textbox is present on the Forget password page
+18:57:59.249 [main] INFO  resources.base - User has clicked on the submit button on the forget password Page
+18:57:59.306 [main] INFO  resources.base - Once the User click on Submit button then the validation message is appearing
+18:58:07.195 [main] INFO  resources.base - User Clicked on Create Account Link from the Login Page
+18:58:07.237 [main] INFO  resources.base - Signup Page is opended and its title is being captured
+18:58:07.288 [main] INFO  resources.base - Email Text Box is present on the Signup Page
+18:58:07.416 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
+18:58:07.447 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page
+18:58:28.181 [main] INFO  resources.base - User has provided credentials to the login screen of the management portal
+18:58:33.247 [main] INFO  resources.base - Customer tab is present on the home page
+18:58:33.289 [main] INFO  resources.base - Catalog tab is present on the home page
+18:58:33.350 [main] INFO  resources.base - Fulfillment tab is present on the home page
+18:58:33.393 [main] INFO  resources.base - Reports tab is present on the home page
+18:58:33.434 [main] INFO  resources.base - Users tab is present on the home page
+18:58:33.529 [main] INFO  resources.base - User clicking on Account Menu on the Home Page
+18:58:33.577 [main] INFO  resources.base - Logout appear while hovering on the account menu
+18:58:49.010 [main] INFO  resources.base - User clicks on the User tab on the home page
+18:58:49.063 [main] INFO  resources.base - The title of the home page is captured
+18:58:49.063 [main] INFO  resources.base - The title of the Users page is Verified Successfully
+18:59:09.296 [main] ERROR resources.base - User not able to click on the Add new Roles button on the Role's page
+18:59:09.296 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Add New Role']"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: eb86ac51c34bda6f35e973ffed6df39b
+*** Element info: {Using=xpath, value=//button[text()='Add New Role']}
+18:59:16.932 [main] INFO  resources.base - User clicks on the Roles tab to nevigate back to the Role's Page
+18:59:25.745 [main] INFO  resources.base - User clicks on the Edit button on the Role's Page
+18:59:36.865 [main] INFO  resources.base - User clicks on the Roles tab on the User's page
+19:02:19.915 [main] INFO  resources.base - The title of the home page is captured
+19:02:19.915 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+19:02:22.963 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+19:02:22.963 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+19:02:23.151 [main] ERROR resources.base - Discover link is found on home page
+19:02:23.184 [main] ERROR resources.base - Consulting link is found on home page
+19:02:27.625 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+19:02:27.625 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+19:02:27.681 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
+19:02:27.705 [main] INFO  resources.base - Billing link is present on the Manage Page
+19:02:27.741 [main] INFO  resources.base - Calendar link is present on the Manage Page
+19:02:27.782 [main] INFO  resources.base - Subscription link is present on the Manage Page
+19:02:27.882 [main] INFO  resources.base - Usage link is present on the Manage Page
+19:02:32.155 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+19:02:32.213 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
+19:02:41.949 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+19:02:41.949 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+19:02:42.000 [main] INFO  resources.base - Notification heading is present on the Notifications page
+19:02:42.019 [main] INFO  resources.base - All Notification tab is present on the Notifications page
+19:02:42.060 [main] INFO  resources.base - Flagged tab is present on the Notifications page
+19:02:45.114 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+19:02:45.163 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
+19:02:47.297 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+19:02:56.615 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
+19:02:56.673 [main] INFO  resources.base - My Profile heading is present on My Profile Page
+19:03:06.729 [main] INFO  resources.base - User has clicked on the Edit Profile button on My Profile Page
+19:03:06.858 [main] INFO  resources.base - Edit profile heading is present on the Edit profile page
+19:03:09.062 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+19:03:18.419 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
+19:03:18.536 [main] INFO  resources.base - Change password heading is present on Change Password Page
+19:03:27.546 [main] INFO  resources.base - User has clicked on the Catalog Restrictions link from the left navigation menu
+19:03:27.643 [main] INFO  resources.base - Catalog Restrictions heading is present on Catalog Page
+19:03:34.466 [main] INFO  resources.base - User has clicked on the Domain link from the left navigation menu
+19:03:34.569 [main] INFO  resources.base - Manage Domains heading is present on Domain Page
+19:03:36.710 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+19:03:46.483 [main] INFO  resources.base - User has clicked on the Address of Use Link from the Account Menu
+19:03:51.617 [main] INFO  resources.base - Address of Use heading is present on the Address Page
+19:03:53.805 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+19:04:03.164 [main] INFO  resources.base - User has clicked on the users Link from the Account Menu
+19:04:08.354 [main] INFO  resources.base - Tabs are appearing on the Users Page
+19:04:10.522 [main] INFO  resources.base - User has clicked on the request tab on the users page
+19:04:10.610 [main] INFO  resources.base - After clicking on request tab, the request tab becomes active
+19:04:12.727 [main] INFO  resources.base - User has clicked on the Invites tab on the users page
+19:04:12.794 [main] INFO  resources.base - After clicking on Invites tab, the Invites tab becomes active
+19:04:14.943 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+19:04:17.844 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
+19:04:18.629 [main] INFO  resources.base - User has clicked on the Forget Password Link from the Login Page
+19:04:23.728 [main] INFO  resources.base - Email textbox is present on the Forget password page
+19:04:27.577 [main] INFO  resources.base - User has clicked on the submit button on the forget password Page
+19:04:27.635 [main] INFO  resources.base - Once the User click on Submit button then the validation message is appearing
+19:04:35.797 [main] INFO  resources.base - User Clicked on Create Account Link from the Login Page
+19:04:35.845 [main] INFO  resources.base - Signup Page is opended and its title is being captured
+19:04:35.878 [main] INFO  resources.base - Email Text Box is present on the Signup Page
+19:04:35.984 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
+19:04:36.004 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page
+19:04:50.681 [main] INFO  resources.base - User has provided credentials to the login screen of the management portal
+19:04:55.734 [main] INFO  resources.base - Customer tab is present on the home page
+19:04:55.768 [main] INFO  resources.base - Catalog tab is present on the home page
+19:04:55.816 [main] INFO  resources.base - Fulfillment tab is present on the home page
+19:04:55.917 [main] INFO  resources.base - Reports tab is present on the home page
+19:04:55.990 [main] INFO  resources.base - Users tab is present on the home page
+19:04:56.116 [main] INFO  resources.base - User clicking on Account Menu on the Home Page
+19:04:56.169 [main] INFO  resources.base - Logout appear while hovering on the account menu
+19:05:09.766 [main] INFO  resources.base - User clicks on the User tab on the home page
+19:05:09.813 [main] INFO  resources.base - The title of the home page is captured
+19:05:09.813 [main] INFO  resources.base - The title of the Users page is Verified Successfully
+19:05:19.308 [main] INFO  resources.base - User clicks on the Roles tab on the User's page
+19:05:28.750 [main] INFO  resources.base - User clicks on the Add new Roles Button on the Role's page
+19:05:29.930 [main] INFO  resources.base - User clicks on the Roles tab to nevigate back to the Role's Page
+19:05:35.422 [main] INFO  resources.base - User clicks on the Edit button on the Role's Page
+09:54:34.207 [main] INFO  resources.base - The title of the home page is captured
+09:54:34.208 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+09:54:38.137 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+09:54:38.137 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+09:54:38.221 [main] ERROR resources.base - Discover link is found on home page
+09:54:38.237 [main] ERROR resources.base - Consulting link is found on home page
+09:54:47.029 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+09:54:47.029 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+09:54:47.037 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
+09:54:47.078 [main] INFO  resources.base - Billing link is present on the Manage Page
+09:54:47.100 [main] INFO  resources.base - Calendar link is present on the Manage Page
+09:54:47.118 [main] INFO  resources.base - Subscription link is present on the Manage Page
+09:54:47.138 [main] INFO  resources.base - Usage link is present on the Manage Page
+09:54:51.371 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+09:54:51.388 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
+09:55:11.533 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+09:55:11.533 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+09:55:11.583 [main] INFO  resources.base - Notification heading is present on the Notifications page
+09:55:11.612 [main] INFO  resources.base - All Notification tab is present on the Notifications page
+09:55:11.630 [main] INFO  resources.base - Flagged tab is present on the Notifications page
+09:55:14.587 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+09:55:14.605 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
+09:55:16.781 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+09:55:31.596 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
+09:55:31.674 [main] INFO  resources.base - My Profile heading is present on My Profile Page
+09:55:52.833 [main] INFO  resources.base - User has clicked on the Edit Profile button on My Profile Page
+09:55:52.932 [main] INFO  resources.base - Edit profile heading is present on the Edit profile page
+09:55:55.035 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+09:56:15.834 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
+09:56:35.979 [main] ERROR resources.base - Change password heading is not present on Change Password Page
+09:56:35.984 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Change Password']"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 33101a6a884f1fe47ef12240f631e6e9
+*** Element info: {Using=xpath, value=//span[text()='Change Password']}
+09:56:50.023 [main] INFO  resources.base - User has clicked on the Catalog Restrictions link from the left navigation menu
+09:57:10.087 [main] ERROR resources.base - Catalog Restrictions heading is not present on Catalog Page
+09:57:10.087 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Catalog Restrictions']"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 33101a6a884f1fe47ef12240f631e6e9
+*** Element info: {Using=xpath, value=//span[text()='Catalog Restrictions']}
+09:57:22.915 [main] INFO  resources.base - User has clicked on the Domain link from the left navigation menu
+09:57:42.981 [main] ERROR resources.base - Manage Domains heading is not present on Domain Page
+09:57:42.981 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Manage Domains']"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 33101a6a884f1fe47ef12240f631e6e9
+*** Element info: {Using=xpath, value=//span[text()='Manage Domains']}
+09:57:45.295 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+09:58:02.343 [main] INFO  resources.base - User has clicked on the Address of Use Link from the Account Menu
+09:58:22.396 [main] ERROR resources.base - Address of Use heading is present on the Address Page
+09:58:22.396 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Address of Use']"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 33101a6a884f1fe47ef12240f631e6e9
+*** Element info: {Using=xpath, value=//span[text()='Address of Use']}
+09:58:24.756 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+09:58:42.213 [main] INFO  resources.base - User has clicked on the users Link from the Account Menu
+09:58:47.322 [main] INFO  resources.base - Tabs are appearing on the Users Page
+09:58:49.514 [main] INFO  resources.base - User has clicked on the request tab on the users page
+09:58:49.578 [main] INFO  resources.base - After clicking on request tab, the request tab becomes active
+09:58:51.659 [main] INFO  resources.base - User has clicked on the Invites tab on the users page
+09:58:51.688 [main] INFO  resources.base - After clicking on Invites tab, the Invites tab becomes active
+09:58:53.766 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+09:58:56.816 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
+09:58:57.343 [main] INFO  resources.base - User has clicked on the Forget Password Link from the Login Page
+09:59:02.491 [main] INFO  resources.base - Email textbox is present on the Forget password page
+09:59:06.256 [main] INFO  resources.base - User has clicked on the submit button on the forget password Page
+09:59:06.275 [main] INFO  resources.base - Once the User click on Submit button then the validation message is appearing
+09:59:19.600 [main] INFO  resources.base - User Clicked on Create Account Link from the Login Page
+09:59:19.616 [main] INFO  resources.base - Signup Page is opended and its title is being captured
+09:59:19.648 [main] INFO  resources.base - Email Text Box is present on the Signup Page
+09:59:19.721 [main] INFO  resources.base - Verify button is present on the Signup Page and user has clicked on it
+09:59:19.746 [main] INFO  resources.base - Once the User pressed the Verify button , Validation message is appearing on the Signup Page
+09:59:48.905 [main] INFO  resources.base - User has provided credentials to the login screen of the management portal
+09:59:53.947 [main] INFO  resources.base - Customer tab is present on the home page
+10:00:13.987 [main] ERROR resources.base - Catalog tab is not present on the home page
+10:00:13.987 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='track']"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 33101a6a884f1fe47ef12240f631e6e9
+*** Element info: {Using=xpath, value=//a[@class='track']}
+10:01:33.157 [main] INFO  resources.base - User clicks on the User tab on the home page
+10:01:33.169 [main] INFO  resources.base - The title of the home page is captured
+10:01:33.169 [main] INFO  resources.base - The title of the Users page is Verified Successfully
+10:01:51.041 [main] INFO  resources.base - User clicks on the Roles tab on the User's page
+10:02:11.188 [main] ERROR resources.base - User not able to click on the Add new Roles button on the Role's page
+10:02:11.188 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Add New Role']"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 33101a6a884f1fe47ef12240f631e6e9
+*** Element info: {Using=xpath, value=//button[text()='Add New Role']}
+10:02:12.831 [main] INFO  resources.base - User clicks on the Roles tab to nevigate back to the Role's Page
+10:02:28.266 [main] INFO  resources.base - User clicks on the Edit button on the Role's Page
+10:12:28.579 [main] INFO  resources.base - The title of the home page is captured
+10:12:28.597 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+10:12:32.094 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+10:12:32.094 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+10:12:32.260 [main] ERROR resources.base - Discover link is found on home page
+10:12:32.310 [main] ERROR resources.base - Consulting link is found on home page
+10:12:42.584 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+10:12:42.584 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+10:12:42.643 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
+10:12:42.676 [main] INFO  resources.base - Billing link is present on the Manage Page
+10:12:42.711 [main] INFO  resources.base - Calendar link is present on the Manage Page
+10:12:42.743 [main] INFO  resources.base - Subscription link is present on the Manage Page
+10:12:42.778 [main] INFO  resources.base - Usage link is present on the Manage Page
+10:12:47.110 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+10:12:47.185 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
+10:13:04.424 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+10:13:04.424 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+10:13:04.448 [main] INFO  resources.base - Notification heading is present on the Notifications page
+10:13:04.480 [main] INFO  resources.base - All Notification tab is present on the Notifications page
+10:13:04.512 [main] INFO  resources.base - Flagged tab is present on the Notifications page
+10:13:07.548 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+10:13:07.605 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
+10:13:09.779 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+10:13:25.289 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
+10:13:25.378 [main] INFO  resources.base - My Profile heading is present on My Profile Page
+10:13:39.982 [main] INFO  resources.base - User has clicked on the Edit Profile button on My Profile Page
+10:13:40.139 [main] INFO  resources.base - Edit profile heading is present on the Edit profile page
+10:13:42.266 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+10:13:59.118 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
+10:14:19.294 [main] ERROR resources.base - Change password heading is not present on Change Password Page
+10:14:19.294 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Change Password']"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 69e2f80e017b898e86d0ba31f5c27d48
+*** Element info: {Using=xpath, value=//span[text()='Change Password']}
+10:14:32.836 [main] INFO  resources.base - User has clicked on the Catalog Restrictions link from the left navigation menu
+10:14:52.978 [main] ERROR resources.base - Catalog Restrictions heading is not present on Catalog Page
+10:14:52.978 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Catalog Restrictions']"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 69e2f80e017b898e86d0ba31f5c27d48
+*** Element info: {Using=xpath, value=//span[text()='Catalog Restrictions']}
+10:15:07.880 [main] INFO  resources.base - User has clicked on the Domain link from the left navigation menu
+10:15:28.028 [main] ERROR resources.base - Manage Domains heading is not present on Domain Page
+10:15:28.028 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Manage Domains']"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 69e2f80e017b898e86d0ba31f5c27d48
+*** Element info: {Using=xpath, value=//span[text()='Manage Domains']}

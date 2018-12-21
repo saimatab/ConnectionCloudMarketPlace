@@ -18,7 +18,7 @@ public class ChangePassword {
 	}
 	
 	//By EditProfile_btn=By.xpath("//a[@class='btn edit']");
-	By Heading = By.xpath("//span[text()='Change Password']");
+	By Heading = By.xpath("//h1[text()='Change Password']");
 	//By Notification_heading=By.xpath("//h1[text()='Notifications']");
 
 	public WebElement getHeading()

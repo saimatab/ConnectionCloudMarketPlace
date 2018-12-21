@@ -15,7 +15,7 @@ public class Domains {
 		this.driver = driver;
 	}
 
-	By Heading = By.xpath("//span[text()='Manage Domains']");
+	By Heading = By.xpath("//h1[text()='Manage Domains']");
 
 	public WebElement getHeading() {
 		return driver.findElement(Heading);
