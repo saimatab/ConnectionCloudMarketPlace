@@ -1089,7 +1089,7 @@ public class ValidateSmokeTest extends base {
 				Log.error("Email Text Box is not present on the Signup Page");
 				Log.error(e.getMessage());
 			}
-			Assert.assertEquals(email_present, true, "Email text box is present on the Registeration Page");
+			Assert.assertEquals(email_present, true, "Email text box is not present on the Registeration Page");
 
 			if (email_present == true) {
 				boolean VerifyBtn_present;

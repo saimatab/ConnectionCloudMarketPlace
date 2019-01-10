@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 public class RegisterationPage {
 	public WebDriver driver;
 	
-	By email = By.xpath("//input[@id='name']");
+	By email = By.xpath("//input[@id='email']");
 	
 	By Verify_email=By.xpath("//button[@class=' btn ccp-form-btn']");
 	
