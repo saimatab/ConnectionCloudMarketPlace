@@ -131,50 +131,14 @@ public class base {
 
 		Assert.assertEquals(Login_present, true, "Login button is not appearing in the login page");
 		}
-		/*
-		if(!driver.getTitle().contains("Shop - CCP") || !driver.getTitle().contains(initialPageexp))
-		{
-			driver.gett
-		}
 		
-		*/
-		/*
-		 * lp.getusername().sendKeys(prop.getProperty("username"));
-		 * lp.getpassword().sendKeys(prop.getProperty("pswd"));
-		 * lp.getloginbtn().click();
-		 * 
-		 */
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		return driver;
 
 	}
-
-	/*
-	 * public WebDriver initiali zeDriverWithoutCredentials() throws IOException {
-	 * Properties prop = new Properties(); FileInputStream fis = new
-	 * FileInputStream("C:\\Program Files (x86)\\Jenkins\\workspace\\SmokeTestJobChrome\\TestEcommerce1\\src\\main\\java\\resources\\data.properties"
-	 * ); prop.load(fis); String browserName = prop.getProperty("browser"); url =
-	 * prop.getProperty("url");
-	 * 
-	 * System.out.println("Browser selected is "+browserName);
-	 * if(browserName.equals("chrome")) {
-	 * System.setProperty("webdriver.chrome.driver",
-	 * "C:\\driver\\chromedriver.exe"); driver = new ChromeDriver(); } else
-	 * if(browserName.equals("firefox")) {
-	 * System.setProperty("webdriver.firefox.driver",
-	 * "C:\\driver\\geckodriver.exe"); driver = new FirefoxDriver(); } else
-	 * if(browserName.equals("ie")) { System.setProperty("webdriver.ie.driver",
-	 * "C:\\driver\\IEDriverServer.exe"); driver = new InternetExplorerDriver(); }
-	 * driver.get(url); driver.manage().window().maximize();
-	 * driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); return
-	 * driver;
-	 * 
-	 * }
-	 */
-
 	public void getScreenshot(String result) throws IOException {
-		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFileToDirectory(src, new File("C:\\Automation-Snapshots\\" + result + " screenshot.png"));
+	File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+	FileUtils.copyFileToDirectory(src, new File("C:\\Automation-Snapshots\\" + result + " screenshot.png"));
 	}
 
 }

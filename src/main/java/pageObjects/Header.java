@@ -17,11 +17,17 @@ public Header(WebDriver driver )
 
 }
 
+By SearchTab= By.id("main-search");
+
 By Menu = By.xpath("//div[@class='account-menu']");
 
 By Menu_List=By.xpath("//div[@class='account-menu']//li");
 
 By Notification=By.xpath("//div[@class='shopping-cart']");	
+
+By CustNotification=By.xpath("(//a[@class='top-link' and text()='Notifications'])[1]");
+
+
 
 //By AccountMenu=By.xpath("(//span[@class='account-title' and text()='My Account '])[1]");
 
@@ -50,6 +56,22 @@ By Address=By.xpath("(//a[text()='Address of Use'])[1]");
 
 By Users=By.xpath("(//a[text()='User Management'])[1]");
 
+By RecordList=By.xpath("//div[@class='product-list-grid clearfix grid']");
+
+public WebElement getRecordList()
+{
+	return driver.findElement(RecordList);
+}
+
+public WebElement getSearchTab()
+{
+	return driver.findElement(SearchTab);
+}
+
+public WebElement getCustNotification()
+{
+	return driver.findElement(CustNotification);
+}
 
 public WebElement getMenu_List()
 {

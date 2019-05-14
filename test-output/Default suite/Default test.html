@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>58/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Dec 31 10:32:48 PKT 2018</td>
+<td>Started on:</td><td>Tue May 14 18:59:09 PKT 2019</td>
 </tr>
-<tr><td>Total time:</td><td>378 seconds (378096 ms)</td>
+<tr><td>Total time:</td><td>-809 seconds (-809108 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,84 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateInsightTab()'><b>ValidateInsightTab</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td><div><pre>java.lang.AssertionError: Purchase Analysis Link is not present on the Insights Page expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at smokeTest.ValidateSmokeTest.ValidateInsightTab(ValidateSmokeTest.java:333)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1912850431", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1912850431'><pre>java.lang.AssertionError: Purchase Analysis Link is not present on the Insights Page expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at smokeTest.ValidateSmokeTest.ValidateInsightTab(ValidateSmokeTest.java:333)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.runSuites(TestNG.java:1028)
+	at org.testng.TestNG.run(TestNG.java:996)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>29</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,39 +153,154 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='smokeTest.ValidateSmokeTest.NotificationExport()'><b>NotificationExport</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>5</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateAccountsPage()'><b>ValidateAccountsPage</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>19</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateAddNewRole()'><b>ValidateAddNewRole</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>-1462</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateAddProvider()'><b>ValidateAddProvider</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>2</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
 <td title='smokeTest.ValidateSmokeTest.ValidateAddressPage()'><b>ValidateAddressPage</b><br>Test class: smokeTest.ValidateSmokeTest</td>
 <td></td>
-<td>25</td>
+<td>29</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateApplicationPage()'><b>ValidateApplicationPage</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>22</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateAssumeRole()'><b>ValidateAssumeRole</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>17</td>
 <td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
 <tr>
 <td title='smokeTest.ValidateSmokeTest.ValidateCatalogRestriction()'><b>ValidateCatalogRestriction</b><br>Test class: smokeTest.ValidateSmokeTest</td>
 <td></td>
-<td>13</td>
+<td>11</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateCategories()'><b>ValidateCategories</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>4</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateCategoryExport()'><b>ValidateCategoryExport</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>10</td>
 <td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
 <tr>
 <td title='smokeTest.ValidateSmokeTest.ValidateChangePassword()'><b>ValidateChangePassword</b><br>Test class: smokeTest.ValidateSmokeTest</td>
 <td></td>
-<td>24</td>
+<td>16</td>
 <td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
 <tr>
-<td title='smokeTest.ValidateSmokeTest.ValidateDomainLink()'><b>ValidateDomainLink</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td title='smokeTest.ValidateSmokeTest.ValidateCreateUser()'><b>ValidateCreateUser</b><br>Test class: smokeTest.ValidateSmokeTest</td>
 <td></td>
-<td>13</td>
+<td>74</td>
 <td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
 <tr>
-<td title='smokeTest.ValidateSmokeTest.ValidateEditProfile()'><b>ValidateEditProfile</b><br>Test class: smokeTest.ValidateSmokeTest</td>
-<td></td>
-<td>20</td>
-<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
-<tr>
-<td title='smokeTest.ValidateSmokeTest.ValidateForgetPswd()'><b>ValidateForgetPswd</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td title='smokeTest.ValidateSmokeTest.ValidateDiscoverPage()'><b>ValidateDiscoverPage</b><br>Test class: smokeTest.ValidateSmokeTest</td>
 <td></td>
 <td>9</td>
 <td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
 <tr>
-<td title='smokeTest.ValidateSmokeTest.ValidateInsightTab()'><b>ValidateInsightTab</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td title='smokeTest.ValidateSmokeTest.ValidateDomainExport()'><b>ValidateDomainExport</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateDomainLink()'><b>ValidateDomainLink</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>9</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateDomainsPage()'><b>ValidateDomainsPage</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>5</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateEditAccount()'><b>ValidateEditAccount</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>23</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateEditCategory()'><b>ValidateEditCategory</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>10</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateEditProfile()'><b>ValidateEditProfile</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>23</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateEditProvider()'><b>ValidateEditProvider</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>6</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateEditRole()'><b>ValidateEditRole</b><br>Test class: smokeTest.ValidateSmokeTest</td>
 <td></td>
 <td>4</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateEditSave()'><b>ValidateEditSave</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>8</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateEditService()'><b>ValidateEditService</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>10</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateEditSubs()'><b>ValidateEditSubs</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateExportBtn()'><b>ValidateExportBtn</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateFooterAccount()'><b>ValidateFooterAccount</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>3</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateFooterLogo()'><b>ValidateFooterLogo</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>1</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateFooterNotificationPage()'><b>ValidateFooterNotificationPage</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>11</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateFooterSubscription()'><b>ValidateFooterSubscription</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>3</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateInfrastructurePage()'><b>ValidateInfrastructurePage</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>5</td>
 <td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
 <tr>
 <td title='smokeTest.ValidateSmokeTest.ValidateInviteTab()'><b>ValidateInviteTab</b><br>Test class: smokeTest.ValidateSmokeTest</td>
@@ -117,72 +310,132 @@ function toggleAllBoxes() {
 <tr>
 <td title='smokeTest.ValidateSmokeTest.ValidateLogin()'><b>ValidateLogin</b><br>Test class: smokeTest.ValidateSmokeTest</td>
 <td></td>
-<td>46</td>
+<td>51</td>
 <td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
 <tr>
 <td title='smokeTest.ValidateSmokeTest.ValidateLogo()'><b>ValidateLogo</b><br>Test class: smokeTest.ValidateSmokeTest</td>
 <td></td>
-<td>3</td>
+<td>8</td>
 <td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
 <tr>
 <td title='smokeTest.ValidateSmokeTest.ValidateLogout()'><b>ValidateLogout</b><br>Test class: smokeTest.ValidateSmokeTest</td>
 <td></td>
-<td>4</td>
+<td>5</td>
 <td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
 <tr>
 <td title='smokeTest.ValidateSmokeTest.ValidateManageTab()'><b>ValidateManageTab</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>22</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateManagementFPswd()'><b>ValidateManagementFPswd</b><br>Test class: smokeTest.ValidateSmokeTest</td>
 <td></td>
 <td>9</td>
 <td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
 <tr>
 <td title='smokeTest.ValidateSmokeTest.ValidateManagementLogin()'><b>ValidateManagementLogin</b><br>Test class: smokeTest.ValidateSmokeTest</td>
 <td></td>
-<td>44</td>
+<td>35</td>
 <td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
 <tr>
 <td title='smokeTest.ValidateSmokeTest.ValidateMarkITPlacePage()'><b>ValidateMarkITPlacePage</b><br>Test class: smokeTest.ValidateSmokeTest</td>
 <td></td>
-<td>3</td>
+<td>8</td>
 <td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
 <tr>
-<td title='smokeTest.ValidateSmokeTest.ValidateMngmntAddRolesBtn()'><b>ValidateMngmntAddRolesBtn</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td title='smokeTest.ValidateSmokeTest.ValidateMngmntSETUPTab()'><b>ValidateMngmntSETUPTab</b><br>Test class: smokeTest.ValidateSmokeTest</td>
 <td></td>
-<td>16</td>
-<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
-<tr>
-<td title='smokeTest.ValidateSmokeTest.ValidateMngmntEditRolesBtn()'><b>ValidateMngmntEditRolesBtn</b><br>Test class: smokeTest.ValidateSmokeTest</td>
-<td></td>
-<td>12</td>
-<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
-<tr>
-<td title='smokeTest.ValidateSmokeTest.ValidateMngmntRolesTab()'><b>ValidateMngmntRolesTab</b><br>Test class: smokeTest.ValidateSmokeTest</td>
-<td></td>
-<td>15</td>
-<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
-<tr>
-<td title='smokeTest.ValidateSmokeTest.ValidateMngmntUsersTab()'><b>ValidateMngmntUsersTab</b><br>Test class: smokeTest.ValidateSmokeTest</td>
-<td></td>
-<td>24</td>
+<td>23</td>
 <td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
 <tr>
 <td title='smokeTest.ValidateSmokeTest.ValidateMyProfile()'><b>ValidateMyProfile</b><br>Test class: smokeTest.ValidateSmokeTest</td>
 <td></td>
-<td>18</td>
+<td>17</td>
 <td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
 <tr>
-<td title='smokeTest.ValidateSmokeTest.ValidateNotificationPage()'><b>ValidateNotificationPage</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td title='smokeTest.ValidateSmokeTest.ValidateNotifications()'><b>ValidateNotifications</b><br>Test class: smokeTest.ValidateSmokeTest</td>
 <td></td>
-<td>24</td>
+<td>3</td>
 <td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
 <tr>
-<td title='smokeTest.ValidateSmokeTest.ValidateRegPage()'><b>ValidateRegPage</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td title='smokeTest.ValidateSmokeTest.ValidateProviderExport()'><b>ValidateProviderExport</b><br>Test class: smokeTest.ValidateSmokeTest</td>
 <td></td>
-<td>13</td>
+<td>5</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateProviderPage()'><b>ValidateProviderPage</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>1</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateRequestExport()'><b>ValidateRequestExport</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateRequestPage()'><b>ValidateRequestPage</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>6</td>
 <td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
 <tr>
 <td title='smokeTest.ValidateSmokeTest.ValidateRequestTab()'><b>ValidateRequestTab</b><br>Test class: smokeTest.ValidateSmokeTest</td>
 <td></td>
 <td>2</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateSearching()'><b>ValidateSearching</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>5</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateSelectFieldCateg()'><b>ValidateSelectFieldCateg</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateSelectFields()'><b>ValidateSelectFields</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateSendNotifications()'><b>ValidateSendNotifications</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>13</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateServiceExport()'><b>ValidateServiceExport</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>5</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateServicesPage()'><b>ValidateServicesPage</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>1</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateSubsExport()'><b>ValidateSubsExport</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateSubsSelectFields()'><b>ValidateSubsSelectFields</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateSubscription()'><b>ValidateSubscription</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>4</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateSyncBtn()'><b>ValidateSyncBtn</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>0</td>
+<td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
+<tr>
+<td title='smokeTest.ValidateSmokeTest.ValidateUserHover()'><b>ValidateUserHover</b><br>Test class: smokeTest.ValidateSmokeTest</td>
+<td></td>
+<td>11</td>
 <td>smokeTest.ValidateSmokeTest@4b5a5ed1</td></tr>
 <tr>
 <td title='smokeTest.ValidateSmokeTest.ValidateUsersPage()'><b>ValidateUsersPage</b><br>Test class: smokeTest.ValidateSmokeTest</td>

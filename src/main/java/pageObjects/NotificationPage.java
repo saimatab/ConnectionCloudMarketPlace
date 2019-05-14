@@ -22,25 +22,34 @@ public class NotificationPage {
 	By All_Notification=By.xpath("//span[text()='All Notifications']");
 	By Flagged=By.xpath("//span[text()='Flagged']");
 	By Logo = By.xpath("//img[@class='logo']");
+	By ExportBtn=By.id("export");
+	By ExportRptBtn=By.xpath("//button[@class='btn btn-primary' and text()='Export Report']");
+	By SendNotificationBtn=By.xpath("//a[@class='btn auto-width' and text()='Send Notification']");
+	By ExportCancel=By.xpath("(//button[@class='btn btn-secondary' and text()='Cancel'])[7]");
 	
-	/*
-	By Selectall = By.xpath("(//span[@class='control__indicator'])[2]");
-	By DeleteAll = By.xpath("(//a[@class='btn'])[2]");
-	By YesBtn=By.xpath("(//button[@class='btn btn-primary'])[2]");
-	By RecentlyViewed = By.xpath("//a[text()='See all recently viewed']");
-	By CompactViewCheck= By.xpath("\\span[@class='control__indicator']");
-	By SelectAllCheck=By.xpath("//*[@id='shop-favorites']/div/section/section[1]/div[4]/div[2]/div/div[1]/label/span");
-	By AddAllCartBtn=By.id("addAllToCart");
-	By AddAllCartDisableBtn=By.xpath("//*[@id='shop-favorites']/div/section/section[1]/div[4]/div[2]/div/div[2]/a[1]");
-	By DeleteBtn=By.linkText("Delete");
-	By QtyBox = By.id("qty_3628118");
-	//By AddCartBtn=By.id("3628118");
-	By AddCartBtn=By.xpath("//a[@class='add_to_cart btn btn-primary']");
-	By AddCartDisableBtn=By.xpath("//*[@id='shop-favorites']/div/section/section[2]/div[2]/ul/div/li/div[2]/div[2]/div/a[1]");
-	By checkbox=By.xpath("//span[@class='control__indicator list-item-checkbox']");
-	//Select se2 = new Select(driver.findElement(By.className("small native-drop native-drop-large")));
+	public WebElement getExportCancel()
+	{
+		return driver.findElement(ExportCancel);
+		
+	}
 	
-	*/
+	public WebElement getExportRptBtn()
+	{
+		return driver.findElement(ExportRptBtn);
+		
+	}
+	public WebElement getExportBtn()
+	{
+		return driver.findElement(ExportBtn);
+		
+	}
+	
+	public WebElement getSendNotificationBtn()
+	{
+		return driver.findElement(SendNotificationBtn);
+		
+	}
+	
 	public WebElement getNotification_btn()
 	{
 		return driver.findElement(Notification_btn);

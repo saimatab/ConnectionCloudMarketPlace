@@ -17,7 +17,7 @@ public class MyProfilePage {
 		this.driver=driver;
 	}
 	
-	By EditProfile_btn=By.xpath("//a[@class='btn edit']");
+	By EditProfile_btn=By.xpath("//a[@class='btn edit xs-btn-auto']");
 	By Heading = By.xpath("//h1[text()='My Profile']");
 	By AccountSettings=By.xpath("(//a[text()='Account Settings'])[1]");
 	By Catalog=By.xpath("(//a[text()='Catalog Restrictions'])[3]");

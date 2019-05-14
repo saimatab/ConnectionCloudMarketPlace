@@ -9,7 +9,7 @@ public class RegisterationPage {
 	
 	By email = By.xpath("//input[@id='email']");
 	
-	By Verify_email=By.xpath("//button[@class=' btn ccp-form-btn']");
+	By Verify_email=By.xpath("//a[@class='btn btn-primary' and text()='Verify Email']");
 	
 	By Validation_Msg=By.xpath("//span[text()='Please provide your business email address']");
 	

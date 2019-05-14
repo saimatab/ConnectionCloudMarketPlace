@@ -17,8 +17,16 @@ public class Insight {
 		this.driver=driver;
 	}
 
+	By PAnalysis = By.xpath("//a[@class='top-link' and text()='Purchase Analysis']");
+	By CAnalysis = By.xpath("//a[@class='top-link' and text()='Comparative Analysis']");
+	By Recommendation = By.xpath("//a[@class='top-link' and text()='Recommendations']");
+	By Report=By.xpath("//a[@class='top-link' and text()='Reports']");
+	
 	By Dashboard= By.xpath("//a[@class='top-link' and text()='Dashboard']");
 	By Reports= By.xpath("//a[@class='top-link' and text()='Reports']");
+	By SpendAnalysis = By.xpath("//a[@class='top-link' and text()='Spend Analysis']");
+	
+	
 	//By MonthlyView= By.xpath("//*[@id='track-calandar']/div/section/div[1]/div[2]/div/span");
 	//By DetailView= By.xpath("//*[@id='track-calandar']/div/section/div[1]/div[2]/div/a/span");
 	//By FirstPlus=By.xpath("(//a[@class='btn-expand-content'])[1]");
@@ -28,6 +36,29 @@ public class Insight {
 	
 	//Select Se1= new Select(driver.findElement(By.className("small native-drop native-drop-large")));
 	
+	public WebElement getSpendAnalysis()
+	{
+		return driver.findElement(SpendAnalysis);
+		
+	}
+	
+	public WebElement getPAnalysis()
+	{
+		return driver.findElement(PAnalysis);
+		
+	}
+	
+	public WebElement getCAnalysis()
+	{
+		return driver.findElement(CAnalysis);
+		
+	}
+	
+	public WebElement getRecommendation()
+	{
+		return driver.findElement(Recommendation);
+		
+	}
 	
 	public WebElement getDashboard()
 	{
@@ -38,7 +69,7 @@ public class Insight {
 	
 	public WebElement getReports()
 	{
-		return driver.findElement(Reports);
+		return driver.findElement(Report);
 		
 	}
 	/*
