@@ -1,0 +1,115 @@
+07:01:52.421 [main] INFO  resources.base - User has provided credentials to the login screen of the management portal
+07:01:57.493 [main] INFO  resources.base - Customer tab is present on the home page
+07:01:57.524 [main] INFO  resources.base - Catalog tab is present on the home page
+07:01:57.553 [main] INFO  resources.base - Fulfillment tab is present on the home page
+07:01:57.581 [main] INFO  resources.base - Reports tab is present on the home page
+07:01:57.614 [main] INFO  resources.base - SETUP tab is present on the home page
+07:01:57.711 [main] INFO  resources.base - User clicking on Account Menu on the Home Page
+07:01:57.743 [main] INFO  resources.base - Logout appear while hovering on the account menu
+07:02:09.130 [main] INFO  resources.base - User clicks on the SETUP tab on the home page
+07:02:09.192 [main] INFO  resources.base - The title of the home page is captured
+07:02:09.192 [main] INFO  resources.base - The title of the Users page is Verified Successfully
+07:02:09.357 [main] INFO  resources.base - User is hovering on the users tab on setup page
+07:02:09.378 [main] INFO  resources.base - Users dropdown option is present under user's tab on setup page
+07:02:09.408 [main] INFO  resources.base - Create User dropdown option is present under user's tab on setup page
+07:02:09.427 [main] INFO  resources.base - Create User dropdown option is present under user's tab on setup page
+07:02:16.610 [main] INFO  resources.base - User is cliking on Add new Role button on the roles page
+07:02:18.446 [main] INFO  resources.base - User is cliking on Edit button on the roles page
+07:02:23.177 [main] INFO  resources.base - User is cliking on create user link on the roles page under user's tab
+07:02:44.461 [main] INFO  resources.base - User is cliking on customer's tab on the homepage of the management portal
+07:02:44.774 [main] INFO  resources.base - User is cliking on select fields button on the account page
+07:02:44.894 [main] INFO  resources.base - Select field popup window is appearing after clicking on Select field button
+07:02:45.029 [main] INFO  resources.base - User is cliking on export button on the account page
+07:02:45.138 [main] INFO  resources.base - User is cliking on cancel button on export account popup window
+07:02:54.254 [main] INFO  resources.base - User is cliking on Subscription tab on the Customer's page
+07:02:54.403 [main] INFO  resources.base - User is cliking on select fields button on the Subscription page
+07:02:54.628 [main] INFO  resources.base - Select field popup window is appearing after clicking on Select field button on Subscription page
+07:02:54.774 [main] INFO  resources.base - User is cliking on export button on the Subscription page
+07:02:54.860 [main] INFO  resources.base - User is cliking on cancel button on export account popup window
+07:02:55.067 [main] INFO  resources.base - User is cliking on dropdown icon of 1st record on subscription page
+07:02:55.272 [main] INFO  resources.base - User is cliking on edit subscription of 1st record on subscription page
+07:03:12.638 [main] INFO  resources.base - User is cliking on Account tab under Customer section
+07:03:34.378 [main] INFO  resources.base - User is clicking on Subscriptions link from the footer section of the application
+07:03:49.000 [main] INFO  resources.base - User is clicking on Account link from the footer section of the application
+07:03:49.190 [main] INFO  resources.base - User is cliking on dropdown icon of 1st record on Account's page
+07:03:53.546 [main] INFO  resources.base - User is cliking on edit Account of 1st record on Account's page
+07:04:03.893 [main] INFO  resources.base - User is cliking on save button on the edit account screen
+07:04:20.156 [main] INFO  resources.base - User is cliking on cancel button on the edit account screen
+07:04:23.735 [main] INFO  resources.base - User is clicking on Connection logo from the footer section of the application
+07:04:25.928 [main] INFO  resources.base - User is clicking on Catalog tab from the header section of the application
+07:04:34.927 [main] INFO  resources.base - User is clicking on Categories tab from the catalog section of the application
+07:04:35.127 [main] INFO  resources.base - User is clicking on sync button on caregories page
+07:04:36.003 [main] INFO  resources.base - Sync Message is appearing when user is clicking on sync button on categories page
+07:04:46.354 [main] INFO  resources.base - User is clicking on export button on caregories page
+07:04:46.437 [main] INFO  resources.base - User is clicking on cancel button on export popup
+07:04:46.524 [main] INFO  resources.base - User is cliking on select fields button on the Categories page
+07:04:46.620 [main] INFO  resources.base - Select field popup window is appearing after clicking on Select field button on Categories page
+07:04:46.778 [main] INFO  resources.base - User is cliking on edit category dropdown icon of 1st record on category's page
+07:04:46.976 [main] INFO  resources.base - User is cliking on edit Subscription of 1st record on Subscription's page
+07:04:47.196 [main] INFO  resources.base - Edit subscription heading is appearing
+07:05:15.077 [main] INFO  resources.base - User is clicking on customer tab from the header section of the application
+07:05:16.758 [main] INFO  resources.base - User is clicking on Domain tab from the header section of the application under customer tab
+07:05:16.853 [main] INFO  resources.base - User is clicking on export button on Domain page
+07:05:16.945 [main] INFO  resources.base - User is clicking on cancel button on export popup
+07:05:24.633 [main] INFO  resources.base - User is clicking on request tab from the header section of the application
+07:05:24.702 [main] INFO  resources.base - Request id is appearing in address of use section under request tab
+07:05:36.323 [main] INFO  resources.base - User is clicking on net terms tab on the request page
+07:05:36.602 [main] INFO  resources.base - User is clicking on export button on request page
+07:05:36.683 [main] INFO  resources.base - User is clicking on cancel button on export popup
+07:05:42.815 [main] INFO  resources.base - User is clicking on notification from the header section of the application under customer section
+07:05:42.960 [main] INFO  resources.base - User is clicking on export button from the notifications Page
+07:05:43.047 [main] INFO  resources.base - User is clicking on cancel button from the export notifications popup
+07:06:02.539 [main] INFO  resources.base - User is clicking on Send notification button from the notifications Page
+07:06:03.890 [main] INFO  resources.base - User is clicking on catalog tab from the header of the Page
+07:06:04.057 [main] INFO  resources.base - User is clicking on export button from the Provider Page
+07:06:04.143 [main] INFO  resources.base - User is clicking on cancel button from the export provider popup
+07:06:09.317 [main] INFO  resources.base - User is cliking on edit provider dropdown icon of 1st record on Provider's page
+07:06:12.250 [main] INFO  resources.base - User is cliking on edit Provider of 1st record on provider's page
+07:06:32.385 [main] ERROR resources.base - Add provider button is not present on the provider page
+07:06:32.387 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Cancel']"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 07d3a16be7c428b688c9eee2da4c4459
+*** Element info: {Using=xpath, value=//a[text()='Cancel']}
+07:06:52.416 [main] ERROR resources.base - Service tab is not present under catalog section
+07:06:52.416 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='top-link' and text()='Services']"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 07d3a16be7c428b688c9eee2da4c4459
+*** Element info: {Using=xpath, value=//a[@class='top-link' and text()='Services']}
+07:07:12.443 [main] ERROR resources.base - export button is not present on the service Page
+07:07:12.443 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"id","selector":"export"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 07d3a16be7c428b688c9eee2da4c4459
+*** Element info: {Using=id, value=export}
+07:07:32.486 [main] ERROR resources.base - Dropdown arrow or Edit Service dropdown option is not appearing on Service's page
+07:07:32.486 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"(//td[@columnname='Arrow'])[1]"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 07d3a16be7c428b688c9eee2da4c4459
+*** Element info: {Using=xpath, value=(//td[@columnname='Arrow'])[1]}

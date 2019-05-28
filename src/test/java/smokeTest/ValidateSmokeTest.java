@@ -2856,6 +2856,7 @@ try {
 	
 } catch (NoSuchElementException e) {
 	editprovider_present = false;
+	driver.navigate().back();
 	Log.error("Dropdown arrow or Edit providor dropdown option is not appearing on provider's page");
 	Log.error(e.getMessage());
 }
@@ -2889,6 +2890,7 @@ public void ValidateAddProvider() throws InterruptedException
 		Catalog_present = false;
 		Log.error("Add provider button is not present on the provider page");
 		Log.error(e.getMessage());
+		driver.navigate().back();
 	}
 	
 	Assert.assertEquals(Catalog_present, true, "Add provider button is not present on the provider page");
@@ -2923,6 +2925,7 @@ public void ValidateServicesPage() throws InterruptedException
 		Services_present = false;
 		Log.error("Service tab is not present under catalog section");
 		Log.error(e.getMessage());
+		driver.navigate().back();
 	}
 	
 	Assert.assertEquals(Services_present, true, "Service tab is not present under catalog section");
@@ -3010,7 +3013,6 @@ try {
 Assert.assertEquals(editprovider_present, true, "Dropdown arrow or Edit Service dropdown option is not appearing on Service's page");
 
 Assert.assertEquals(driver.getTitle(), "Edit Services - CCP","When clicking on edit Service link from dropdown on service's page then user is not nevigating to edit service page");
-
 }
 
 
