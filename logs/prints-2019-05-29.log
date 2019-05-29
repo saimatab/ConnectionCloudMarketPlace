@@ -1,0 +1,384 @@
+08:48:21.569 [main] ERROR resources.base - sync button is not present on categories page
+08:48:21.592 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"id","selector":"sync"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 21d1422e42552c78c3c8e1791f45f992
+*** Element info: {Using=id, value=sync}
+08:48:52.024 [main] ERROR resources.base - Export button is not present on categories page
+08:48:52.024 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"id","selector":"export"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 21d1422e42552c78c3c8e1791f45f992
+*** Element info: {Using=id, value=export}
+08:49:12.349 [main] ERROR resources.base - Select field not appearing on the Categories page
+08:49:12.349 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"id","selector":"selectFields"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 21d1422e42552c78c3c8e1791f45f992
+*** Element info: {Using=id, value=selectFields}
+08:49:32.725 [main] ERROR resources.base - When clicking on edit subscription the edit subscription popup is not appearing
+08:49:32.725 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"(//td[@columnname='Arrow'])[1]"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 21d1422e42552c78c3c8e1791f45f992
+*** Element info: {Using=xpath, value=(//td[@columnname='Arrow'])[1]}
+08:49:53.019 [main] ERROR resources.base - Customer tab is not appearing on the header section of the application
+08:49:53.019 [main] ERROR resources.base - Domain tab is not appearing on the header section under customer
+08:49:53.019 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='shop ' and text()='Customers']"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 21d1422e42552c78c3c8e1791f45f992
+*** Element info: {Using=xpath, value=//a[@class='shop ' and text()='Customers']}
+08:50:13.544 [main] ERROR resources.base - Export button is not present on Domain page
+08:50:13.544 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"id","selector":"export"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 21d1422e42552c78c3c8e1791f45f992
+*** Element info: {Using=id, value=export}
+08:50:33.870 [main] ERROR resources.base - request tab is not appearing on the header section under customer
+08:50:33.870 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"(//a[@class='top-link' and text()='Requests'])[1]"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 21d1422e42552c78c3c8e1791f45f992
+*** Element info: {Using=xpath, value=(//a[@class='top-link' and text()='Requests'])[1]}
+08:50:54.176 [main] ERROR resources.base - Export button is not present on request page
+08:50:54.176 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"id","selector":"export"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 21d1422e42552c78c3c8e1791f45f992
+*** Element info: {Using=id, value=export}
+08:51:14.517 [main] ERROR resources.base - Notification tab is not present under customer section
+08:51:14.517 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"(//a[@class='top-link' and text()='Notifications'])[1]"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 21d1422e42552c78c3c8e1791f45f992
+*** Element info: {Using=xpath, value=(//a[@class='top-link' and text()='Notifications'])[1]}
+08:51:34.840 [main] ERROR resources.base - export button is not present on the notification Page
+08:51:34.840 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"id","selector":"export"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 21d1422e42552c78c3c8e1791f45f992
+*** Element info: {Using=id, value=export}
+08:52:20.597 [main] ERROR resources.base - catalog tab is not present on the header of the page
+08:52:20.597 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='track ' and text()='Catalog']"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 21d1422e42552c78c3c8e1791f45f992
+*** Element info: {Using=xpath, value=//a[@class='track ' and text()='Catalog']}
+08:52:41.026 [main] ERROR resources.base - export button is not present on the Provider Page
+08:52:41.026 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"id","selector":"export"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 21d1422e42552c78c3c8e1791f45f992
+*** Element info: {Using=id, value=export}
+08:53:05.011 [main] ERROR resources.base - Dropdown arrow or Edit providor dropdown option is not appearing on provider's page
+08:53:05.011 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"(//td[@columnname='Arrow'])[1]"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 21d1422e42552c78c3c8e1791f45f992
+*** Element info: {Using=xpath, value=(//td[@columnname='Arrow'])[1]}
+08:53:25.335 [main] ERROR resources.base - Add provider button is not present on the provider page
+08:53:25.336 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Cancel']"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 21d1422e42552c78c3c8e1791f45f992
+*** Element info: {Using=xpath, value=//a[text()='Cancel']}
+08:54:29.212 [main] ERROR resources.base - Service tab is not present under catalog section
+08:54:29.402 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='top-link' and text()='Services']"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 21d1422e42552c78c3c8e1791f45f992
+*** Element info: {Using=xpath, value=//a[@class='top-link' and text()='Services']}
+08:54:52.702 [main] ERROR resources.base - export button is not present on the service Page
+08:54:52.702 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"id","selector":"export"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 21d1422e42552c78c3c8e1791f45f992
+*** Element info: {Using=id, value=export}
+08:55:13.070 [main] ERROR resources.base - Dropdown arrow or Edit Service dropdown option is not appearing on Service's page
+08:55:13.070 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"(//td[@columnname='Arrow'])[1]"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 21d1422e42552c78c3c8e1791f45f992
+*** Element info: {Using=xpath, value=(//td[@columnname='Arrow'])[1]}
+09:10:12.522 [main] INFO  resources.base - The title of the home page is captured
+09:10:12.535 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+09:10:20.583 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+09:10:20.583 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+09:10:20.709 [main] ERROR resources.base - Consulting link is found on home page
+09:10:27.592 [main] INFO  resources.base - User has Clicked on the Discover tab from the MarketPlace Page
+09:10:43.231 [main] INFO  resources.base - User has Clicked on the Application tab from the MarketPlace Page
+09:10:47.470 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+09:10:55.168 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+09:10:55.168 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+09:11:00.026 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+09:11:00.043 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
+09:11:05.141 [main] INFO  resources.base - Spend Analysis link is present on the Insights Page
+09:11:05.171 [main] INFO  resources.base - Recommendations link is present on the Insights Page
+09:11:05.194 [main] INFO  resources.base - Reports link is present on the Insights Page
+09:11:13.911 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+09:11:13.911 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+09:11:13.961 [main] INFO  resources.base - Notification heading is present on the Notifications page
+09:11:14.006 [main] INFO  resources.base - All Notification tab is present on the Notifications page
+09:11:14.026 [main] INFO  resources.base - Flagged tab is present on the Notifications page
+09:11:22.195 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+09:11:22.201 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
+09:11:24.407 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+09:11:33.489 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
+09:11:33.623 [main] INFO  resources.base - My Profile heading is present on My Profile Page
+09:11:42.601 [main] INFO  resources.base - User has clicked on the Edit Profile button on My Profile Page
+09:11:42.709 [main] INFO  resources.base - Edit profile heading is present on the Edit profile page
+09:11:44.842 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+09:11:53.682 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
+09:11:53.798 [main] INFO  resources.base - Change password heading is present on Change Password Page
+09:12:03.578 [main] INFO  resources.base - User has clicked on the Catalog Restrictions link from the left navigation menu
+09:12:03.765 [main] INFO  resources.base - Catalog Restrictions heading is present on Catalog Page
+09:12:11.338 [main] INFO  resources.base - User has clicked on the Domain link from the left navigation menu
+09:12:11.398 [main] INFO  resources.base - Manage Domains heading is present on Domain Page
+09:12:13.508 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+09:12:23.270 [main] INFO  resources.base - User has clicked on the Address of Use Link from the Account Menu
+09:12:30.425 [main] INFO  resources.base - Address of Use heading is present on the Address Page
+09:12:32.590 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+09:12:42.389 [main] INFO  resources.base - User has clicked on the users Link from the Account Menu
+09:12:47.479 [main] INFO  resources.base - Tabs are appearing on the Users Page
+09:12:49.654 [main] INFO  resources.base - User has clicked on the request tab on the users page
+09:12:49.731 [main] INFO  resources.base - After clicking on request tab, the request tab becomes active
+09:12:51.831 [main] INFO  resources.base - User has clicked on the Invites tab on the users page
+09:12:51.894 [main] INFO  resources.base - After clicking on Invites tab, the Invites tab becomes active
+09:12:55.429 [main] INFO  resources.base - On Search textbox user is typing Microsoft 365
+09:12:57.463 [main] INFO  resources.base - Records are getting searched using the search textbox
+09:12:59.588 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+09:13:02.456 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
+09:13:06.796 [main] INFO  resources.base - User is clicking on forgot password link on the login page
+09:13:22.081 [main] INFO  resources.base - User has provided credentials to the login screen of the management portal
+09:13:27.217 [main] INFO  resources.base - Customer tab is present on the home page
+09:13:27.285 [main] INFO  resources.base - Catalog tab is present on the home page
+09:13:27.358 [main] INFO  resources.base - Fulfillment tab is present on the home page
+09:13:27.399 [main] INFO  resources.base - Reports tab is present on the home page
+09:13:27.437 [main] INFO  resources.base - SETUP tab is present on the home page
+09:13:27.555 [main] INFO  resources.base - User clicking on Account Menu on the Home Page
+09:13:27.590 [main] INFO  resources.base - Logout appear while hovering on the account menu
+09:13:38.279 [main] INFO  resources.base - User clicks on the SETUP tab on the home page
+09:13:38.313 [main] INFO  resources.base - The title of the home page is captured
+09:13:38.313 [main] INFO  resources.base - The title of the Users page is Verified Successfully
+09:13:38.533 [main] INFO  resources.base - User is hovering on the users tab on setup page
+09:13:38.562 [main] INFO  resources.base - Users dropdown option is present under user's tab on setup page
+09:13:38.592 [main] INFO  resources.base - Create User dropdown option is present under user's tab on setup page
+09:13:38.623 [main] INFO  resources.base - Create User dropdown option is present under user's tab on setup page
+09:13:45.370 [main] INFO  resources.base - User is cliking on Add new Role button on the roles page
+09:13:47.585 [main] INFO  resources.base - User is cliking on Edit button on the roles page
+09:13:52.875 [main] INFO  resources.base - User is cliking on create user link on the roles page under user's tab
+09:14:13.263 [main] INFO  resources.base - User is cliking on customer's tab on the homepage of the management portal
+09:14:13.517 [main] INFO  resources.base - User is cliking on select fields button on the account page
+09:14:13.614 [main] INFO  resources.base - Select field popup window is appearing after clicking on Select field button
+09:14:13.741 [main] INFO  resources.base - User is cliking on export button on the account page
+09:14:13.832 [main] INFO  resources.base - User is cliking on cancel button on export account popup window
+09:14:23.531 [main] INFO  resources.base - User is cliking on Subscription tab on the Customer's page
+09:14:23.717 [main] INFO  resources.base - User is cliking on select fields button on the Subscription page
+09:14:23.814 [main] INFO  resources.base - Select field popup window is appearing after clicking on Select field button on Subscription page
+09:14:23.973 [main] INFO  resources.base - User is cliking on export button on the Subscription page
+09:14:24.052 [main] INFO  resources.base - User is cliking on cancel button on export account popup window
+09:14:24.256 [main] INFO  resources.base - User is cliking on dropdown icon of 1st record on subscription page
+09:14:24.484 [main] INFO  resources.base - User is cliking on edit subscription of 1st record on subscription page
+09:14:40.529 [main] INFO  resources.base - User is cliking on Account tab under Customer section
+09:15:01.210 [main] INFO  resources.base - User is clicking on Subscriptions link from the footer section of the application
+09:15:17.119 [main] INFO  resources.base - User is clicking on Account link from the footer section of the application
+09:15:17.314 [main] INFO  resources.base - User is cliking on dropdown icon of 1st record on Account's page
+09:15:21.589 [main] INFO  resources.base - User is cliking on edit Account of 1st record on Account's page
+09:15:31.945 [main] INFO  resources.base - User is cliking on save button on the edit account screen
+09:15:47.450 [main] INFO  resources.base - User is cliking on cancel button on the edit account screen
+09:15:48.275 [main] INFO  resources.base - User is clicking on Connection logo from the footer section of the application
+09:15:49.892 [main] INFO  resources.base - User is clicking on Catalog tab from the header section of the application
+09:15:58.628 [main] INFO  resources.base - User is clicking on Categories tab from the catalog section of the application
+09:15:58.786 [main] INFO  resources.base - User is clicking on sync button on caregories page
+09:15:59.495 [main] INFO  resources.base - Sync Message is appearing when user is clicking on sync button on categories page
+09:16:09.935 [main] INFO  resources.base - User is clicking on export button on caregories page
+09:16:10.145 [main] INFO  resources.base - User is clicking on cancel button on export popup
+09:16:10.285 [main] INFO  resources.base - User is cliking on select fields button on the Categories page
+09:16:10.407 [main] INFO  resources.base - Select field popup window is appearing after clicking on Select field button on Categories page
+09:16:10.556 [main] INFO  resources.base - User is cliking on edit category dropdown icon of 1st record on category's page
+09:16:10.715 [main] INFO  resources.base - User is cliking on edit Subscription of 1st record on Subscription's page
+09:16:10.775 [main] INFO  resources.base - Edit subscription heading is appearing
+09:17:06.789 [main] ERROR resources.base - catalog tab is not present on the header of the page
+09:17:06.789 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='track ' and text()='Catalog']"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 7d4a80eaeb9cf215b1b4dbe3e71c5799
+*** Element info: {Using=xpath, value=//a[@class='track ' and text()='Catalog']}
+09:17:07.004 [main] INFO  resources.base - User is clicking on export button from the Provider Page
+09:17:07.115 [main] INFO  resources.base - User is clicking on cancel button from the export provider popup
+09:17:12.303 [main] INFO  resources.base - User is cliking on edit provider dropdown icon of 1st record on Provider's page
+09:17:32.420 [main] ERROR resources.base - Dropdown arrow or Edit providor dropdown option is not appearing on provider's page
+09:17:32.420 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Edit Provider']"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 7d4a80eaeb9cf215b1b4dbe3e71c5799
+*** Element info: {Using=xpath, value=//a[text()='Edit Provider']}
+09:17:52.498 [main] ERROR resources.base - Add provider button is not present on the provider page
+09:17:52.498 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Cancel']"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 7d4a80eaeb9cf215b1b4dbe3e71c5799
+*** Element info: {Using=xpath, value=//a[text()='Cancel']}
+09:17:56.430 [main] INFO  resources.base - User is clicking on service tab from the catalog session
+09:17:56.555 [main] INFO  resources.base - User is clicking on export button from the service Page
+09:17:56.652 [main] INFO  resources.base - User is clicking on cancel button from the export provider popup
+09:18:01.869 [main] INFO  resources.base - User is cliking on edit Service dropdown icon of 1st record on Service's page
+09:19:27.264 [main] INFO  resources.base - User is cliking on edit Service of 1st record on Service's page
+09:58:33.413 [main] INFO  resources.base - The title of the home page is captured
+09:58:33.427 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+09:58:42.149 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+09:58:42.149 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+09:58:42.293 [main] ERROR resources.base - Consulting link is found on home page
+09:58:51.625 [main] INFO  resources.base - User has Clicked on the Discover tab from the MarketPlace Page
+09:58:59.901 [main] INFO  resources.base - User has Clicked on the Application tab from the MarketPlace Page
+09:59:04.320 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+09:59:10.523 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+09:59:10.523 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+09:59:10.532 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
+09:59:10.573 [main] INFO  resources.base - Subscription link is present on the Manage Page
+09:59:10.588 [main] INFO  resources.base - Calendar link is present on the Manage Page
+09:59:10.604 [main] INFO  resources.base - Usage link is present on the Manage Page
+09:59:15.623 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+09:59:15.643 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
+09:59:20.703 [main] INFO  resources.base - Spend Analysis link is present on the Insights Page
+09:59:20.724 [main] INFO  resources.base - Recommendations link is present on the Insights Page
+09:59:20.744 [main] INFO  resources.base - Reports link is present on the Insights Page
+09:59:32.521 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+09:59:32.521 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+09:59:32.571 [main] INFO  resources.base - Notification heading is present on the Notifications page
+09:59:32.593 [main] INFO  resources.base - All Notification tab is present on the Notifications page
+09:59:32.624 [main] INFO  resources.base - Flagged tab is present on the Notifications page
+09:59:40.998 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+09:59:41.070 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
+09:59:43.220 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+09:59:55.278 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
+09:59:55.465 [main] INFO  resources.base - My Profile heading is present on My Profile Page
+10:00:04.947 [main] INFO  resources.base - User has clicked on the Edit Profile button on My Profile Page
+10:00:05.014 [main] INFO  resources.base - Edit profile heading is present on the Edit profile page
+10:00:07.156 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+10:00:16.081 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
+10:00:16.145 [main] INFO  resources.base - Change password heading is present on Change Password Page
+10:00:25.968 [main] INFO  resources.base - User has clicked on the Catalog Restrictions link from the left navigation menu
+10:00:26.038 [main] INFO  resources.base - Catalog Restrictions heading is present on Catalog Page
+10:00:32.679 [main] INFO  resources.base - User has clicked on the Domain link from the left navigation menu

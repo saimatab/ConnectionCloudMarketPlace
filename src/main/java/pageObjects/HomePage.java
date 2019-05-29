@@ -20,7 +20,7 @@ public WebDriver driver;
 	By Insight_Link=By.xpath("//a[@class='insights ' and text()=' Insights']");
 	By MarketPlace_Link=By.xpath("//a[text()='MarketPlace']");
 	By CustomersTab=By.xpath("//a[@class='shop ' and text()='Customers']");
-	By CatalogTab=By.xpath("//a[@class='track ' and text()='Catalog']");
+	By CatalogTab=By.xpath("//a[text()='Catalog']");
 	By FullfillmentTab=By.xpath("//a[@class='insights ' and text()='FULFILLMENT']");
 	By ReportsTab=By.xpath("//a[@class='reports ' and text()='Reports']");
 	By UsersTab=By.xpath("//a[@class='users ' and text()='SETUP']");

@@ -245,7 +245,7 @@ public class ValidateSmokeTest extends base {
 		Log.info("user has routed to the Manage Page after clicking on the manage Tab");
 
 		String Manage_Titleact = driver.getTitle().trim();
-		String Manage_Titlexp = "Manage - CCP";
+		String Manage_Titlexp = "Service Provisioning - CCP";
 		Assert.assertEquals(Manage_Titleact, Manage_Titlexp, "Manage Page is not getting open");
 		Log.info("User has Successfully nevigated to the manage Page");
 
@@ -1745,6 +1745,7 @@ public class ValidateSmokeTest extends base {
 			hp.getCustomersTab().click();
 			Log.info("User is cliking on customer's tab on the homepage of the management portal");
 			Customer_present = true;
+			Thread.sleep(15000);
 			
 		} catch (NoSuchElementException e) {
 			Customer_present = false;
@@ -2250,9 +2251,9 @@ public void ValidateCategories() throws InterruptedException
 }
 
 
-@Test(priority = 44)
+@Test(priority = 44,dependsOnMethods = { "ValidateCategories" })
 
-public void ValidateSyncBtn() throws InterruptedException 
+public void ValidateSyncCategories() throws InterruptedException 
 {
 	Catalog ct = new Catalog(driver);
 	
@@ -2298,7 +2299,7 @@ public void ValidateSyncBtn() throws InterruptedException
 }
 
 
-@Test(priority = 45)
+@Test(priority = 45,dependsOnMethods = { "ValidateCategories" })
 
 public void ValidateCategoryExport() throws InterruptedException 
 {
@@ -2347,7 +2348,7 @@ public void ValidateCategoryExport() throws InterruptedException
 
 
 
-@Test(priority = 46)
+@Test(priority = 46,dependsOnMethods = { "ValidateCategories" })
 
 public void ValidateSelectFieldCateg() throws InterruptedException 
 {
@@ -2388,7 +2389,7 @@ WebDriverWait wt = new WebDriverWait(driver,20);
 }
 
 
-@Test(priority = 47)
+@Test(priority = 47,dependsOnMethods = { "ValidateCategories" })
 
 public void ValidateEditCategory() throws InterruptedException 
 {
@@ -2420,6 +2421,7 @@ public void ValidateEditCategory() throws InterruptedException
 		editheading_present = false;
 		Log.error("When clicking on edit subscription the edit subscription popup is not appearing");
 		Log.error(e.getMessage());
+		//driver.navigate().back();
 	}
 	
 	Assert.assertEquals(editheading_present, true, "When clicking on edit subscription the edit subscription popup is not appearing");
@@ -2446,6 +2448,8 @@ public void ValidateDomainsPage() throws InterruptedException
 		Log.info("User is clicking on customer tab from the header section of the application");
 		Customer_present = true;
 		wt.until(ExpectedConditions.visibilityOf(hp.getDomain()));
+		
+		Thread.sleep(8000);
 		hp.getDomain().click();
 		Log.info("User is clicking on Domain tab from the header section of the application under customer tab");
 		Domain_present=true;
@@ -2473,7 +2477,7 @@ Assert.assertEquals(driver.getTitle(),"Domains - CCP","When user is clicking on 
 }
 
 
-@Test(priority = 49)
+@Test(priority = 49,dependsOnMethods = { "ValidateDomainsPage" })
 
 public void ValidateDomainExport() throws InterruptedException 
 {
@@ -2531,6 +2535,7 @@ public void ValidateRequestPage() throws InterruptedException
 	//boolean Domain_present ;
 		
 	try {
+		
 		wt.until(ExpectedConditions.visibilityOf(ct.getRequestTab()));
 		ct.getRequestTab().click();
 		Log.info("User is clicking on request tab from the header section of the application");
@@ -2595,7 +2600,7 @@ Assert.assertEquals(Nettermheading, true, "Net term ID parameter is not present 
 }
 
 
-@Test(priority = 51)
+@Test(priority = 51,dependsOnMethods = { "ValidateRequestPage" })
 
 public void ValidateRequestExport() throws InterruptedException 
 {
@@ -2655,7 +2660,10 @@ public void ValidateNotifications() throws InterruptedException
 		
 	try {
 		wt.until(ExpectedConditions.visibilityOf(hd.getCustNotification()));
+		
 		hd.getCustNotification().click();
+		
+		Thread.sleep(15000);
 		
 		Log.info("User is clicking on notification from the header section of the application under customer section");
 		Notification_present = true;
@@ -2673,7 +2681,7 @@ public void ValidateNotifications() throws InterruptedException
 	//Assert.assertEquals(ExportCancel_present, true, "Cancel button is not present on export account popup window");
 }
 
-@Test(priority = 53)
+@Test(priority = 53,dependsOnMethods = { "ValidateNotifications" })
 
 public void NotificationExport() throws InterruptedException 
 {
@@ -2720,7 +2728,7 @@ public void NotificationExport() throws InterruptedException
 }
 
 
-@Test(priority = 54)
+@Test(priority = 54,dependsOnMethods = { "ValidateNotifications" })
 
 public void ValidateSendNotifications() throws InterruptedException 
 {
@@ -2777,6 +2785,7 @@ public void ValidateProviderPage() throws InterruptedException
 		Catalog_present = false;
 		Log.error("catalog tab is not present on the header of the page");
 		Log.error(e.getMessage());
+		driver.navigate().back();
 	}
 	
 	Assert.assertEquals(Catalog_present, true, "catalog tab is not present on the header of the page");
@@ -2786,7 +2795,7 @@ public void ValidateProviderPage() throws InterruptedException
 	//Assert.assertEquals(ExportCancel_present, true, "Cancel button is not present on export account popup window");
 }
 
-@Test(priority = 56)
+@Test(priority = 56,dependsOnMethods = { "ValidateProviderPage" })
 
 public void ValidateProviderExport() throws InterruptedException 
 {
@@ -2833,7 +2842,7 @@ public void ValidateProviderExport() throws InterruptedException
 }
 
 
-@Test(priority = 57)
+@Test(priority = 57,dependsOnMethods = { "ValidateProviderPage" })
 
 public void ValidateEditProvider() throws InterruptedException 
 {
@@ -2845,6 +2854,7 @@ boolean editprovider_present;
 
 WebDriverWait wt = new WebDriverWait(driver,20);
 
+String title = null;
 try {
 	wt.until(ExpectedConditions.visibilityOf(pr.getArrow1()));
 	pr.getArrow1().click();
@@ -2853,6 +2863,11 @@ try {
 	pr.getEditProvider().click();
 	Log.info("User is cliking on edit Provider of 1st record on provider's page");
 	editprovider_present =true;
+	Thread.sleep(6000);
+	title = driver.getTitle();
+	
+	pr.getcancelBtn().click();
+	
 	
 } catch (NoSuchElementException e) {
 	editprovider_present = false;
@@ -2863,11 +2878,12 @@ try {
 
 Assert.assertEquals(editprovider_present, true, "Dropdown arrow or Edit providor dropdown option is not appearing on provider's page");
 
-Assert.assertEquals(driver.getTitle(), "Edit Provider - CCP","When clicking on edit provider link from dropdown on provider page then user is not nevigating to edit provider page");
+Assert.assertEquals(title, "Edit Provider - CCP","When clicking on edit provider link from dropdown on provider page then user is not nevigating to edit provider page");
+
 
 }
 
-@Test(priority = 58)
+@Test(priority = 58,dependsOnMethods = { "ValidateProviderPage" })
 
 public void ValidateAddProvider() throws InterruptedException 
 {	
@@ -2878,9 +2894,7 @@ public void ValidateAddProvider() throws InterruptedException
 	boolean Catalog_present;
 		
 	try {
-		PR.getcancelBtn().click();
-		
-		wt.until(ExpectedConditions.visibilityOf(PR.getAddProvider_Btn()));
+			wt.until(ExpectedConditions.visibilityOf(PR.getAddProvider_Btn()));
 		PR.getAddProvider_Btn().click();
 		
 		Log.info("User is clicking on ADD PROVIDER button on the providers page");
@@ -2916,7 +2930,7 @@ public void ValidateServicesPage() throws InterruptedException
 	try {
 		
 		wt.until(ExpectedConditions.visibilityOf(pr.getServicesTab()));
-		pr.getServicesTab().click();;
+		pr.getServicesTab().click();
 		
 		Log.info("User is clicking on service tab from the catalog session");
 		Services_present = true;
@@ -2936,7 +2950,7 @@ public void ValidateServicesPage() throws InterruptedException
 }
 
 
-@Test(priority = 60)
+@Test(priority = 60,dependsOnMethods = { "ValidateServicesPage" })
 
 public void ValidateServiceExport() throws InterruptedException 
 {
@@ -2983,7 +2997,7 @@ public void ValidateServiceExport() throws InterruptedException
 }
 
 
-@Test(priority = 61)
+@Test(priority = 61,dependsOnMethods = { "ValidateServicesPage" })
 
 public void ValidateEditService() throws InterruptedException 
 {

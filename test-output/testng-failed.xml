@@ -5,11 +5,9 @@
     <classes>
       <class name="smokeTest.ValidateSmokeTest">
         <methods>
+          <include name="ValidateProviderPage"/>
           <include name="ValidateEditProvider"/>
-          <include name="ValidateServiceExport"/>
-          <include name="ValidateServicesPage"/>
           <include name="ValidateAddProvider"/>
-          <include name="ValidateEditService"/>
         </methods>
       </class> <!-- smokeTest.ValidateSmokeTest -->
     </classes>

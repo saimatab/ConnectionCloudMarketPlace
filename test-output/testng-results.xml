@@ -1,285 +1,261 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="5" ignored="6" total="65" passed="54">
+<testng-results skipped="0" failed="2" ignored="6" total="65" passed="57">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="565905" started-at="2019-05-28T01:58:06Z" finished-at="2019-05-28T02:07:32Z">
+  <suite name="Default suite" duration-ms="600092" started-at="2019-05-29T04:50:42Z" finished-at="2019-05-29T05:00:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="565905" started-at="2019-05-28T01:58:06Z" finished-at="2019-05-28T02:07:32Z">
+    <test name="Default test" duration-ms="600092" started-at="2019-05-29T04:50:42Z" finished-at="2019-05-29T05:00:42Z">
       <class name="smokeTest.ValidateSmokeTest">
-        <test-method status="PASS" signature="ValidateLogin()[pri:0, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateLogin" duration-ms="44812" started-at="2019-05-28T06:58:06Z" finished-at="2019-05-28T06:58:51Z">
+        <test-method status="PASS" signature="ValidateLogin()[pri:0, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateLogin" duration-ms="42155" started-at="2019-05-29T09:50:42Z" finished-at="2019-05-29T09:51:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateLogin -->
-        <test-method status="PASS" signature="ValidateMarkITPlacePage()[pri:1, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateMarkITPlacePage" duration-ms="10270" started-at="2019-05-28T06:58:51Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-28T06:59:01Z">
+        <test-method status="PASS" signature="ValidateMarkITPlacePage()[pri:1, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateMarkITPlacePage" duration-ms="9861" started-at="2019-05-29T09:51:24Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-29T09:51:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateMarkITPlacePage -->
-        <test-method status="PASS" signature="ValidateDiscoverPage()[pri:2, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateDiscoverPage" duration-ms="7518" started-at="2019-05-28T06:59:01Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-28T06:59:09Z">
+        <test-method status="PASS" signature="ValidateDiscoverPage()[pri:2, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateDiscoverPage" duration-ms="9826" started-at="2019-05-29T09:51:34Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-29T09:51:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateDiscoverPage -->
-        <test-method status="PASS" signature="ValidateApplicationPage()[pri:3, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateApplicationPage" duration-ms="8851" started-at="2019-05-28T06:59:09Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-28T06:59:18Z">
+        <test-method status="PASS" signature="ValidateApplicationPage()[pri:3, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateApplicationPage" duration-ms="8227" started-at="2019-05-29T09:51:44Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-29T09:51:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateApplicationPage -->
-        <test-method status="PASS" signature="ValidateInfrastructurePage()[pri:4, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateInfrastructurePage" duration-ms="4602" started-at="2019-05-28T06:59:18Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-28T06:59:22Z">
+        <test-method status="PASS" signature="ValidateInfrastructurePage()[pri:4, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateInfrastructurePage" duration-ms="4143" started-at="2019-05-29T09:51:52Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-29T09:51:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateInfrastructurePage -->
-        <test-method status="PASS" signature="ValidateManageTab()[pri:5, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateManageTab" duration-ms="5704" started-at="2019-05-28T06:59:22Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-28T06:59:28Z">
+        <test-method status="PASS" signature="ValidateManageTab()[pri:5, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateManageTab" duration-ms="6729" started-at="2019-05-29T09:51:56Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-29T09:52:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateManageTab -->
-        <test-method status="PASS" signature="ValidateInsightTab()[pri:6, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateInsightTab" duration-ms="9025" started-at="2019-05-28T06:59:28Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-28T06:59:37Z">
+        <test-method status="PASS" signature="ValidateInsightTab()[pri:6, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateInsightTab" duration-ms="9934" started-at="2019-05-29T09:52:03Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-29T09:52:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateInsightTab -->
-        <test-method status="PASS" signature="ValidateFooterNotificationPage()[pri:7, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateFooterNotificationPage" duration-ms="9568" started-at="2019-05-28T06:59:37Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-28T06:59:46Z">
+        <test-method status="PASS" signature="ValidateFooterNotificationPage()[pri:7, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateFooterNotificationPage" duration-ms="9227" started-at="2019-05-29T09:52:13Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-29T09:52:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateFooterNotificationPage -->
-        <test-method status="PASS" signature="ValidateLogo()[pri:8, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateLogo" duration-ms="7750" started-at="2019-05-28T06:59:47Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-28T06:59:54Z">
+        <test-method status="PASS" signature="ValidateLogo()[pri:8, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateLogo" duration-ms="8269" started-at="2019-05-29T09:52:22Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-29T09:52:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateLogo -->
-        <test-method status="PASS" signature="ValidateMyProfile()[pri:9, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateMyProfile" duration-ms="11449" started-at="2019-05-28T06:59:54Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-28T07:00:06Z">
+        <test-method status="PASS" signature="ValidateMyProfile()[pri:9, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateMyProfile" duration-ms="11574" started-at="2019-05-29T09:52:30Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-29T09:52:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateMyProfile -->
-        <test-method status="PASS" signature="ValidateEditProfile()[pri:10, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateEditProfile" duration-ms="9993" started-at="2019-05-28T07:00:06Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-28T07:00:16Z">
+        <test-method status="PASS" signature="ValidateEditProfile()[pri:10, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateEditProfile" duration-ms="9072" started-at="2019-05-29T09:52:42Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-29T09:52:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateEditProfile -->
-        <test-method status="PASS" signature="ValidateChangePassword()[pri:11, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateChangePassword" duration-ms="11252" started-at="2019-05-28T07:00:16Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-28T07:00:27Z">
+        <test-method status="PASS" signature="ValidateChangePassword()[pri:11, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateChangePassword" duration-ms="11198" started-at="2019-05-29T09:52:51Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-29T09:53:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateChangePassword -->
-        <test-method status="PASS" signature="ValidateCatalogRestriction()[pri:12, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateCatalogRestriction" duration-ms="9785" started-at="2019-05-28T07:00:27Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-28T07:00:37Z">
+        <test-method status="PASS" signature="ValidateCatalogRestriction()[pri:12, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateCatalogRestriction" duration-ms="10075" started-at="2019-05-29T09:53:02Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-29T09:53:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateCatalogRestriction -->
-        <test-method status="PASS" signature="ValidateDomainLink()[pri:13, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateDomainLink" duration-ms="6862" started-at="2019-05-28T07:00:37Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-28T07:00:44Z">
+        <test-method status="PASS" signature="ValidateDomainLink()[pri:13, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateDomainLink" duration-ms="7948" started-at="2019-05-29T09:53:12Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-29T09:53:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateDomainLink -->
-        <test-method status="PASS" signature="ValidateAddressPage()[pri:15, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateAddressPage" duration-ms="18294" started-at="2019-05-28T07:00:44Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-28T07:01:02Z">
+        <test-method status="PASS" signature="ValidateAddressPage()[pri:15, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateAddressPage" duration-ms="22763" started-at="2019-05-29T09:53:20Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-29T09:53:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateAddressPage -->
-        <test-method status="PASS" signature="ValidateUsersPage()[pri:16, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateUsersPage" duration-ms="16858" started-at="2019-05-28T07:01:02Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-28T07:01:19Z">
+        <test-method status="PASS" signature="ValidateUsersPage()[pri:16, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateUsersPage" duration-ms="19561" started-at="2019-05-29T09:53:43Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-29T09:54:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateUsersPage -->
-        <test-method status="PASS" signature="ValidateRequestTab()[pri:17, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateRequestTab" duration-ms="2171" started-at="2019-05-28T07:01:19Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-28T07:01:21Z">
+        <test-method status="PASS" signature="ValidateRequestTab()[pri:17, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateRequestTab" duration-ms="2245" started-at="2019-05-29T09:54:03Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-29T09:54:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateRequestTab -->
-        <test-method status="PASS" signature="ValidateInviteTab()[pri:18, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateInviteTab" duration-ms="2144" started-at="2019-05-28T07:01:21Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-28T07:01:23Z">
+        <test-method status="PASS" signature="ValidateInviteTab()[pri:18, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateInviteTab" duration-ms="2268" started-at="2019-05-29T09:54:05Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-29T09:54:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateInviteTab -->
-        <test-method status="PASS" signature="ValidateSearching()[pri:19, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateSearching" duration-ms="5338" started-at="2019-05-28T07:01:23Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-28T07:01:28Z">
+        <test-method status="PASS" signature="ValidateSearching()[pri:19, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateSearching" duration-ms="5833" started-at="2019-05-29T09:54:07Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-29T09:54:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateSearching -->
-        <test-method status="PASS" signature="ValidateLogout()[pri:20, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateLogout" duration-ms="5034" started-at="2019-05-28T07:01:28Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-28T07:01:33Z">
+        <test-method status="PASS" signature="ValidateLogout()[pri:20, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateLogout" duration-ms="5771" started-at="2019-05-29T09:54:13Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateLogin" finished-at="2019-05-29T09:54:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateLogout -->
-        <test-method status="PASS" signature="ValidateManagementFPswd()[pri:23, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateManagementFPswd" duration-ms="3604" started-at="2019-05-28T07:01:33Z" finished-at="2019-05-28T07:01:37Z">
+        <test-method status="PASS" signature="ValidateManagementFPswd()[pri:23, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateManagementFPswd" duration-ms="3081" started-at="2019-05-29T09:54:19Z" finished-at="2019-05-29T09:54:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateManagementFPswd -->
-        <test-method status="PASS" signature="ValidateManagementLogin()[pri:24, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateManagementLogin" duration-ms="21310" started-at="2019-05-28T07:01:37Z" finished-at="2019-05-28T07:01:58Z">
+        <test-method status="PASS" signature="ValidateManagementLogin()[pri:24, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateManagementLogin" duration-ms="21877" started-at="2019-05-29T09:54:22Z" finished-at="2019-05-29T09:54:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateManagementLogin -->
-        <test-method status="PASS" signature="ValidateMngmntSETUPTab()[pri:25, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateMngmntSETUPTab" duration-ms="10432" started-at="2019-05-28T07:01:58Z" finished-at="2019-05-28T07:02:09Z">
+        <test-method status="PASS" signature="ValidateMngmntSETUPTab()[pri:25, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateMngmntSETUPTab" duration-ms="9681" started-at="2019-05-29T09:54:44Z" finished-at="2019-05-29T09:54:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateMngmntSETUPTab -->
-        <test-method status="PASS" signature="ValidateUserHover()[pri:26, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateUserHover" duration-ms="3530" started-at="2019-05-28T07:02:09Z" finished-at="2019-05-28T07:02:12Z">
+        <test-method status="PASS" signature="ValidateUserHover()[pri:26, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateUserHover" duration-ms="3750" started-at="2019-05-29T09:54:53Z" finished-at="2019-05-29T09:54:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateUserHover -->
-        <test-method status="PASS" signature="ValidateAddNewRole()[pri:27, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateAddNewRole" duration-ms="3771" started-at="2019-05-28T07:02:12Z" finished-at="2019-05-28T07:02:16Z">
+        <test-method status="PASS" signature="ValidateAddNewRole()[pri:27, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateAddNewRole" duration-ms="4262" started-at="2019-05-29T09:54:57Z" finished-at="2019-05-29T09:55:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateAddNewRole -->
-        <test-method status="PASS" signature="ValidateEditRole()[pri:28, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateEditRole" duration-ms="1845" started-at="2019-05-28T07:02:16Z" finished-at="2019-05-28T07:02:18Z">
+        <test-method status="PASS" signature="ValidateEditRole()[pri:28, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateEditRole" duration-ms="2054" started-at="2019-05-29T09:55:01Z" finished-at="2019-05-29T09:55:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateEditRole -->
-        <test-method status="PASS" signature="ValidateCreateUser()[pri:29, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateCreateUser" duration-ms="4747" started-at="2019-05-28T07:02:18Z" finished-at="2019-05-28T07:02:23Z">
+        <test-method status="PASS" signature="ValidateCreateUser()[pri:29, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateCreateUser" duration-ms="5410" started-at="2019-05-29T09:55:04Z" finished-at="2019-05-29T09:55:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateCreateUser -->
-        <test-method status="PASS" signature="ValidateAccountsPage()[pri:30, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateAccountsPage" duration-ms="21326" started-at="2019-05-28T07:02:23Z" finished-at="2019-05-28T07:02:44Z">
+        <test-method status="PASS" signature="ValidateAccountsPage()[pri:30, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateAccountsPage" duration-ms="40533" started-at="2019-05-29T09:55:09Z" finished-at="2019-05-29T09:55:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateAccountsPage -->
-        <test-method status="PASS" signature="ValidateSelectFields()[pri:31, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateSelectFields" duration-ms="357" started-at="2019-05-28T07:02:44Z" finished-at="2019-05-28T07:02:44Z">
+        <test-method status="PASS" signature="ValidateSelectFields()[pri:31, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateSelectFields" duration-ms="312" started-at="2019-05-29T09:55:49Z" finished-at="2019-05-29T09:55:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateSelectFields -->
-        <test-method status="PASS" signature="ValidateExportBtn()[pri:32, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateExportBtn" duration-ms="243" started-at="2019-05-28T07:02:44Z" finished-at="2019-05-28T07:02:45Z">
+        <test-method status="PASS" signature="ValidateExportBtn()[pri:32, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateExportBtn" duration-ms="254" started-at="2019-05-29T09:55:50Z" finished-at="2019-05-29T09:55:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateExportBtn -->
-        <test-method status="PASS" signature="ValidateSubscription()[pri:33, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateSubscription" duration-ms="9139" started-at="2019-05-28T07:02:45Z" finished-at="2019-05-28T07:02:54Z">
+        <test-method status="PASS" signature="ValidateSubscription()[pri:33, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateSubscription" duration-ms="10033" started-at="2019-05-29T09:55:50Z" finished-at="2019-05-29T09:56:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateSubscription -->
-        <test-method status="PASS" signature="ValidateSubsSelectFields()[pri:34, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateSubsSelectFields" duration-ms="334" started-at="2019-05-28T07:02:54Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateSubscription" finished-at="2019-05-28T07:02:54Z">
+        <test-method status="PASS" signature="ValidateSubsSelectFields()[pri:34, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateSubsSelectFields" duration-ms="231" started-at="2019-05-29T09:56:00Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateSubscription" finished-at="2019-05-29T09:56:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateSubsSelectFields -->
-        <test-method status="PASS" signature="ValidateSubsExport()[pri:35, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateSubsExport" duration-ms="230" started-at="2019-05-28T07:02:54Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateSubscription" finished-at="2019-05-28T07:02:54Z">
+        <test-method status="PASS" signature="ValidateSubsExport()[pri:35, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateSubsExport" duration-ms="223" started-at="2019-05-29T09:56:00Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateSubscription" finished-at="2019-05-29T09:56:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateSubsExport -->
-        <test-method status="PASS" signature="ValidateEditSubs()[pri:36, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateEditSubs" duration-ms="491" started-at="2019-05-28T07:02:54Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateSubscription" finished-at="2019-05-28T07:02:55Z">
+        <test-method status="PASS" signature="ValidateEditSubs()[pri:36, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateEditSubs" duration-ms="544" started-at="2019-05-29T09:56:01Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateSubscription" finished-at="2019-05-29T09:56:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateEditSubs -->
-        <test-method status="PASS" signature="ValidateAssumeRole()[pri:37, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateAssumeRole" duration-ms="29670" started-at="2019-05-28T07:02:55Z" finished-at="2019-05-28T07:03:25Z">
+        <test-method status="PASS" signature="ValidateAssumeRole()[pri:37, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateAssumeRole" duration-ms="31209" started-at="2019-05-29T09:56:01Z" finished-at="2019-05-29T09:56:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateAssumeRole -->
-        <test-method status="PASS" signature="ValidateFooterSubscription()[pri:38, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateFooterSubscription" duration-ms="9398" started-at="2019-05-28T07:03:25Z" finished-at="2019-05-28T07:03:34Z">
+        <test-method status="PASS" signature="ValidateFooterSubscription()[pri:38, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateFooterSubscription" duration-ms="9582" started-at="2019-05-29T09:56:32Z" finished-at="2019-05-29T09:56:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateFooterSubscription -->
-        <test-method status="PASS" signature="ValidateFooterAccount()[pri:39, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateFooterAccount" duration-ms="14616" started-at="2019-05-28T07:03:34Z" finished-at="2019-05-28T07:03:49Z">
+        <test-method status="PASS" signature="ValidateFooterAccount()[pri:39, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateFooterAccount" duration-ms="16166" started-at="2019-05-29T09:56:42Z" finished-at="2019-05-29T09:56:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateFooterAccount -->
-        <test-method status="PASS" signature="ValidateEditAccount()[pri:40, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateEditAccount" duration-ms="9560" started-at="2019-05-28T07:03:49Z" finished-at="2019-05-28T07:03:58Z">
+        <test-method status="PASS" signature="ValidateEditAccount()[pri:40, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateEditAccount" duration-ms="30107" started-at="2019-05-29T09:56:58Z" finished-at="2019-05-29T09:57:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateEditAccount -->
-        <test-method status="PASS" signature="ValidateEditSave()[pri:41, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateEditSave" duration-ms="21588" started-at="2019-05-28T07:03:58Z" finished-at="2019-05-28T07:04:20Z">
+        <test-method status="PASS" signature="ValidateEditSave()[pri:41, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateEditSave" duration-ms="21558" started-at="2019-05-29T09:57:28Z" finished-at="2019-05-29T09:57:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateEditSave -->
-        <test-method status="PASS" signature="ValidateFooterLogo()[pri:42, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateFooterLogo" duration-ms="3548" started-at="2019-05-28T07:04:20Z" finished-at="2019-05-28T07:04:23Z">
+        <test-method status="PASS" signature="ValidateFooterLogo()[pri:42, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateFooterLogo" duration-ms="2154" started-at="2019-05-29T09:57:50Z" finished-at="2019-05-29T09:57:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateFooterLogo -->
-        <test-method status="PASS" signature="ValidateCategories()[pri:43, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateCategories" duration-ms="11249" started-at="2019-05-28T07:04:23Z" finished-at="2019-05-28T07:04:34Z">
+        <test-method status="PASS" signature="ValidateCategories()[pri:43, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateCategories" duration-ms="11587" started-at="2019-05-29T09:57:52Z" finished-at="2019-05-29T09:58:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateCategories -->
-        <test-method status="PASS" signature="ValidateSyncBtn()[pri:44, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateSyncBtn" duration-ms="1133" started-at="2019-05-28T07:04:35Z" finished-at="2019-05-28T07:04:36Z">
+        <test-method status="PASS" signature="ValidateSyncCategories()[pri:44, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateSyncCategories" duration-ms="927" started-at="2019-05-29T09:58:03Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateCategories" finished-at="2019-05-29T09:58:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ValidateSyncBtn -->
-        <test-method status="PASS" signature="ValidateCategoryExport()[pri:45, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateCategoryExport" duration-ms="10293" started-at="2019-05-28T07:04:36Z" finished-at="2019-05-28T07:04:46Z">
+        </test-method> <!-- ValidateSyncCategories -->
+        <test-method status="PASS" signature="ValidateCategoryExport()[pri:45, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateCategoryExport" duration-ms="10391" started-at="2019-05-29T09:58:04Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateCategories" finished-at="2019-05-29T09:58:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateCategoryExport -->
-        <test-method status="PASS" signature="ValidateSelectFieldCateg()[pri:46, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateSelectFieldCateg" duration-ms="181" started-at="2019-05-28T07:04:46Z" finished-at="2019-05-28T07:04:46Z">
+        <test-method status="PASS" signature="ValidateSelectFieldCateg()[pri:46, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateSelectFieldCateg" duration-ms="226" started-at="2019-05-29T09:58:15Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateCategories" finished-at="2019-05-29T09:58:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateSelectFieldCateg -->
-        <test-method status="PASS" signature="ValidateEditCategory()[pri:47, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateEditCategory" duration-ms="10686" started-at="2019-05-28T07:04:46Z" finished-at="2019-05-28T07:04:57Z">
+        <test-method status="PASS" signature="ValidateEditCategory()[pri:47, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateEditCategory" duration-ms="10664" started-at="2019-05-29T09:58:15Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateCategories" finished-at="2019-05-29T09:58:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateEditCategory -->
-        <test-method status="PASS" signature="ValidateDomainsPage()[pri:48, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateDomainsPage" duration-ms="19468" started-at="2019-05-28T07:04:57Z" finished-at="2019-05-28T07:05:16Z">
+        <test-method status="PASS" signature="ValidateDomainsPage()[pri:48, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateDomainsPage" duration-ms="26688" started-at="2019-05-29T09:58:26Z" finished-at="2019-05-29T09:58:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateDomainsPage -->
-        <test-method status="PASS" signature="ValidateDomainExport()[pri:49, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateDomainExport" duration-ms="169" started-at="2019-05-28T07:05:16Z" finished-at="2019-05-28T07:05:16Z">
+        <test-method status="PASS" signature="ValidateDomainExport()[pri:49, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateDomainExport" duration-ms="206" started-at="2019-05-29T09:58:52Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateDomainsPage" finished-at="2019-05-29T09:58:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateDomainExport -->
-        <test-method status="PASS" signature="ValidateRequestPage()[pri:50, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateRequestPage" duration-ms="19440" started-at="2019-05-28T07:05:16Z" finished-at="2019-05-28T07:05:36Z">
+        <test-method status="PASS" signature="ValidateRequestPage()[pri:50, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateRequestPage" duration-ms="20156" started-at="2019-05-29T09:58:53Z" finished-at="2019-05-29T09:59:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateRequestPage -->
-        <test-method status="PASS" signature="ValidateRequestExport()[pri:51, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateRequestExport" duration-ms="297" started-at="2019-05-28T07:05:36Z" finished-at="2019-05-28T07:05:36Z">
+        <test-method status="PASS" signature="ValidateRequestExport()[pri:51, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateRequestExport" duration-ms="187" started-at="2019-05-29T09:59:13Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateRequestPage" finished-at="2019-05-29T09:59:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateRequestExport -->
-        <test-method status="PASS" signature="ValidateNotifications()[pri:52, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateNotifications" duration-ms="6136" started-at="2019-05-28T07:05:36Z" finished-at="2019-05-28T07:05:42Z">
+        <test-method status="PASS" signature="ValidateNotifications()[pri:52, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateNotifications" duration-ms="21410" started-at="2019-05-29T09:59:13Z" finished-at="2019-05-29T09:59:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateNotifications -->
-        <test-method status="PASS" signature="NotificationExport()[pri:53, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="NotificationExport" duration-ms="5229" started-at="2019-05-28T07:05:42Z" finished-at="2019-05-28T07:05:48Z">
+        <test-method status="PASS" signature="NotificationExport()[pri:53, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="NotificationExport" duration-ms="5276" started-at="2019-05-29T09:59:34Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateNotifications" finished-at="2019-05-29T09:59:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NotificationExport -->
-        <test-method status="PASS" signature="ValidateSendNotifications()[pri:54, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateSendNotifications" duration-ms="14505" started-at="2019-05-28T07:05:48Z" finished-at="2019-05-28T07:06:02Z">
+        <test-method status="PASS" signature="ValidateSendNotifications()[pri:54, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateSendNotifications" duration-ms="13818" started-at="2019-05-29T09:59:40Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateNotifications" finished-at="2019-05-29T09:59:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateSendNotifications -->
-        <test-method status="PASS" signature="ValidateProviderPage()[pri:55, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateProviderPage" duration-ms="1346" started-at="2019-05-28T07:06:02Z" finished-at="2019-05-28T07:06:03Z">
+        <test-method status="PASS" signature="ValidateProviderPage()[pri:55, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateProviderPage" duration-ms="1812" started-at="2019-05-29T09:59:53Z" finished-at="2019-05-29T09:59:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateProviderPage -->
-        <test-method status="PASS" signature="ValidateProviderExport()[pri:56, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateProviderExport" duration-ms="5250" started-at="2019-05-28T07:06:03Z" finished-at="2019-05-28T07:06:09Z">
+        <test-method status="PASS" signature="ValidateProviderExport()[pri:56, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateProviderExport" duration-ms="5277" started-at="2019-05-29T09:59:55Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateProviderPage" finished-at="2019-05-29T10:00:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateProviderExport -->
-        <test-method status="FAIL" signature="ValidateEditProvider()[pri:57, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateEditProvider" duration-ms="3106" started-at="2019-05-28T07:06:09Z" finished-at="2019-05-28T07:06:12Z">
+        <test-method status="FAIL" signature="ValidateEditProvider()[pri:57, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateEditProvider" duration-ms="3109" started-at="2019-05-29T10:00:01Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateProviderPage" finished-at="2019-05-29T10:00:04Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[When clicking on edit provider link from dropdown on provider page then user is not nevigating to edit provider page expected [Edit Provider - CCP] but found [404 Not Found - CCP]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: When clicking on edit provider link from dropdown on provider page then user is not nevigating to edit provider page expected [Edit Provider - CCP] but found [404 Not Found - CCP]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at smokeTest.ValidateSmokeTest.ValidateEditProvider(ValidateSmokeTest.java:2865)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+              <![CDATA[java.lang.AssertionError: When clicking on edit provider link from dropdown on provider page then user is not nevigating to edit provider page expected [Edit Provider - CCP] but found [404 Not Found - CCP]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:453)at smokeTest.ValidateSmokeTest.ValidateEditProvider(ValidateSmokeTest.java:2875)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateEditProvider -->
-        <test-method status="FAIL" signature="ValidateAddProvider()[pri:58, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateAddProvider" duration-ms="20053" started-at="2019-05-28T07:06:12Z" finished-at="2019-05-28T07:06:32Z">
+        <test-method status="FAIL" signature="ValidateAddProvider()[pri:58, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateAddProvider" duration-ms="22120" started-at="2019-05-29T10:00:04Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateProviderPage" finished-at="2019-05-29T10:00:26Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Add provider button is not present on the provider page expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Add provider button is not present on the provider page expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:568)at smokeTest.ValidateSmokeTest.ValidateAddProvider(ValidateSmokeTest.java:2894)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+              <![CDATA[java.lang.AssertionError: Add provider button is not present on the provider page expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:568)at smokeTest.ValidateSmokeTest.ValidateAddProvider(ValidateSmokeTest.java:2905)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateAddProvider -->
-        <test-method status="FAIL" signature="ValidateServicesPage()[pri:59, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateServicesPage" duration-ms="20029" started-at="2019-05-28T07:06:32Z" finished-at="2019-05-28T07:06:52Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Service tab is not present under catalog section expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Service tab is not present under catalog section expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:568)at smokeTest.ValidateSmokeTest.ValidateServicesPage(ValidateSmokeTest.java:2928)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="ValidateServicesPage()[pri:59, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateServicesPage" duration-ms="2108" started-at="2019-05-29T10:00:26Z" finished-at="2019-05-29T10:00:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateServicesPage -->
-        <test-method status="FAIL" signature="ValidateServiceExport()[pri:60, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateServiceExport" duration-ms="20027" started-at="2019-05-28T07:06:52Z" finished-at="2019-05-28T07:07:12Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Export button is not present on the Service Page expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Export button is not present on the Service Page expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:568)at smokeTest.ValidateSmokeTest.ValidateServiceExport(ValidateSmokeTest.java:2959)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="ValidateServiceExport()[pri:60, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateServiceExport" duration-ms="5525" started-at="2019-05-29T10:00:28Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateServicesPage" finished-at="2019-05-29T10:00:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateServiceExport -->
-        <test-method status="FAIL" signature="ValidateEditService()[pri:61, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateEditService" duration-ms="20044" started-at="2019-05-28T07:07:12Z" finished-at="2019-05-28T07:07:32Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Dropdown arrow or Edit Service dropdown option is not appearing on Service's page expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Dropdown arrow or Edit Service dropdown option is not appearing on Service's page expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertEqualsImpl(Assert.java:137)at org.testng.Assert.assertEquals(Assert.java:118)at org.testng.Assert.assertEquals(Assert.java:568)at smokeTest.ValidateSmokeTest.ValidateEditService(ValidateSmokeTest.java:3010)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="ValidateEditService()[pri:61, instance:smokeTest.ValidateSmokeTest@4b5a5ed1]" name="ValidateEditService" duration-ms="8677" started-at="2019-05-29T10:00:33Z" depends-on-methods="smokeTest.ValidateSmokeTest.ValidateServicesPage" finished-at="2019-05-29T10:00:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateEditService -->
