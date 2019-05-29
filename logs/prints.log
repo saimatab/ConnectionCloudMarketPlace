@@ -21,3 +21,141 @@ Session ID: e143ce4b2b8503677df2aa80f617ab1b
 10:19:18.339 [main] INFO  resources.base - User is clicking on cancel button from the export provider popup
 10:19:23.607 [main] INFO  resources.base - User is cliking on edit Service dropdown icon of 1st record on Service's page
 10:19:32.040 [main] INFO  resources.base - User is cliking on edit Service of 1st record on Service's page
+12:21:58.595 [main] INFO  resources.base - The title of the home page is captured
+12:21:58.596 [main] INFO  resources.base - The title of the Shop page is Verified Successfully
+12:22:08.077 [main] INFO  resources.base - From the Home Page User has Clicked on MarkITPlace tab
+12:22:08.077 [main] INFO  resources.base - User has routed to the Shop Page after clicking on MarketPlace link
+12:22:08.213 [main] ERROR resources.base - Consulting link is found on home page
+12:22:15.422 [main] INFO  resources.base - User has Clicked on the Discover tab from the MarketPlace Page
+12:22:23.963 [main] INFO  resources.base - User has Clicked on the Application tab from the MarketPlace Page
+12:22:30.168 [main] INFO  resources.base - User has Clicked on the Infrastructure tab from the MarketPlace Page
+12:23:50.114 [main] INFO  resources.base - User has Clicked on the Manage tab from the Home Dashboard
+12:23:50.114 [main] INFO  resources.base - user has routed to the Manage Page after clicking on the manage Tab
+12:23:50.125 [main] INFO  resources.base - User has Successfully nevigated to the manage Page
+12:23:50.192 [main] INFO  resources.base - Subscription link is present on the Manage Page
+12:23:50.209 [main] INFO  resources.base - Calendar link is present on the Manage Page
+12:23:50.229 [main] INFO  resources.base - Usage link is present on the Manage Page
+12:24:01.398 [main] INFO  resources.base - User has clicked on the Insight tab from the Home Page
+12:24:01.411 [main] INFO  resources.base - After clicking on the Insight Tab from the Home page , User have successfully nevigate to the Insight Page
+12:24:06.497 [main] INFO  resources.base - Spend Analysis link is present on the Insights Page
+12:24:06.514 [main] INFO  resources.base - Recommendations link is present on the Insights Page
+12:24:06.549 [main] INFO  resources.base - Reports link is present on the Insights Page
+12:24:47.694 [main] INFO  resources.base - User has clicked on the notification link from the Home Page
+12:24:47.694 [main] INFO  resources.base - User has routed to the Notification page after clicking on the notification link
+12:24:47.768 [main] INFO  resources.base - Notification heading is present on the Notifications page
+12:24:47.786 [main] INFO  resources.base - All Notification tab is present on the Notifications page
+12:24:47.807 [main] INFO  resources.base - Flagged tab is present on the Notifications page
+12:24:56.891 [main] INFO  resources.base - User has clicked on the Logo from the Notification Page
+12:24:56.905 [main] INFO  resources.base - After clicking on logo, user has roue to the Homepage
+12:24:59.024 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+12:25:29.157 [main] INFO  resources.base - User has clicked on the My Profile Page from the Account Menu
+12:25:29.316 [main] INFO  resources.base - My Profile heading is present on My Profile Page
+12:26:03.408 [main] INFO  resources.base - User has clicked on the Edit Profile button on My Profile Page
+12:26:03.566 [main] INFO  resources.base - Edit profile heading is present on the Edit profile page
+12:26:05.716 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+12:26:50.525 [main] INFO  resources.base - User has clicked on the Change Password Link from the Account Menu
+12:26:50.600 [main] INFO  resources.base - Change password heading is present on Change Password Page
+12:27:05.556 [main] INFO  resources.base - User has clicked on the Catalog Restrictions link from the left navigation menu
+12:27:05.630 [main] INFO  resources.base - Catalog Restrictions heading is present on Catalog Page
+12:27:28.472 [main] INFO  resources.base - User has clicked on the Domain link from the left navigation menu
+12:27:28.550 [main] INFO  resources.base - Manage Domains heading is present on Domain Page
+12:27:30.657 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+12:28:37.403 [main] INFO  resources.base - User has clicked on the Address of Use Link from the Account Menu
+12:28:44.583 [main] INFO  resources.base - Address of Use heading is present on the Address Page
+12:28:46.775 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+12:29:31.222 [main] INFO  resources.base - User has clicked on the users Link from the Account Menu
+12:29:36.425 [main] INFO  resources.base - Tabs are appearing on the Users Page
+12:29:38.600 [main] INFO  resources.base - User has clicked on the request tab on the users page
+12:29:38.711 [main] INFO  resources.base - After clicking on request tab, the request tab becomes active
+12:29:40.874 [main] INFO  resources.base - User has clicked on the Invites tab on the users page
+12:29:40.971 [main] INFO  resources.base - After clicking on Invites tab, the Invites tab becomes active
+12:29:46.108 [main] INFO  resources.base - On Search textbox user is typing Microsoft 365
+12:29:48.169 [main] INFO  resources.base - Records are getting searched using the search textbox
+12:29:50.292 [main] INFO  resources.base - User has clicked on the Account menu from the Shop Page
+12:29:53.730 [main] INFO  resources.base - User has clicked on the Logout Page from the Account Menu
+12:30:08.067 [main] INFO  resources.base - User is clicking on forgot password link on the login page
+12:30:34.406 [main] INFO  resources.base - User has provided credentials to the login screen of the management portal
+12:30:39.547 [main] INFO  resources.base - Customer tab is present on the home page
+12:30:39.588 [main] INFO  resources.base - Catalog tab is present on the home page
+12:30:39.635 [main] INFO  resources.base - Fulfillment tab is present on the home page
+12:30:39.680 [main] INFO  resources.base - Reports tab is present on the home page
+12:30:39.718 [main] INFO  resources.base - SETUP tab is present on the home page
+12:30:39.853 [main] INFO  resources.base - User clicking on Account Menu on the Home Page
+12:30:39.898 [main] INFO  resources.base - Logout appear while hovering on the account menu
+12:30:51.407 [main] INFO  resources.base - User clicks on the SETUP tab on the home page
+12:30:51.459 [main] INFO  resources.base - The title of the home page is captured
+12:30:51.459 [main] INFO  resources.base - The title of the Users page is Verified Successfully
+12:30:51.694 [main] INFO  resources.base - User is hovering on the users tab on setup page
+12:30:51.715 [main] INFO  resources.base - Users dropdown option is present under user's tab on setup page
+12:30:51.749 [main] INFO  resources.base - Create User dropdown option is present under user's tab on setup page
+12:30:51.771 [main] INFO  resources.base - Create User dropdown option is present under user's tab on setup page
+12:30:59.431 [main] INFO  resources.base - User is cliking on Add new Role button on the roles page
+12:31:01.726 [main] INFO  resources.base - User is cliking on Edit button on the roles page
+12:31:06.559 [main] INFO  resources.base - User is cliking on create user link on the roles page under user's tab
+12:31:24.742 [main] INFO  resources.base - User is cliking on customer's tab on the homepage of the management portal
+12:31:40.119 [main] INFO  resources.base - User is cliking on select fields button on the account page
+12:31:40.227 [main] INFO  resources.base - Select field popup window is appearing after clicking on Select field button
+12:31:40.361 [main] INFO  resources.base - User is cliking on export button on the account page
+12:31:40.462 [main] INFO  resources.base - User is cliking on cancel button on export account popup window
+12:31:48.556 [main] INFO  resources.base - User is cliking on Subscription tab on the Customer's page
+12:31:48.715 [main] INFO  resources.base - User is cliking on select fields button on the Subscription page
+12:31:48.809 [main] INFO  resources.base - Select field popup window is appearing after clicking on Select field button on Subscription page
+12:31:48.929 [main] INFO  resources.base - User is cliking on export button on the Subscription page
+12:31:49.054 [main] INFO  resources.base - User is cliking on cancel button on export account popup window
+12:31:49.239 [main] INFO  resources.base - User is cliking on dropdown icon of 1st record on subscription page
+12:31:49.495 [main] INFO  resources.base - User is cliking on edit subscription of 1st record on subscription page
+12:32:02.294 [main] INFO  resources.base - User is cliking on Account tab under Customer section
+12:32:21.603 [main] INFO  resources.base - User is clicking on Subscriptions link from the footer section of the application
+12:32:37.048 [main] INFO  resources.base - User is clicking on Account link from the footer section of the application
+12:32:37.296 [main] INFO  resources.base - User is cliking on dropdown icon of 1st record on Account's page
+12:32:49.142 [main] INFO  resources.base - User is cliking on edit Account of 1st record on Account's page
+12:32:59.496 [main] INFO  resources.base - User is cliking on save button on the edit account screen
+12:33:12.808 [main] INFO  resources.base - User is cliking on cancel button on the edit account screen
+12:33:13.716 [main] INFO  resources.base - User is clicking on Connection logo from the footer section of the application
+12:33:15.773 [main] INFO  resources.base - User is clicking on Catalog tab from the header section of the application
+12:33:22.831 [main] INFO  resources.base - User is clicking on Categories tab from the catalog section of the application
+12:33:23.008 [main] INFO  resources.base - User is clicking on sync button on caregories page
+12:33:23.561 [main] INFO  resources.base - Sync Message is appearing when user is clicking on sync button on categories page
+12:33:33.896 [main] INFO  resources.base - User is clicking on export button on caregories page
+12:33:34.260 [main] INFO  resources.base - User is clicking on cancel button on export popup
+12:33:34.357 [main] INFO  resources.base - User is cliking on select fields button on the Categories page
+12:33:34.487 [main] INFO  resources.base - Select field popup window is appearing after clicking on Select field button on Categories page
+12:33:34.609 [main] INFO  resources.base - User is cliking on edit category dropdown icon of 1st record on category's page
+12:33:34.762 [main] INFO  resources.base - User is cliking on edit Subscription of 1st record on Subscription's page
+12:33:35.034 [main] INFO  resources.base - Edit subscription heading is appearing
+12:33:58.873 [main] INFO  resources.base - User is clicking on customer tab from the header section of the application
+12:34:10.652 [main] INFO  resources.base - User is clicking on Domain tab from the header section of the application under customer tab
+12:34:10.843 [main] INFO  resources.base - User is clicking on export button on Domain page
+12:34:11.133 [main] INFO  resources.base - User is clicking on cancel button on export popup
+12:34:18.169 [main] INFO  resources.base - User is clicking on request tab from the header section of the application
+12:34:18.236 [main] INFO  resources.base - Request id is appearing in address of use section under request tab
+12:34:28.014 [main] INFO  resources.base - User is clicking on net terms tab on the request page
+12:34:28.184 [main] INFO  resources.base - User is clicking on export button on request page
+12:34:28.260 [main] INFO  resources.base - User is clicking on cancel button on export popup
+12:34:48.242 [main] INFO  resources.base - User is clicking on notification from the header section of the application under customer section
+12:34:48.447 [main] INFO  resources.base - User is clicking on export button from the notifications Page
+12:34:48.573 [main] INFO  resources.base - User is clicking on cancel button from the export notifications popup
+12:35:09.522 [main] INFO  resources.base - User is clicking on Send notification button from the notifications Page
+12:35:11.082 [main] INFO  resources.base - User is clicking on catalog tab from the header of the Page
+12:35:11.225 [main] INFO  resources.base - User is clicking on export button from the Provider Page
+12:35:11.310 [main] INFO  resources.base - User is clicking on cancel button from the export provider popup
+12:35:16.551 [main] INFO  resources.base - User is cliking on edit provider dropdown icon of 1st record on Provider's page
+12:35:20.243 [main] INFO  resources.base - User is cliking on edit Provider of 1st record on provider's page
+12:35:48.385 [main] ERROR resources.base - Dropdown arrow or Edit providor dropdown option is not appearing on provider's page
+12:35:48.386 [main] ERROR resources.base - no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Cancel']"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '192.168.14.216', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\Users\bilaw\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: c4d0e182303a66a979ffb8753108718a
+*** Element info: {Using=xpath, value=//a[text()='Cancel']}
+12:36:02.242 [main] INFO  resources.base - User is clicking on ADD PROVIDER button on the providers page
+12:36:04.472 [main] INFO  resources.base - User is clicking on service tab from the catalog session
+12:36:04.639 [main] INFO  resources.base - User is clicking on export button from the service Page
+12:36:04.748 [main] INFO  resources.base - User is clicking on cancel button from the export provider popup
+12:36:10.058 [main] INFO  resources.base - User is cliking on edit Service dropdown icon of 1st record on Service's page
+12:36:20.557 [main] INFO  resources.base - User is cliking on edit Service of 1st record on Service's page

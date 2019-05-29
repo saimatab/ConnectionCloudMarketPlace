@@ -7,7 +7,6 @@
         <methods>
           <include name="ValidateProviderPage"/>
           <include name="ValidateEditProvider"/>
-          <include name="ValidateAddProvider"/>
         </methods>
       </class> <!-- smokeTest.ValidateSmokeTest -->
     </classes>
